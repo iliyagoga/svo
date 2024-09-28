@@ -3,10 +3,16 @@ module.exports = {
   content: ["./*.{html,js}"],
   theme: {
     extend: {
+      colors:{
+        'bsss':'#81CBE7',
+       
+        
+      },
       backgroundColor: theme => ({
         ...theme('colors'),
         'bg-black': '#1D1D1D',
         'base':'#81CBE7',
+        'h_bg':'#81CBE74D'
        
         
       }),
