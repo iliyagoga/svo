@@ -1,8 +1,12 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ["./*.{html,js}"],
+  content: ["./pages/*.{html,js}"],
   theme: {
     extend: {
+      fontFamily: {
+        'TTLakesNeue':['TT Lakes Neue'],
+        'DinPro':['DinPro']
+      },
       colors:{
         'bsss':'#81CBE7',
        
@@ -29,7 +33,8 @@ module.exports = {
         
       }),
       backgroundImage:{
-         'bg-fsp':'radial-gradient(50% 50% at 50% 50%, #81CBE7 0%, rgba(34, 34, 34, 0) 100%)'
+         'bg-fsp':'radial-gradient(50% 50% at 50% 50%, #81CBE7 0%, rgba(34, 34, 34, 0) 100%)',
+         'bg_sh':'linear-gradient(180deg, rgba(29, 29, 29, 0) 0%, #1D1D1D 69.97%)'
       }
     },
   },
