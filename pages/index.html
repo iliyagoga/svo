@@ -4,16 +4,26 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Музей СВО</title>
+    <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+  />
     <link rel="stylesheet" href="../src/output.css">
 </head>
 <body>
     <header class="fixed w-screen z-50 relative" >
-        <div class="fixed  w-full bg-opacity-30 lg:hidden">
-            <div class=" z-50 absolute px-4 py-8">
-                <img src="/../src/assets/imgs/logo.svg" alt="" id="b_ic">
+        <div class="fixed w-full  lg:hidden">
+            <div class="bg-base bg-opacity-30  absolute w-full z-50 flex justify-between items-center px-4 py-8">
+                <div>
+                    <img src="/../src/assets/imgs/logo.svg" alt="">
+                </div>
+               <div class=" w-16">
+                    <img src="./../src/assets/imgs/menu-burger.png" alt=""  id="b_ic">
+               </div>
+            
             </div>
-            <div class="fixed block lg:hidden bg-base bg-opacity-30 px-4 py-8 h-screen w-4/5 backdrop-blur space-y-8 -left-full transition-[left]  duration-300 ease-in-out" id="b_menu">
-                <div class="h-16 w-4">
+            <div class="fixed overflow-y-scroll block box-box lg:hidden bg-h_bg bg-opacity-30 px-4 py-8 h-screen w-4/5 backdrop-blur space-y-8 -left-full transition-[left]  duration-300 ease-in-out" id="b_menu">
+                <div class="h-24 w-4">
                     
                 </div>
                 <div>
@@ -102,7 +112,7 @@
 
             </div>
         </div>
-        <div class="hidden font-DinPro lg:flex gap-x-16 bg-h_bg items-center fixed  w-full bg-opacity-30 py-10 px-4 lg:px-48 " >
+        <div class="hidden font-DinPro lg:flex gap-x-16 bg-h_bg items-center fixed  w-full  py-10 px-4 lg:px-48 " >
             <div>
                 <img src="/../src/assets/imgs/logo.svg" alt="">
             </div>
@@ -405,27 +415,35 @@
         <div class=" flex flex-col px-4 lg:px-48 mt-16">
             <h3 class="text-white text-4xl lg:text-8xl leading-loose font-TTLakesNeue font-bold">Документальные фильмы</h3>
             <h4 class="text-white text-base lg:text-2xl relative lg:mt-12 font-DinPro">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</h4>
-            <div class="flex w-full justify-between mt-28 lg:gap-x-4 items-center">
-                <div class="cursor-pointer">
-                    <img src="./../src/assets/imgs/Vector 12.svg" alt="" id="old">
-                </div>
-                <div id="slider" class="flex space-y-4 flex-col lg:flex-row lg:space-y-0 relative w-full" >
-                    <div class="relative h-72 w-full ">
-                        <div class="blur bg-black bg-opacity-50 absolute top-0 left-0 right-0 bottom-0"></div>
-                        <iframe class="w-full h-full" src="https://rutube.ru/play/embed/a971b8f19b3c237d0c06c9b28d0eba0a/" frameBorder="0" allow="clipboard-write; autoplay" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
-                    </div>
+            <div class="swiper px-4 lg:w-1/2 mt-12 w-full flex gap-x-16 flex-row">
+                <div class="swiper-button-prev top-1/2"></div>
+                <div class="swiper-wrapper w-full ">
+                  <div class="swiper-slide w-full ">
                     <div class="relative h-72 w-full" id="active">
                         <iframe class="w-full h-full" src="https://rutube.ru/play/embed/a971b8f19b3c237d0c06c9b28d0eba0a/" frameBorder="0" allow="clipboard-write; autoplay" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
                     </div>
-                    <div class="relative h-72 w-full">
-                        <div class="blur bg-black bg-opacity-50  absolute top-0 left-0 right-0 bottom-0"></div>
+                  </div>
+                  <div class="swiper-slide w-full ">
+                    <div class="relative h-72 w-full" id="active">
                         <iframe class="w-full h-full" src="https://rutube.ru/play/embed/a971b8f19b3c237d0c06c9b28d0eba0a/" frameBorder="0" allow="clipboard-write; autoplay" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
                     </div>
+                  </div>
+                  <div class="swiper-slide w-full">
+                    <div class="relative h-72 w-full" id="active">
+                        <iframe class="w-full h-full" src="https://rutube.ru/play/embed/a971b8f19b3c237d0c06c9b28d0eba0a/" frameBorder="0" allow="clipboard-write; autoplay" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+                    </div>
+                  </div>
+    
+                  <div class="swiper-slide w-full">
+                    <div class="relative h-72 w-full" id="active">
+                        <iframe class="w-full h-full" src="https://rutube.ru/play/embed/a971b8f19b3c237d0c06c9b28d0eba0a/" frameBorder="0" allow="clipboard-write; autoplay" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+                    </div>
+                  </div>
                 </div>
-                <div class="cursor-pointer">
-                    <img src="./../src/assets/imgs/Vector 7.svg" alt="" id="next">
-                </div>
-            </div>
+                
+                <div class="swiper-button-next"></div>
+              
+              </div>
         </div>
 
         <div class=" flex flex-col px-4 lg:px-48 mt-16">
@@ -500,4 +518,6 @@
     </div>
 </body>
 <script src="./../header.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<script src="./../swaper.js"></script>
 </html

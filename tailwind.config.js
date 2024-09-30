@@ -16,7 +16,7 @@ module.exports = {
         ...theme('colors'),
         'bg-black': '#1D1D1D',
         'base':'#81CBE7',
-        'h_bg':'#81CBE74D'
+        'h_bg':'#1f97c5d9'
        
         
       }),
