@@ -5,7 +5,8 @@ module.exports = {
     extend: {
       fontFamily: {
         'TTLakesNeue':['TT Lakes Neue'],
-        'DinPro':['DinPro']
+        'DinPro':['DinPro'],
+        'Conthrax':['Conthrax']
       },
       colors:{
         'bsss':'#81CBE7',
@@ -34,7 +35,9 @@ module.exports = {
       }),
       backgroundImage:{
          'bg-fsp':'radial-gradient(50% 50% at 50% 50%, #81CBE7 0%, rgba(34, 34, 34, 0) 100%)',
-         'bg_sh':'linear-gradient(180deg, rgba(29, 29, 29, 0) 0%, #1D1D1D 69.97%)'
+         'bg_sh':'linear-gradient(180deg, rgba(29, 29, 29, 0) 0%, #1D1D1D 69.97%)',
+         'bg-mean2-mg2':"url('../assets/imgs/Mask group (2).png')",
+         'bg-mean2-mg3':"url('../assets/imgs/Mask group (3).png')"
       }
     },
   },

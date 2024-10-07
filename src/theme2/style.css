@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@font-face {
+    font-family: 'Conthrax';
+    src: url('../fonts/Conthrax/conthrax-bold.otf');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'DinPro';
+    src: url('../fonts/dinpro/dinpro.otf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'DinPro';
+    src: url('../fonts/dinpro/dinpro_medium.otf');
+    font-weight: medium;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'DinPro';
+    src: url('../fonts/dinpro/dinpro_bold.otf');
+    font-weight: bold;
+    font-style: normal;
+}
