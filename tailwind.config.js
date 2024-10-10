@@ -10,7 +10,9 @@ module.exports = {
       },
       colors:{
         'bsss':'#81CBE7',
-        'chor':'#BCB679'
+        'chor':'#BCB679',
+        'chor-black':"#7E7451",
+        'light-black':'#1C1B17'
        
         
       },
@@ -26,6 +28,7 @@ module.exports = {
       borderColor: theme => ({
         ...theme('colors'),
         'base':'#81CBE7',
+        'chor':'#BCB679'
        
         
       }),
