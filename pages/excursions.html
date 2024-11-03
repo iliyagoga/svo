@@ -3,328 +3,201 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Музей СВО</title>
-    <link rel="stylesheet" href="../src/output.css">
+    <title>Document</title>
+    <link rel="stylesheet" href="../src/theme3/output.css">
 </head>
-<body class="bg-bg-black">
-    <header class="fixed w-screen z-50 relative" >
-        <div class="fixed w-full  lg:hidden">
-            <div class="bg-base bg-opacity-30  absolute w-full z-50 flex justify-between items-center px-4 py-8">
-                <div>
-                    <img src="/../src/assets/imgs/logo.svg" alt="">
-                </div>
-               <div class=" w-16">
-                    <img src="./../src/assets/imgs/menu-burger.png" alt=""  id="b_ic">
-               </div>
-            
+<body class="relative bg-[#F0EEE1]">
+    <header class="fixed w-screen z-50 lg:h-32 md:h-20" >
+        <div class="hidden font-DinPro md:flex justify-between  bg-white items-center fixed w-full md:py-4 lg:py-10 md:px-8 lg:px-32" >
+            <div>
+                <img class="md:w-20 lg:w-36" src="/../src/assets/imgs/svo-logo-svg.svg" alt="">
             </div>
-            <div class="fixed overflow-y-scroll block box-box lg:hidden bg-base bg-opacity-30 px-4 py-8 h-screen w-4/5 backdrop-blur space-y-8 -left-full transition-[left]  duration-300 ease-in-out" id="b_menu">
-                <div class="h-24 w-4">
-                    
+            <div class="flex justify-between md:w-2/3 lg:w-[70%] xl:w-2/3">
+                <div>
+                    <a href="#" class="md:text-md lg:text-xl">Выставки</a>
                 </div>
                 <div>
-                    <a href="#" class="text-white text-lg">Выставки</a>
+                    <a href="#" class="md:text-md lg:text-xl">Экскурсии</a>
                 </div>
                 <div>
-                    <a href="#" class="text-white text-lg">Экскурсии</a>
-                </div>
-                <div>
-                    <div class="flex items-center cursor-pointer" id="bp1">
-                        <span class=" text-white  text-lg">
+                    <div class="flex items-center space-x-4 cursor-pointer" id="p1">
+                        <span class="md:text-md lg:text-xl">
                             Посетителям
                         </span>
-                        <img src="../src/assets/imgs/Vector 13.svg" alt="">
+                        <img class="md:w-2 lg:w-4" src="../src/assets/imgs/thr-black.svg" alt="">
                     </div>
-                 
-                        <ul class="hidden p-8 space-y-8" id="bf1">
+                
+                        <ul class="invisible absolute bg-h_bg p-8 space-y-4 top-full" id="f1">
                             <li>
-                                <a href="#" class="text-white  text-lg"> Посетителям</a>
+                                <a href="#" class="text-xl"> Посетителям</a>
                             </li>
                             <li>
-                                <a href="#" class="text-white  text-lg"> Посетителям</a>
+                                <a href="#" class="text-xl"> Посетителям</a>
                             </li>
                             <li>
-                                <a href="#" class="text-white  text-lg"> Посетителям</a>
+                                <a href="#" class="text-xl"> Посетителям</a>
                             </li>
                             <li>
-                                <a href="#" class="text-white text-lg"> Посетителям</a>
+                                <a href="#" class="text-xl"> Посетителям</a>
                             </li>
                             <li>
-                                <a href="#" class="text-white text-lg"> Посетителям</a>
+                                <a href="#" class="text-xl"> Посетителям</a>
                             </li>
                         </ul>
-              
+            
                 </div>
                 <div>        
-                    <div class="flex  items-center cursor-pointer" id="bp2">
-                        <span class=" text-white  text-lg">
+                    <div class="flex items-center space-x-4 cursor-pointer" id="p2">
+                        <span class="md:text-md lg:text-xl">
                             Учителям
                         </span>
-                        <img src="../src/assets/imgs/Vector 13.svg" alt="">
+                        <img class="md:w-2 lg:w-4" src="../src/assets/imgs/thr-black.svg" alt="">
                     </div>
-                    <ul class="hidden  p-8 space-y-8 " id="bf2">
+                    <ul class="invisible absolute bg-h_bg p-8 space-y-4 top-full " id="f2">
                         <li>
-                            <a href="#" class="text-white text-lg"> Посетителям</a>
+                            <a href="#" class="text-xl"> Посетителям</a>
                         </li>
                         <li>
-                            <a href="#" class="text-white text-lg"> Посетителям</a>
+                            <a href="#" class="text-xl"> Посетителям</a>
                         </li>
                         <li>
-                            <a href="#" class="text-white text-lg"> Посетителям</a>
+                            <a href="#" class="text-xl"> Посетителям</a>
                         </li>
                         <li>
-                            <a href="#" class="text-white text-lg"> Посетителям</a>
+                            <a href="#" class="text-xl"> Посетителям</a>
                         </li>
                         <li>
-                            <a href="#" class="text-white text-lg"> Посетителям</a>
+                            <a href="#" class="text-xl"> Посетителям</a>
                         </li>
                     </ul>
                 </div>
                 <div>
-                    <div class="flex  items-center cursor-pointer" id="bp3">
-                        <span class=" text-white text-lg">
+                    <div class="flex items-center space-x-4 cursor-pointer" id="p3">
+                        <span class="md:text-md lg:text-xl">
                             О нас
                         </span>
-                        <img src="../src/assets/imgs/Vector 13.svg" alt="">
+                        <img class="md:w-2 lg:w-4" src="../src/assets/imgs/thr-black.svg" alt="">
                     </div>
-                    <ul class="hidden   p-8 space-y-8 " id="bf3">
+                    <ul class="invisible absolute bg-h_bg p-8 space-y-4 top-full" id="f3">
                         <li>
-                            <a href="#" class="text-white text-lg"> Посетителям</a>
+                            <a href="#" class="text-xl"> Посетителям</a>
                         </li>
                         <li>
-                            <a href="#" class="text-white text-lg"> Посетителям</a>
+                            <a href="#" class="text-xl"> Посетителям</a>
                         </li>
                         <li>
-                            <a href="#" class="text-white text-lg"> Посетителям</a>
+                            <a href="#" class="text-xl"> Посетителям</a>
                         </li>
                         <li>
-                            <a href="#" class="text-white text-lg"> Посетителям</a>
+                            <a href="#" class="text-xl"> Посетителям</a>
                         </li>
                         <li>
-                            <a href="#" class="text-white text-lg"> Посетителям</a>
-                        </li>
-                    </ul>
-                </div>
-
-            </div>
-        </div>
-        <div class="hidden font-DinPro lg:flex gap-x-16 bg-h_bg items-center fixed  w-full  py-10 px-4 lg:px-48 " >
-            <div>
-                <img src="/../src/assets/imgs/logo.svg" alt="">
-            </div>
-            <div>
-                <a href="#" class="text-white  text-2xl">Выставки</a>
-            </div>
-            <div>
-                <a href="#" class="text-white  text-2xl">Экскурсии</a>
-            </div>
-            <div>
-                <div class="flex items-center space-x-4 cursor-pointer" id="p1">
-                    <span class=" text-white  text-2xl">
-                        Посетителям
-                    </span>
-                    <img src="../src/assets/imgs/Vector 13.svg" alt="">
-                </div>
-             
-                    <ul class="invisible absolute bg-h_bg p-8 space-y-4 top-full" id="f1">
-                        <li>
-                            <a href="#" class="text-white text-2xl"> Посетителям</a>
-                        </li>
-                        <li>
-                            <a href="#" class="text-white text-2xl"> Посетителям</a>
-                        </li>
-                        <li>
-                            <a href="#" class="text-white text-2xl"> Посетителям</a>
-                        </li>
-                        <li>
-                            <a href="#" class="text-white text-2xl"> Посетителям</a>
-                        </li>
-                        <li>
-                            <a href="#" class="text-white text-2xl"> Посетителям</a>
+                            <a href="#" class="text-xl"> Посетителям</a>
                         </li>
                     </ul>
-          
-            </div>
-            <div>        
-                <div class="flex  items-center space-x-4 cursor-pointer" id="p2">
-                    <span class=" text-white text-2xl">
-                        Учителям
-                    </span>
-                    <img src="../src/assets/imgs/Vector 13.svg" alt="">
-                </div>
-                <ul class="invisible absolute bg-h_bg p-8 space-y-4 top-full " id="f2">
-                    <li>
-                        <a href="#" class="text-white text-2xl"> Посетителям</a>
-                    </li>
-                    <li>
-                        <a href="#" class="text-white text-2xl"> Посетителям</a>
-                    </li>
-                    <li>
-                        <a href="#" class="text-white text-2xl"> Посетителям</a>
-                    </li>
-                    <li>
-                        <a href="#" class="text-white text-2xl"> Посетителям</a>
-                    </li>
-                    <li>
-                        <a href="#" class="text-white text-2xl"> Посетителям</a>
-                    </li>
-                </ul>
-            </div>
-            <div>
-                <div class="flex  items-center space-x-4 cursor-pointer" id="p3">
-                    <span class=" text-white text-2xl">
-                        О нас
-                    </span>
-                    <img src="../src/assets/imgs/Vector 13.svg" alt="">
-                </div>
-                <ul class="invisible absolute bg-h_bg p-8 space-y-4 top-full" id="f3">
-                    <li>
-                        <a href="#" class="text-white text-2xl"> Посетителям</a>
-                    </li>
-                    <li>
-                        <a href="#" class="text-white text-2xl"> Посетителям</a>
-                    </li>
-                    <li>
-                        <a href="#" class="text-white text-2xl"> Посетителям</a>
-                    </li>
-                    <li>
-                        <a href="#" class="text-white text-2xl"> Посетителям</a>
-                    </li>
-                    <li>
-                        <a href="#" class="text-white text-2xl"> Посетителям</a>
-                    </li>
-                </ul>
+                 </div>
             </div>
         </div>
     </header>
-    <div class="bg-bg-black h-full py-16">
-        <div class=" flex flex-col px-4 lg:px-48">
-            <div class="relative mt-16 lg:mt-48 lg:h-36">
-                <div class="bg-bg-fsp w-60 h-60 lg:w-96 lg:h-96 absolute -top-full -left-32 blur-3xl"></div>
-                <h3 class="text-white text-4xl lg:text-8xl leading-normal relative font-TTLakesNeue font-bold">Экскурсии</h3>
+    <div class="relative md:top-28 lg:top-48">
+        <div class="relative">
+            <img src="../src/assets/imgs/image 28.png" alt="">
+        </div>
+        <img src="../src/assets/imgs/Group 191.svg" class="md:absolute md:w-[350px] lg:w-[450px] xl:w-max md:bottom-[-40px] lg:bottom-[-60px] xl:bottom-[-100px]" alt="">
+        <img src="../src/assets/imgs/Group 192.svg" class="md:absolute md:right-0 md:w-[350px] lg:w-[450px] xl:w-max md:bottom-[-40px] lg:bottom-[-60px] xl:bottom-[-100px]" alt="">   
+        <div class="w-full md:mt-12 relative">
+            <div class="md:w-full md:px-8 lg:px-32 md:flex md:space-x-8 lg:space-x-16">
+                <div class="md:space-y-4">
+                    <h3 class="font-Conthrax md:text-4xl lg:text-4xl xl:text-6xl">Выставки</h3>
+                    <div class="md:h-8 w-full bg-image bg-gradient-theme3-yellow mt-8"></div>
+                </div>
+                <div class="md:flex md:items-center">
+                    <p class="md:block font-DinPro md:text-sm lg:text-base xl:text-2xl">Музей истории специальной военной операции открылся в Саратове 28 июля 2023 года. Задача — сохранить память о саратовцах-участниках СВО. Музей является филиалом саратовского Исторического парка «Россия — Моя история».</p>
+                </div>
             </div>
-            <div class="flex space-x-2 mt-4 lg:flex-nowrap lg:space-x-16 relative font-DinPro ">
-                <a href="#" class="text-base lg:text-2xl text-white font-bold">
-                    Фильтр-тэг 1
-                </a>
-                <a href="#" class="text-base lg:text-2xl text-white font-normal">
-                    Фильтр-тэг 2
-                </a>
-                <a href="#" class="text-base lg:text-2xl text-white font-normal">
-                    Фильтр-тэг 3
-                </a>
-                <a href="#" class="text-base lg:text-2xl text-white font-normal">
-                    Фильтр-тэг 4
-                </a>
+            <div class="md:w-full md:mt-12 md:space-y-4 xl:space-y-8 md:px-8 lg:px-32 relative">
+                <div class="md:w-full flex md:space-x-4 justify-between">
+                    <div class="md:w-64 lg:w-80 xl:w-96 shadow-shadow">
+                        <a href="#">
+                            <div class="w-full">
+                                <img src="../src/assets/imgs/vzv.png" alt="" class="h-full w-full">
+                            </div>
+                            <div class="h-1/3 flex-col md:mt-2 md:px-2 md:pb-2 lg:px-4 lg:pb-4 xl:px-5">
+                                <h3 class="md:text-2xl lg:text-3xl xl:text-4xl font-Conthrax">Выставка 1</h3>
+                                <span class="font-DinPro md:text-sm lg:text-base xl:text-xl mt-4 block">с 9.00 до 9.00</span>
+                                <p class="font-DinPro md:text-sm lg:text-base xl:text-xl">1 января — 1 января</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="md:w-64 lg:w-80 xl:w-96 shadow-shadow">
+                        <a href="#">
+                            <div class="w-full">
+                                <img src="../src/assets/imgs/vzv.png" alt="" class="h-full w-full">
+                            </div>
+                            <div class="h-1/3 flex-col md:mt-2 md:px-2 md:pb-2 lg:px-4 lg:pb-4 xl:px-5">
+                                <h3 class="md:text-2xl lg:text-3xl xl:text-4xl font-Conthrax">Выставка 1</h3>
+                                <span class="font-DinPro md:text-sm lg:text-base xl:text-xl mt-4 block">с 9.00 до 9.00</span>
+                                <p class="font-DinPro md:text-sm lg:text-base xl:text-xl">1 января — 1 января</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="md:w-64 lg:w-80 xl:w-96 shadow-shadow">
+                        <a href="#">
+                            <div class="w-full">
+                                <img src="../src/assets/imgs/vzv.png" alt="" class="h-full w-full">
+                            </div>
+                            <div class="h-1/3 flex-col md:mt-2 md:px-2 md:pb-2 lg:px-4 lg:pb-4 xl:px-5">
+                                <h3 class="md:text-2xl lg:text-3xl xl:text-4xl font-Conthrax">Выставка 1</h3>
+                                <span class="font-DinPro md:text-sm lg:text-base xl:text-xl mt-4 block">с 9.00 до 9.00</span>
+                                <p class="font-DinPro md:text-sm lg:text-base xl:text-xl">1 января — 1 января</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="md:w-full flex md:space-x-4 justify-between">
+                    <div class="md:w-64 lg:w-80 xl:w-96 shadow-shadow">
+                        <a href="#">
+                            <div class="w-full">
+                                <img src="../src/assets/imgs/vzv.png" alt="" class="h-full w-full">
+                            </div>
+                            <div class="h-1/3 flex-col md:mt-2 md:px-2 md:pb-2 lg:px-4 lg:pb-4 xl:px-5">
+                                <h3 class="md:text-2xl lg:text-3xl xl:text-4xl font-Conthrax">Выставка 1</h3>
+                                <span class="font-DinPro md:text-sm lg:text-base xl:text-xl mt-4 block">с 9.00 до 9.00</span>
+                                <p class="font-DinPro md:text-sm lg:text-base xl:text-xl">1 января — 1 января</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="md:w-64 lg:w-80 xl:w-96 shadow-shadow">
+                        <a href="#">
+                            <div class="w-full">
+                                <img src="../src/assets/imgs/vzv.png" alt="" class="h-full w-full">
+                            </div>
+                            <div class="h-1/3 flex-col md:mt-2 md:px-2 md:pb-2 lg:px-4 lg:pb-4 xl:px-5">
+                                <h3 class="md:text-2xl lg:text-3xl xl:text-4xl font-Conthrax">Выставка 1</h3>
+                                <span class="font-DinPro md:text-sm lg:text-base xl:text-xl mt-4 block">с 9.00 до 9.00</span>
+                                <p class="font-DinPro md:text-sm lg:text-base xl:text-xl">1 января — 1 января</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="md:w-64 lg:w-80 xl:w-96 shadow-shadow relative">
+                        <a href="#">
+                            <div class="w-full">
+                                <img src="../src/assets/imgs/vzv.png" alt="" class="h-full w-full">
+                            </div>
+                            <div class="h-1/3 flex-col md:mt-2 md:px-2 md:pb-2 lg:px-4 lg:pb-4 xl:px-5">
+                                <h3 class="md:text-2xl lg:text-3xl xl:text-4xl font-Conthrax">Выставка 1</h3>
+                                <span class="font-DinPro md:text-sm lg:text-base xl:text-xl mt-4 block">с 9.00 до 9.00</span>
+                                <p class="font-DinPro md:text-sm lg:text-base xl:text-xl">1 января — 1 января</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+           
+            </div>         
+            <div class="flex justify-center w-full md:mt-8 xl:mt-16">
+                <a href="#" class="md:py-2 bg-chor w-60 text-center md:text-xl xl:text-2xl">Смотреть все</a>
             </div>
-
-            <div class="flex gap-y-16 flex-col lg:flex-row flex-wrap lg:gap-x-16 justify-center relative mt-12 lg:mt-28 z-index-10  font-DinPro">
-                <a href="#" class=" bg-image relative h-72 w-full lg:w-1/4 box-border overflow-hidden cursor-pointer" >
-                    <img src="../src/assets/imgs/ex.png" class="absolute top-0 w-full h-full object-cover" alt="">
-                 
-                    <div class="bg-bg-fsp w-2/3 h-72 absolute top-1/2 -left-1/3 blur-lg "></div>
-                    <div class="px-7 py-8 h-full flex flex-col justify-end">
-                        <span class="text-white leading-5 relative">с 9.00 до 9.00</span>
-                        <p class="text-white leading-5 relative">1 января — 1 января</p>
-                        <h4 class="text-white text-base lg:text-2xl font-bold relative">"Экскурсия" 1</h4>
-                     
-                    </div>
-                </a>
-                <a href="#" class=" bg-image relative h-72 w-full lg:w-1/4 box-border overflow-hidden cursor-pointer z-index-10" >
-                    <img src="../src/assets/imgs/ex.png" class="absolute top-0 w-full h-full object-cover" alt="">
-                
-                    <div class="bg-bg-fsp w-2/3 h-72 absolute top-1/2 -left-1/3 blur-lg "></div>
-                    <div class="px-7 py-8 h-full flex flex-col justify-end">
-                        <span class="text-white leading-5 relative">с 9.00 до 9.00</span>
-                        <p class="text-white leading-5 relative">1 января — 1 января</p>
-                        <h4 class="text-white text-base lg:text-2xl font-bold relative">"Экскурсия" 1</h4>
-                    
-                    </div>
-                </a>
-                <a href="#" class=" bg-image relative h-72 w-full lg:w-1/4 box-border overflow-hidden cursor-pointer" >
-                    <img src="../src/assets/imgs/ex.png" class="absolute top-0 w-full h-full object-cover" alt="">
-                
-                    <div class="bg-bg-fsp w-2/3 h-72 absolute top-1/2 -left-1/3 blur-lg "></div>
-                    <div class="px-7 py-8 h-full flex flex-col justify-end">
-                        <span class="text-white leading-5 relative">с 9.00 до 9.00</span>
-                        <p class="text-white leading-5 relative">1 января — 1 января</p>
-                        <h4 class="text-white text-base lg:text-2xl font-bold relative">"Экскурсия" 1</h4>
-                    
-                    </div>
-                </a>
-                <a href="#" class=" bg-image relative h-72 w-full lg:w-1/4 box-border overflow-hidden cursor-pointer" >
-                    <img src="../src/assets/imgs/ex.png" class="absolute top-0 w-full h-full object-cover" alt="">
-                 
-                    <div class="bg-bg-fsp w-2/3 h-72 absolute top-1/2 -left-1/3 blur-lg "></div>
-                    <div class="px-7 py-8 h-full flex flex-col justify-end">
-                        <span class="text-white leading-5 relative">с 9.00 до 9.00</span>
-                        <p class="text-white leading-5 relative">1 января — 1 января</p>
-                        <h4 class="text-white text-base lg:text-2xl font-bold relative">"Экскурсия" 1</h4>
-                     
-                    </div>
-                </a>
-                <a href="#" class=" bg-image relative h-72 w-full lg:w-1/4 box-border overflow-hidden cursor-pointer z-index-10" >
-                    <img src="../src/assets/imgs/ex.png" class="absolute top-0 w-full h-full object-cover" alt="">
-                
-                    <div class="bg-bg-fsp w-2/3 h-72 absolute top-1/2 -left-1/3 blur-lg "></div>
-                    <div class="px-7 py-8 h-full flex flex-col justify-end">
-                        <span class="text-white leading-5 relative">с 9.00 до 9.00</span>
-                        <p class="text-white leading-5 relative">1 января — 1 января</p>
-                        <h4 class="text-white text-base lg:text-2xl font-bold relative">"Экскурсия" 1</h4>
-                    
-                    </div>
-                </a>
-                <a href="#" class=" bg-image relative h-72 w-full lg:w-1/4 box-border overflow-hidden cursor-pointer" >
-                    <img src="../src/assets/imgs/ex.png" class="absolute top-0 w-full h-full object-cover" alt="">
-                
-                    <div class="bg-bg-fsp w-2/3 h-72 absolute top-1/2 -left-1/3 blur-lg "></div>
-                    <div class="px-7 py-8 h-full flex flex-col justify-end">
-                        <span class="text-white leading-5 relative">с 9.00 до 9.00</span>
-                        <p class="text-white leading-5 relative">1 января — 1 января</p>
-                        <h4 class="text-white text-base lg:text-2xl font-bold relative">"Экскурсия" 1</h4>
-                    
-                    </div>
-                </a>
-            </div>
-            <a href="#" class="py-4 px-24 mt-24 mx-auto text-base lg:text-2xl  bg-base max-w-max  font-DinPro">смотреть все</a>
         </div>
     </div>
-    <footer class="mt-24 px-4 lg:px-48 xl:py-12 font-DinPro">
-        <div class="flex flex-col">
-            <div class="relative flex justify-between items-center">
-                <div class="bg-bg-fsp w-80 h-80 absolute -top-1/1 -left-32 blur-3xl"></div>
-                <h3 class="text-white text-4xl lg:text-8xl leading-normal relative  font-TTLakesNeue font-bold">Контакты</h3>
-            </div>
-            <div class="flex flex-col lg:flex-row justify-between mt-12 items-center relative">
-                <div class="bg-white w-full lg:w-1/3 h-80 flex justify-center items-center">
-                    <span>Карта</span>
-                </div>
-                <div class=" py-4 lg:py-0 w-full lg:w-1/2 flex flex-col space-y-8">
-                    <div class="flex space-x-4 items-start h-max">
-                        <img src="../src/assets/imgs/Vector.svg" alt="">
-                        <span class="text-white text-base lg:text-2xl">г. Саратов, ул. Московская, 94</span>
-                    </div>
-                    <div class="flex space-x-4 items-start h-max">
-                        <img src="../src/assets/imgs/Vector (1).svg" alt="">
-                        <span class="text-white text-base lg:text-2xl">+7 (8452) 24-20-00</span>
-                    </div>
-                    <div class="flex space-x-4 items-start h-max">
-                        <img src="../src/assets/imgs/Vector (2).svg" alt="">
-                        <span class="text-white text-base lg:text-2xl">понедельник – выходной
-                            вторник – пятница: 10:00 – 18:00
-                            суббота: 10:00 – 19:00
-                            воскресенье: 11:00 – 20:00
-                            Последний вторник месяца – санитарный день/span>
-                    </div>
-                    <div class="flex space-x-4 items-start h-max">
-                        <img src="../src/assets/imgs/email.svg" alt="">
-                        <span class="text-white text-base lg:text-2xl">email@email.ru</span>
-                    </div>
-                </div>
-            </div>
-        </div>
-    
-    </footer>
 </body>
-<script src="./../header.js"></script>
 </html>

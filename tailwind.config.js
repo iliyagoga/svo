@@ -21,7 +21,8 @@ module.exports = {
         'bg-black': '#1D1D1D',
         'base':'#81CBE7',
         'h_bg':'#1f97c5d9',
-        'chor':'#BCB679'
+        'chor':'#BCB679',
+        'bg_def':'#F0EEE1'
        
         
       }),
@@ -54,7 +55,9 @@ module.exports = {
          'necro-gradient-theme2-yellow':'linear-gradient(90deg, #FFFFFF 0%, #DDD8AF 100%)',
          'theme3-top-bg': 'url("../assets/imgs/fsdfds.png")',
          'gradient-theme3-yellow': "linear-gradient(90deg, #DDD8AF 0%, #F0EEE1 100%)",
-        'decorate-theme3-ec':'url("../assets/imgs/Group 204.svg")'
+         'grad-grey':'linear-gradient(90deg, #DDD8AF 0%, #D9D9D9 100%)',
+        'decorate-theme3-ec':'url("../assets/imgs/Group 204.svg")',
+        'grad-left':'linear-gradient(-90deg, #807552 0%, #D9D9D9 69.97%)'
 
       }
     },
