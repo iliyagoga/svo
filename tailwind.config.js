@@ -29,7 +29,8 @@ module.exports = {
       borderColor: theme => ({
         ...theme('colors'),
         'base':'#81CBE7',
-        'chor':'#BCB679'
+        'chor':'#BCB679',
+        "grey_custom":"#D9D9D9"
        
         
       }),
@@ -40,7 +41,10 @@ module.exports = {
         
       }),
       boxShadow:{
-        "shadow":"8px 8px 17.5px 0px #7E745185"
+        "shadow":"8px 8px 17.5px 0px #7E745185",
+        "new_shadow_bottom":"8px 8px 22px 0px #7E745180",
+        "new_shadow_top":"-8px -8px 22px 0px #7E745180"
+
 
       },
       backgroundImage:{
@@ -48,16 +52,16 @@ module.exports = {
          'bg_sh':'linear-gradient(180deg, rgba(29, 29, 29, 0) 0%, #1D1D1D 69.97%)',
          'bg-mean2-mg':"url('../assets/imgs/Mask group.png')",
          'bg-mean2-mg2':"url('../assets/imgs/Mask group (2).png')",
-
          'bg-mean2-mg3':"url('../assets/imgs/Mask group (3).png')",
-         
          'gradient-theme2-yellow':'linear-gradient(90deg, #DDD8AF 0%, #FFFFFF 100%)',
          'necro-gradient-theme2-yellow':'linear-gradient(90deg, #FFFFFF 0%, #DDD8AF 100%)',
          'theme3-top-bg': 'url("../assets/imgs/fsdfds.png")',
          'gradient-theme3-yellow': "linear-gradient(90deg, #DDD8AF 0%, #F0EEE1 100%)",
+         'gradient-theme3-yellow-anty': "linear-gradient(-90deg, #DDD8AF 0%, #F0EEE1 100%)",
          'grad-grey':'linear-gradient(90deg, #DDD8AF 0%, #D9D9D9 100%)',
-        'decorate-theme3-ec':'url("../assets/imgs/Group 204.svg")',
-        'grad-left':'linear-gradient(-90deg, #807552 0%, #D9D9D9 69.97%)'
+         'decorate-theme3-ec':'url("../assets/imgs/Group 204.svg")',
+         'grad-left':'linear-gradient(-90deg, #807552 0%, #D9D9D9 69.97%)',
+         'radial-2':'radial-gradient(farthest-corner at 40px 40px,#DDD8AF 0%,#D9D9D9 100%)'
 
       }
     },
