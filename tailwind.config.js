@@ -61,7 +61,10 @@ module.exports = {
          'grad-grey':'linear-gradient(90deg, #DDD8AF 0%, #D9D9D9 100%)',
          'decorate-theme3-ec':'url("../assets/imgs/Group 204.svg")',
          'grad-left':'linear-gradient(-90deg, #807552 0%, #D9D9D9 69.97%)',
-         'radial-2':'radial-gradient(farthest-corner at 40px 40px,#DDD8AF 0%,#D9D9D9 100%)'
+         'radial-2':'radial-gradient(farthest-corner at 40px 40px,#DDD8AF 0%,#D9D9D9 100%)',
+         'bg-afisha-1':'url("../assets/imgs/Group 207.png")',
+         'bg-afisha-2':'url("../assets/imgs/Group 209.png")',
+         'bg-afisha-3':'url("../assets/imgs/Group 208.png")'
 
       }
     },
