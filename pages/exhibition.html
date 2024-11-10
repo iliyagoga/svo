@@ -3,279 +3,218 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Музей СВО</title>
-    <link
-    rel="stylesheet"
-    href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
-  />
-    <link rel="stylesheet" href="../src/output.css">
-
+    <title>Document</title>
+    <link rel="stylesheet" href="../src/theme3/output.css">
 </head>
-<body class="overflow-x-hidden bg-bg-black">
-    <header class="fixed w-screen z-50 relative" >
-        <div class="fixed w-full  lg:hidden">
-            <div class="bg-base bg-opacity-30  absolute w-full z-50 flex justify-between items-center px-4 py-8">
-                <div>
-                    <img src="/../src/assets/imgs/logo.svg" alt="">
-                </div>
-               <div class=" w-16">
-                    <img src="./../src/assets/imgs/menu-burger.png" alt=""  id="b_ic">
-               </div>
-            
+<body class="relative bg-[#F0EEE1]">
+    <header class="fixed w-screen z-50" >
+        <div class="font-DinPro flex justify-between bg-white items-center fixed w-full py-4 px-8 lg:px-32" >
+            <div>
+                <img class="w-44 md:w-20 lg:w-36" src="/../src/assets/imgs/svo-logo-svg.svg" alt="">
             </div>
-            <div class="fixed overflow-y-scroll block box-box lg:hidden bg-base bg-opacity-30 px-4 py-8 h-screen w-4/5 backdrop-blur space-y-8 -left-full transition-[left]  duration-300 ease-in-out" id="b_menu">
-                <div class="h-24 w-4">
-                    
-                </div>
-                <div>
-                    <a href="#" class="text-white text-lg">Выставки</a>
-                </div>
-                <div>
-                    <a href="#" class="text-white text-lg">Экскурсии</a>
-                </div>
-                <div>
-                    <div class="flex items-center cursor-pointer" id="bp1">
-                        <span class=" text-white  text-lg">
+            <div class="hidden md:flex justify-between hedden md:w-2/3 lg:w-[70%] xl:w-2/3">
+                <div class="relative">
+                    <div class="flex items-center space-x-4 cursor-pointer" id="p1">
+                        <span class="font-DinPro md:text-md lg:text-base">
                             Посетителям
                         </span>
-                        <img src="../src/assets/imgs/Vector 13.svg" alt="">
+                        <img class="md:w-2 lg:w-4" src="../src/assets/imgs/thr-black.svg" alt="">
                     </div>
-                 
-                        <ul class="hidden p-8 space-y-8" id="bf1">
-                            <li>
-                                <a href="#" class="text-white  text-lg"> Посетителям</a>
+                
+                        <ul class="invisible absolute bg-white p-8 space-y-3 top-full w-max" id="f1">
+                            <li class="border-b-2 border-b-chor py-1">
+                                <a href="visitors.html#poster" class="font-DinPro md:text-md lg:text-base">Афиша</a>
                             </li>
-                            <li>
-                                <a href="#" class="text-white  text-lg"> Посетителям</a>
+                            <li class="border-b-2 border-b-chor py-1">
+                                <a href="visitors.html#events" class="font-DinPro md:text-md lg:text-base">События</a>
                             </li>
-                            <li>
-                                <a href="#" class="text-white  text-lg"> Посетителям</a>
+                            <li class="border-b-2 border-b-chor py-1">
+                                <a href="visitors.html#news" class="font-DinPro md:text-md lg:text-base">Новости</a>
                             </li>
-                            <li>
-                                <a href="#" class="text-white text-lg"> Посетителям</a>
+                            <li class="border-b-2 border-b-chor py-1">
+                                <a href="visitors.html#question" class="font-DinPro md:text-md lg:text-base">Вопрос-ответ</a>
                             </li>
-                            <li>
-                                <a href="#" class="text-white text-lg"> Посетителям</a>
+                            <li class="border-b-2 border-b-chor py-1">
+                                <a href="visitors.html#availability" class="font-DinPro md:text-md lg:text-base">Доступность</a>
+                            </li>
+                            <li class="border-b-2 border-b-chor py-1">
+                                <a href="visitors.html#services" class="font-DinPro md:text-md lg:text-base">Услуги</a>
+                            </li>
+                            <li class="border-b-2 border-b-chor py-1">
+                                <a href="visitors.html#c_quiz" class="font-DinPro md:text-md lg:text-base">Космический квиз</a>
+                            </li>
+                            <li class="border-b-2 border-b-chor py-1">
+                                <a href="visitors.html#v_quiz" class="font-DinPro md:text-md lg:text-base">Военно-патриотический квиз</a>
+                            </li>
+                            <li class="border-b-2 border-b-chor py-1">
+                                <a href="visitors.html#message" class="font-DinPro md:text-md lg:text-base">Письмо солдату СВО</a>
+                            </li>
+                            <li class="py-2">
+                                <a href="visitors.html#excursion" class="font-DinPro md:text-md lg:text-base">Экскурсия по экспозиции Музея истории СВО</a>
                             </li>
                         </ul>
-              
+            
                 </div>
-                <div>        
-                    <div class="flex  items-center cursor-pointer" id="bp2">
-                        <span class=" text-white  text-lg">
+                <div class="relative">        
+                    <div class="flex items-center space-x-4 cursor-pointer" id="p2">
+                        <span class="md:text-md lg:text-base">
                             Учителям
                         </span>
-                        <img src="../src/assets/imgs/Vector 13.svg" alt="">
+                        <img class="md:w-2 lg:w-4" src="../src/assets/imgs/thr-black.svg" alt="">
                     </div>
-                    <ul class="hidden  p-8 space-y-8 " id="bf2">
-                        <li>
-                            <a href="#" class="text-white text-lg"> Посетителям</a>
+                    <ul class="invisible absolute bg-white p-8 space-y-3 top-full w-max" id="f2">
+                        <li class="border-b-2 border-b-chor py-1">
+                            <a href="teachers.html#mean" class="font-DinPro md:text-md lg:text-base">Важность изучения СВО в школах</a>
                         </li>
-                        <li>
-                            <a href="#" class="text-white text-lg"> Посетителям</a>
+                        <li class="border-b-2 border-b-chor py-1">
+                            <a href="teachers.html#recs" class="font-DinPro md:text-md lg:text-base">Методические рекомендации</a>
                         </li>
-                        <li>
-                            <a href="#" class="text-white text-lg"> Посетителям</a>
+                        <li class="border-b-2 border-b-chor py-1">
+                            <a href="teachers.html#books" class="font-DinPro md:text-md lg:text-base">Книга памяти</a>
                         </li>
-                        <li>
-                            <a href="#" class="text-white text-lg"> Посетителям</a>
+                        <li class="border-b-2 border-b-chor py-1">
+                            <a href="teachers.html#heroes" class="font-DinPro md:text-md lg:text-base">Земляки-герои РФ</a>
                         </li>
-                        <li>
-                            <a href="#" class="text-white text-lg"> Посетителям</a>
+                        <li class="border-b-2 border-b-chor py-1">
+                            <a href="teachers.html#films" class="font-DinPro md:text-md lg:text-base">Документальные фильмы</a>
+                        </li>
+                        <li class="border-b-2 border-b-chor py-1">
+                            <a href="teachers.html#message" class="font-DinPro md:text-md lg:text-base">Письмо солдату СВО</a>
+                        </li>
+                        <li class="border-b-2 border-b-chor py-1">
+                            <a href="teachers.html#info" class="font-DinPro md:text-md lg:text-base">Информация о музее истории СВО</a>
+                        </li>
+                        <li class="py-2">
+                            <a href="teachers.html#galery" class="font-DinPro md:text-md lg:text-base">Галерея</a>
                         </li>
                     </ul>
+        
                 </div>
-                <div>
-                    <div class="flex  items-center cursor-pointer" id="bp3">
-                        <span class=" text-white text-lg">
+                <div class="relative"> 
+                    <div class="flex items-center space-x-4 cursor-pointer" id="p3">
+                        <span class="md:text-md lg:text-base">
                             О нас
                         </span>
-                        <img src="../src/assets/imgs/Vector 13.svg" alt="">
+                        <img class="md:w-2 lg:w-4" src="../src/assets/imgs/thr-black.svg" alt="">
                     </div>
-                    <ul class="hidden   p-8 space-y-8 " id="bf3">
-                        <li>
-                            <a href="#" class="text-white text-lg"> Посетителям</a>
+                    <ul class="invisible absolute bg-white p-8 space-y-3 top-full w-max" id="f3">
+                        <li class="border-b-2 border-b-chor py-1">
+                            <a href="about.html#info" class="font-DinPro md:text-md lg:text-base">Юридическия информация</a>
                         </li>
-                        <li>
-                            <a href="#" class="text-white text-lg"> Посетителям</a>
+                        <li class="border-b-2 border-b-chor py-1">
+                            <a href="about.html#about" class="font-DinPro md:text-md lg:text-base">О нас в СМИ</a>
                         </li>
-                        <li>
-                            <a href="#" class="text-white text-lg"> Посетителям</a>
+                        <li class="border-b-2 border-b-chor py-1">
+                            <a href="about.html#answers" class="font-DinPro md:text-md lg:text-base">Отзывы</a>
                         </li>
-                        <li>
-                            <a href="#" class="text-white text-lg"> Посетителям</a>
+                        <li class="border-b-2 border-b-chor py-1">
+                            <a href="about.html#partners" class="font-DinPro md:text-md lg:text-base">Партнеры музея истории СВО</a>
                         </li>
-                        <li>
-                            <a href="#" class="text-white text-lg"> Посетителям</a>
+                        <li class="border-b-2 border-b-chor py-1">
+                            <a href="about.html#proects" class="font-DinPro md:text-md lg:text-base">Проекты</a>
                         </li>
-                    </ul>
-                </div>
-
-            </div>
-        </div>
-        <div class="hidden font-DinPro lg:flex gap-x-16 bg-h_bg items-center fixed  w-full  py-10 px-4 lg:px-48 " >
-            <div>
-                <img src="/../src/assets/imgs/logo.svg" alt="">
-            </div>
-            <div>
-                <a href="#" class="text-white  text-2xl">Выставки</a>
-            </div>
-            <div>
-                <a href="#" class="text-white  text-2xl">Экскурсии</a>
-            </div>
-            <div>
-                <div class="flex items-center space-x-4 cursor-pointer" id="p1">
-                    <span class=" text-white  text-2xl">
-                        Посетителям
-                    </span>
-                    <img src="../src/assets/imgs/Vector 13.svg" alt="">
-                </div>
-             
-                    <ul class="invisible absolute bg-h_bg p-8 space-y-4 top-full" id="f1">
-                        <li>
-                            <a href="#" class="text-white text-2xl"> Посетителям</a>
+                        <li class="border-b-2 border-b-chor py-1">
+                            <a href="about.html#press" class="font-DinPro md:text-md lg:text-base">Пресс-служба</a>
                         </li>
-                        <li>
-                            <a href="#" class="text-white text-2xl"> Посетителям</a>
+                        <li class="border-b-2 border-b-chor py-1">
+                            <a href="about.html#vacancies" class="font-DinPro md:text-md lg:text-base">Вакансии</a>
                         </li>
-                        <li>
-                            <a href="#" class="text-white text-2xl"> Посетителям</a>
+                        <li class="border-b-2 border-b-chor py-1">
+                            <a href="about.html#filials" class="font-DinPro md:text-md lg:text-base">Филиалы</a>
                         </li>
-                        <li>
-                            <a href="#" class="text-white text-2xl"> Посетителям</a>
+                        <li class="border-b-2 border-b-chor py-1">
+                            <a href="about.html#contacts" class="font-DinPro md:text-md lg:text-base">Контакты</a>
                         </li>
-                        <li>
-                            <a href="#" class="text-white text-2xl"> Посетителям</a>
+                        <li class="border-b-2 border-b-chor py-1">
+                            <a href="about.html#send" class="font-DinPro md:text-md lg:text-base">Написать руководителю музея</a>
+                        </li>
+                        <li class="py-2">
+                            <a href="about.html#360" class="font-DinPro md:text-md lg:text-base">Музей истории СВО в 360</a>
                         </li>
                     </ul>
-          
-            </div>
-            <div>        
-                <div class="flex  items-center space-x-4 cursor-pointer" id="p2">
-                    <span class=" text-white text-2xl">
-                        Учителям
-                    </span>
-                    <img src="../src/assets/imgs/Vector 13.svg" alt="">
+                 </div>
+                 <div>
+                    <a href="exhibitions.html" class="md:text-md lg:text-base">Выставки</a>
                 </div>
-                <ul class="invisible absolute bg-h_bg p-8 space-y-4 top-full " id="f2">
-                    <li>
-                        <a href="#" class="text-white text-2xl"> Посетителям</a>
-                    </li>
-                    <li>
-                        <a href="#" class="text-white text-2xl"> Посетителям</a>
-                    </li>
-                    <li>
-                        <a href="#" class="text-white text-2xl"> Посетителям</a>
-                    </li>
-                    <li>
-                        <a href="#" class="text-white text-2xl"> Посетителям</a>
-                    </li>
-                    <li>
-                        <a href="#" class="text-white text-2xl"> Посетителям</a>
-                    </li>
-                </ul>
-            </div>
-            <div>
-                <div class="flex  items-center space-x-4 cursor-pointer" id="p3">
-                    <span class=" text-white text-2xl">
-                        О нас
-                    </span>
-                    <img src="../src/assets/imgs/Vector 13.svg" alt="">
+                <div>
+                    <a href="excursions.html" class="md:text-md lg:text-base">Экскурсии</a>
                 </div>
-                <ul class="invisible absolute bg-h_bg p-8 space-y-4 top-full" id="f3">
-                    <li>
-                        <a href="#" class="text-white text-2xl"> Посетителям</a>
-                    </li>
-                    <li>
-                        <a href="#" class="text-white text-2xl"> Посетителям</a>
-                    </li>
-                    <li>
-                        <a href="#" class="text-white text-2xl"> Посетителям</a>
-                    </li>
-                    <li>
-                        <a href="#" class="text-white text-2xl"> Посетителям</a>
-                    </li>
-                    <li>
-                        <a href="#" class="text-white text-2xl"> Посетителям</a>
-                    </li>
-                </ul>
             </div>
         </div>
     </header>
-    <div class="bg-bg-black w-screen px-4">
-        <div class="w-screen h-[50vh] relative">
-            <img class="w-full h-full object-cover" src="../src/assets/imgs/vzv.png" alt="">
-            <div class="bg-bg_sh w-full h-1/2 absolute bottom-0"></div>
+    <div class="relative top-32 md:top-28 lg:top-48  pb-12">
+        <div class="relative">
+            <img src="../src/assets/imgs/image 28.png" alt="">
         </div>
-        <div class="px-4 lg:px-48">
-            <div class="relative lg:h-36">
-                <div class="bg-bg-fsp w-60 h-60 lg:w-96 lg:h-96 absolute -top-full -left-32 blur-3xl"></div>
-                <h3 class="text-white text-4xl lg:text-8xl leading-normal relative font-TTLakesNeue font-bold">Выставки</h3>
+        <div class="w-full mt-16 md:mt-40 xl:mt-60 px-8 lg:px-32">
+            <div class="md:w-full  flex md:space-x-8 lg:space-x-16">
+                <div>
+                    <div class="md:space-y-4">
+                        <h3 class="font-Conthrax text-4xl xl:text-6xl">Выставка</h3>
+                        <div class="md:h-8 w-full bg-image bg-gradient-theme3-yellow mt-8"></div>
+                    </div>
+                    <div class="md:flex md:items-center">
+                        <p class="md:block font-DinPro md:text-sm lg:text-base xl:text-2xl">Музей истории специальной военной операции открылся в Саратове 28 июля 2023 года. Задача — сохранить память о саратовцах-участниках СВО. Музей является филиалом саратовского Исторического парка «Россия — Моя история».</p>
+                    </div>
+                </div>
+                <div class="md:hidden">
+                    <div class="h-full w-16 bg-image bg-gradient-theme3-yellow-90"></div>
+                </div>
             </div>
-            <p class="text-white text-base lg:text-2xl mt-8 font-DinPro">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-        
+            <div class="mt-8 grid grid-rows-5 grid-cols-4 md:grid-rows-4 gap-4 md:h-[600px] h-[500px] md:mt-12 lg:h-[800px]">
+                <div class="col-span-2 relative">
+                    <img class="absolute w-[50px] top-[-20px] left-[-28px] lg:w-[80px] lg:top-[-35px] lg:left-[-45px]" src="../src/assets/imgs/Group 190 (1).svg" alt="">
+                    <img class="h-full object-cover w-full" src="../src/assets/imgs/image 29.png" alt="">
+                </div>
+                <div class="col-span-2 md:row-span-2 relative row-span-3">
+                    <img src="../src/assets/imgs/Group 192 (1).svg" class="absolute w-[50px] top-[10px] left-[-45px] lg:w-[60px] lg:top-[10px] lg:left-[-53px]" alt="">
+                    <img src="../src/assets/imgs/Group 188 (1).svg" class="absolute w-[60px] bottom-[-32px] left-[-45px] lg:w-[70px] lg:bottom-[-40px] lg:left-[-55px]"alt="">
+                    <img src="../src/assets/imgs/Group 189 (1).svg" class="absolute w-[60px] bottom-[-22px] right-[-21px] lg:w-[70px] lg:bottom-[-27px] lg:right-[-24px]"alt="">
+                    <img class="h-full object-cover w-full" src="../src/assets/imgs/image 29.png" alt="">
+                </div>
+                <div class="col-span-2 md:col-span-1">
+                    <img class="h-full object-cover w-full" src="../src/assets/imgs/image 29.png" alt="">
+                </div>
+                <div class="relative col-span-2 md:col-span-1">
+                    <img src="../src/assets/imgs/Group 191 (1).svg" class="absolute w-[60px] top-[-32px] left-[-30px] lg:w-[70px] lg:top-[-40px] lg:left-[-35px]" alt="">
+                    <img class="h-full object-cover w-full" src="../src/assets/imgs/image 29.png" alt="">
+                </div>
+                <div class="col-span-4 md:col-span-2 rol-span-2 ">
+                    <footer>
+                        <div class="flex flex-col gap-y-7">
+                            <div>
+                                <h3 class="text-sm lg:text-base xl:text-2xl font-DinPro font-bold">Адрес и часы работы</h3>
+                            </div>
+                            <div class="flex gap-x-2 items-start">
+                                <img class="w-6 h-6" src="../src/assets/imgs/Vector (5).svg" alt="">
+                                <span class="text-sm lg:text-base xl:text-2xl font-DinPro">г. Саратов, ул. Московская, 94</span>
+                            </div>
+                            <div class="flex gap-x-2 items-start">
+                                <img class="w-6 h-6" src="../src/assets/imgs/Vector (4).svg" alt="">
+                                <span class="text-sm lg:text-base xl:text-2xl font-DinPro">+7 (8452) 24-20-00</span>
+                            </div>
+                            <div class="flex gap-x-2 items-start">
+                                <img class="w-6 h-6" src="../src/assets/imgs/Vector (6).svg" alt="">
+                                <div class="flex flex-col ">
+                                    <span class="text-sm lg:text-base xl:text-2xl font-DinPro">понедельник – выходной</span>
+                                    <span class="text-sm lg:text-base xl:text-2xl mt-4 font-DinPro">вторник – пятница: 10:00 – 18:00</span>
+                                    <span class="text-sm lg:text-base xl:text-2xl mt-4 font-DinPro">суббота: 10:00 – 19:00</span>
+                                    <span class="text-sm lg:text-base xl:text-2xl mt-4 font-DinPro">воскресенье: 11:00 – 20:00</span>
+                                    <span class="text-sm lg:text-base xl:text-2xl mt-4 font-DinPro">Последний вторник месяца – санитарный день</span>
+                                </div>
+                            </div>
+                        </div>  
+                            
+                    </footer>
+                </div>
+                <div class="col-span-2 rol-span-2 row-start-1 md:row-start-auto row-span-2 relative"> 
+                    <img src="../src/assets/imgs/Group 188 (1).svg" class="absolute w-[50px] w-[50px] bottom-[-27px] left-[-10px] md:w-[60px] md:bottom-[-32px] md:left-[-10px] lg:w-[70px] lg:bottom-[-40px] lg:left-[-10px]"alt="">
+                    <img class="h-full object-cover w-full" src="../src/assets/imgs/image 29.png" alt="">
+                </div>
+
+            </div>
         </div>
-        <div class="swiper px-4 lg:w-1/2 mt-12 w-full flex gap-x-16 flex-row">
-            <div class="swiper-button-prev top-1/2"></div>
-            <div class="swiper-wrapper w-full ">
-              <div class="swiper-slide w-full ">
-                <img class="object-contain w-full" src="../src/assets/imgs/vzv.png" alt="">
-              </div>
-              <div class="swiper-slide w-full ">
-                <img class="object-contain w-full" src="../src/assets/imgs/vzv.png" alt="">
-              </div>
-              <div class="swiper-slide w-full">
-                <img class="object-contain w-full" src="../src/assets/imgs/vzv.png" alt="">
-              </div>
-
-              <div class="swiper-slide w-full">
-                <img class="object-contain w-full" src="../src/assets/imgs/vzv.png" alt="">
-              </div>
-            </div>
-            
-            <div class="swiper-button-next"></div>
-          
-          </div>
-
     </div>
-    <footer class="mt-24 px-4 lg:px-48 xl:py-12 font-DinPro">
-        <div class="flex flex-col">
-            <div class="relative flex justify-between items-center">
-                <div class="bg-bg-fsp w-80 h-80 absolute -top-1/1 -left-32 blur-3xl"></div>
-                <h3 class="text-white text-4xl lg:text-8xl leading-normal relative  font-TTLakesNeue font-bold">Контакты</h3>
-            </div>
-            <div class="flex flex-col lg:flex-row justify-between mt-12 items-center relative">
-                <div class="bg-white w-full lg:w-1/3 h-80 flex justify-center items-center">
-                    <span>Карта</span>
-                </div>
-                <div class=" py-4 lg:py-0 w-full lg:w-1/2 flex flex-col space-y-8">
-                    <div class="flex space-x-4 items-start h-max">
-                        <img src="../src/assets/imgs/Vector.svg" alt="">
-                        <span class="text-white text-base lg:text-2xl">г. Саратов, ул. Московская, 94</span>
-                    </div>
-                    <div class="flex space-x-4 items-start h-max">
-                        <img src="../src/assets/imgs/Vector (1).svg" alt="">
-                        <span class="text-white text-base lg:text-2xl">+7 (8452) 24-20-00</span>
-                    </div>
-                    <div class="flex space-x-4 items-start h-max">
-                        <img src="../src/assets/imgs/Vector (2).svg" alt="">
-                        <span class="text-white text-base lg:text-2xl">понедельник – выходной
-                            вторник – пятница: 10:00 – 18:00
-                            суббота: 10:00 – 19:00
-                            воскресенье: 11:00 – 20:00
-                            Последний вторник месяца – санитарный день/span>
-                    </div>
-                    <div class="flex space-x-4 items-start h-max">
-                        <img src="../src/assets/imgs/email.svg" alt="">
-                        <span class="text-white text-base lg:text-2xl">email@email.ru</span>
-                    </div>
-                </div>
-            </div>
-        </div>
     
-    </footer>
 </body>
-<script src="./../header.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-<script src="./../swaper.js"></script>
 </html>

@@ -37,6 +37,7 @@ module.exports = {
       shadowColor: theme => ({
         ...theme('colors'),
         'bl':'#0064C0B2',
+        "chor":"#7E745180"
        
         
       }),
@@ -57,6 +58,7 @@ module.exports = {
          'necro-gradient-theme2-yellow':'linear-gradient(90deg, #FFFFFF 0%, #DDD8AF 100%)',
          'theme3-top-bg': 'url("../assets/imgs/fsdfds.png")',
          'gradient-theme3-yellow': "linear-gradient(90deg, #DDD8AF 0%, #F0EEE1 100%)",
+         'gradient-theme3-yellow-90': "linear-gradient(180deg, #DDD8AF 0%, #F0EEE1 100%)",
          'gradient-theme3-yellow-anty': "linear-gradient(-90deg, #DDD8AF 0%, #F0EEE1 100%)",
          'grad-grey':'linear-gradient(90deg, #DDD8AF 0%, #D9D9D9 100%)',
          'decorate-theme3-ec':'url("../assets/imgs/Group 204.svg")',
@@ -64,7 +66,8 @@ module.exports = {
          'radial-2':'radial-gradient(farthest-corner at 40px 40px,#DDD8AF 0%,#D9D9D9 100%)',
          'bg-afisha-1':'url("../assets/imgs/Group 207.png")',
          'bg-afisha-2':'url("../assets/imgs/Group 209.png")',
-         'bg-afisha-3':'url("../assets/imgs/Group 208.png")'
+         'bg-afisha-3':'url("../assets/imgs/Group 208.png")',
+         'bg-lorem':"url('../assets/imgs/image 29.png')"
 
       }
     },
