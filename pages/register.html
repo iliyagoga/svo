@@ -6,7 +6,7 @@
     <title>Document</title>
     <link rel="stylesheet" href="../src/theme3/output.css">
 </head>
-<body class="relative bg-[#F0EEE1]">
+<body class="relative bg-bg_def">
     <header class="fixed w-screen z-50" >
         <div class="fixed font-DinPro flex justify-between bg-white md:items-center fixed w-full py-4 md:px-8 lg:px-32" >
             <div class="px-8 md:px-0 flex justify-between w-full items-center md:items-start md:justify-auto md:w-auto">
@@ -143,108 +143,32 @@
             </div>
         </div>
     </header>
-    <div class="relative top-32">
-        <div>
-            <img src="../src/assets/imgs/image 28.png" alt="">
+    <div>
+        <div class="flex flex-col items-center top-36 relative px-8 lg:px-32">
+            <h3 class="font-Conthrax text-4xl lg:text-4xl xl:text-6xl">Регистрация на квиз</h3>
+            <p class="text-sm lg:text-base xl:text-2xl mt-4 font-DinPro ">Зарегистрируйтесь на квиз!</p>
+            <div class="mt-4 font-DinPro w-[80%] md:w-1/2 xl:w-1/2 relative">
+                <form action="#" class="w-full space-y-4 flex flex-col">
+                    <div class="">
+                        <input class="hover:shadow-2xl hover:shadow-chor border-2 bg-bg_def relative border-[#A08F6C] w-full px-8 py-4 text-base md:text-xl xl:text-2xl " type="text" placeholder="Название команды">
+                    </div>
+                    <div class="">
+                        <textarea rows="10" class="hover:shadow-2xl hover:shadow-chor bg-bg_def border-2 relative border-[#A08F6C] w-full px-8 py-4 text-base md:text-xl xl:text-2xl " name="" id="" placeholder="Имя Фамилия участников"></textarea>
+                    </div>
+                    <div class="">
+                        <input class="hover:shadow-2xl hover:shadow-chor border-2 bg-bg_def relative border-[#A08F6C] w-full px-8 py-4 text-base md:text-xl xl:text-2xl " type="phone" placeholder="Номер телефона">
+                    </div>
+                    <div class="flex justify-evenly items-center lg:space-y-0 ">
+                        <button class="border-2 border-chor px-4 py-2 md:px-8 text-[#1C1B1780] lg:text-2xl font-normal bg-bg_def max-w-max font-DinPro"type="reset">очистить</button>
+                        <button class="border-2 border-chor px-4 py-2 md:px-8 text-black lg:text-2xl font-normal bg-chor max-w-max font-DinPro" type="submit">зарегистрироваться</button>
+                    </div>
+                </form>
+                <img class="absolute w-[100px] top-[200px] left-[-96px]" src="../src/assets/imgs/Group 195.svg" alt="">
+                <img class="absolute w-[50px] top-[300px] right-[-45px]" src="../src/assets/imgs/Group 188.svg" alt="">
+            </div>
         </div>
-        <div class="relative top-8 lg:top-16 px-8 lg:px-32 pb-12">
-            <img class="md:hidden absolute right-0 top-[-30px] w-[150px] md:hidden" src="../src/assets/imgs/Group 179.svg" alt="">
-            <div class="hidden md:block">
-                <img class="absolute md:w-[200px] md:top-[-50px] md:left-0 lg:w-[300px] lg:top-[-100px] xl:w-[500px] xl:top-[-150px]" src="../src/assets/imgs/Group 216.svg" alt="">
-            </div>
-            <div class="relative w-[80%] md:w-full">
-                <h3 class="font-Conthrax text-2xl md:text-3xl lg:text-4xl xl:text-5xl">Новости</h3>
-                <p class="text-sm lg:text-base xl:text-2xl mt-4 font-DinPro font-normal">Музей истории специальной военной операции открылся в Саратове 28 июля 2023 года. Задача — сохранить память о саратовцах-участниках СВО. Музей является филиалом саратовского Исторического парка «Россия — Моя история».</p>
-            </div>
-            <div class="mt-8 grid grid-cols-1 md:grid-cols-2 grid-rows-2 gap-4 lg:gap-4">
-                <div class="md:row-span-2">
-                    <a href="visitors.html#" class="flex flex-row md:flex-col space-x-8 md:space-x-2 md:space-x-0">
-                        <div class="relative w-1/2 md:w-full">
-                            <img class="object-full h-full w-full" src="../src/assets/imgs/image 38.png" alt="">
-                            <div class="absolute w-[140px] bottom-[-5px] left-[-10px] md:w-[250px] md:bottom-[-10px] md:left-[-20px] xl:w-[350px] xl:bottom-[-20px] xl:left-[-40px]">
-                                <img src="../src/assets/imgs/Group 219.svg" alt="">
-                            </div>
-                            <h3 class="absolute bottom-[10px] left-[34px] text-[8px] md:bottom-0 md:bottom-[15px] md:left-[60px] md:text-sm lg:text-base xl:text-2xl ">01.12.2024</h3>
-                        </div>
-                        <div class="relative md:mt-4 w-1/2 md:w-full">
-                            <h3 class="font-Conthrax text-xl md:text-2xl lg:text-3xl xl:text-4xl">Новость 1</h3>
-                            <p class="text-xs lg:text-sm xl:text-base md:mt-4 font-DinPro font-normal">Музей истории специальной военной операции открылся в Саратове 28 июля 2023 года. Задача — сохранить память о саратовцах-участниках СВО. Музей является филиалом саратовского Исторического парка «Россия — Моя история».</p>
-                        </div>
-                    </a>
-                </div>
-                <div>
-                    <a href="visitors.html#" class="flex flex-row space-x-8 md:space-x-2 h-full">
-                        <div class="relative md:h-full md:w-3/5 w-1/2">
-                            <img class="object-full h-full w-full" src="../src/assets/imgs/image 28.png" alt="">
-                            <div class="absolute w-[140px] bottom-[-5px] left-[-10px] lg:w-[160px] xl:w-[220px] xl:bottom-[-10px] xl:left-[-20px]">
-                                <img src="../src/assets/imgs/Group 219.svg" alt="">
-                            </div>
-                            <h3 class="absolute bottom-[10px] left-[34px] text-[8px] lg:text-[10px] lg:left-[37px] xl:text-[15px] xl:left-[45px]">01.12.2024</h3>
-                        </div>
-                        <div class="relative md:w-2/5 w-1/2">
-                            <h3 class="font-Conthrax text-xl lg:text-2xl xl:text-3xl">Новость 1</h3>
-                            <p class="text-xs md:text-[8px] lg:text-[10px] xl:text-base md:mt-2 font-DinPro font-normal">Музей истории специальной военной операции открылся в Саратове 28 июля 2023 года. Задача — сохранить память о саратовцах-участниках СВО. Музей является филиалом саратовского Исторического парка «Россия — Моя история».</p>
-                        </div>
-                    </a>
-                </div>
-                <div>
-                    <a href="visitors.html#" class="flex flex-row space-x-8 md:space-x-2 h-full">
-                        <div class="relative md:h-full md:w-3/5 w-1/2">
-                            <img class="object-full h-full w-full" src="../src/assets/imgs/image 38.png" alt="">
-                            <div class="absolute w-[140px] bottom-[-5px] left-[-10px] lg:w-[160px] xl:w-[220px] xl:bottom-[-10px] xl:left-[-20px]">
-                                <img src="../src/assets/imgs/Group 219.svg" alt="">
-                            </div>
-                            <h3 class="absolute bottom-[10px] left-[34px] text-[8px] lg:text-[10px] lg:left-[37px] xl:text-[15px] xl:left-[45px]">01.12.2024</h3>
-                        </div>
-                        <div class="relative md:w-2/5 w-1/2">
-                            <h3 class="font-Conthrax text-xl lg:text-2xl xl:text-3xl">Новость 1</h3>
-                            <p class="text-xs md:text-[8px] lg:text-[10px] xl:text-base md:mt-2 font-DinPro font-normal">Музей истории специальной военной операции открылся в Саратове 28 июля 2023 года. Задача — сохранить память о саратовцах-участниках СВО. Музей является филиалом саратовского Исторического парка «Россия — Моя история».</p>
-                        </div>
-                    </a>
-                </div>
-            </div>
-            <!-- Кнока смотреть все -->
-            <div class="flex justify-center w-full mt-8 xl:mt-16">
-                <a href="visitors.html#" class="md:py-2 bg-chor w-60 text-center md:text-xl xl:text-2xl font-DinPro">смотреть все</a>
-            </div>
-            <div class="grid md:grid-cols-2 grid-cols-1 gap-4 lg:gap-4 md:mt-8">
-                <div>
-                    <a href="visitors.html#" class="flex flex-row space-x-8 md:space-x-2 h-full">
-                        <div class="relative h-full md:w-3/5 w-1/2">
-                            <img class="object-full h-full w-full" src="../src/assets/imgs/image 38.png" alt="">
-                            <div class="absolute w-[140px] bottom-[-5px] left-[-10px] lg:w-[160px] xl:w-[220px] xl:bottom-[-10px] xl:left-[-20px]">
-                                <img src="../src/assets/imgs/Group 219.svg" alt="">
-                            </div>
-                            <h3 class="absolute bottom-[10px] left-[34px] text-[8px] lg:text-[10px] lg:left-[37px] xl:text-[15px] xl:left-[45px]">01.12.2024</h3>
-                        </div>
-                        <div class="relative md:w-2/5 w-1/2">
-                            <h3 class="font-Conthrax text-xl lg:text-2xl xl:text-3xl">Новость 1</h3>
-                            <p class="text-xs md:text-[8px] lg:text-[10px] xl:text-base md:mt-2 font-DinPro font-normal">Музей истории специальной военной операции открылся в Саратове 28 июля 2023 года. Задача — сохранить память о саратовцах-участниках СВО. Музей является филиалом саратовского Исторического парка «Россия — Моя история».</p>
-                        </div>
-                    </a>
-                </div>
-                <div>
-                    <a href="visitors.html#" class="flex flex-row space-x-8 md:space-x-2 h-full">
-                        <div class="relative h-full md:w-3/5 w-1/2">
-                            <img class="object-full h-full w-full" src="../src/assets/imgs/image 38.png" alt="">
-                            <div class="absolute w-[140px] bottom-[-5px] left-[-10px] lg:w-[160px] xl:w-[220px] xl:bottom-[-10px] xl:left-[-20px]">
-                                <img src="../src/assets/imgs/Group 219.svg" alt="">
-                            </div>
-                            <h3 class="absolute bottom-[10px] left-[34px] text-[8px] lg:text-[10px] lg:left-[37px] xl:text-[15px] xl:left-[45px]">01.12.2024</h3>
-                        </div>
-                        <div class="relative md:w-2/5 w-1/2">
-                            <h3 class="font-Conthrax text-xl lg:text-2xl xl:text-3xl">Новость 1</h3>
-                            <p class="text-xs md:text-[8px] lg:text-[10px] xl:text-base md:mt-2 font-DinPro font-normal">Музей истории специальной военной операции открылся в Саратове 28 июля 2023 года. Задача — сохранить память о саратовцах-участниках СВО. Музей является филиалом саратовского Исторического парка «Россия — Моя история».</p>
-                        </div>
-                    </a>
-                </div>  
-            <!-- Дополнительные ячейки -->
-
-
-             
-        </div>
+      
     </div>
-    
 </body>
 <script src="../header.js"></script>
 </html>

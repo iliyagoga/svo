@@ -8,136 +8,137 @@
 </head>
 <body class="relative bg-bg_def">
     <header class="fixed w-screen z-50" >
-        <div class="font-DinPro flex justify-between bg-white items-center fixed w-full py-4 px-8 lg:px-32" >
-            <div>
-                <img class="w-44 md:w-20 lg:w-36" src="/../src/assets/imgs/svo-logo-svg.svg" alt="">
+        <div class="fixed font-DinPro flex justify-between bg-white md:items-center fixed w-full py-4 md:px-8 lg:px-32" >
+            <div class="px-8 md:px-0 flex justify-between w-full items-center md:items-start md:justify-auto md:w-auto">
+                <a href="index.html"><img class="w-44 md:w-20 lg:w-36" src="../src/assets/imgs/svo-logo-svg.svg" alt=""></a>
+
+                <img class="md:hidden" src="../src/assets/imgs/icons8-menu.svg" alt="" id="icon">
             </div>
-            <div class="hidden md:flex justify-between hedden md:w-2/3 lg:w-[70%] xl:w-2/3">
+            <div class="hidden absolute  md:block top-28 md:relative md:top-0 h-screen md:h-auto bg-white w-[80%] md:top-28 md:flex flex-col md:flex-row space-y-4 md:space-y-0 py-4 px-8     md:justify-between md:w-2/3 lg:w-[70%] xl:w-2/3" id="menu">
                 <div class="relative">
                     <div class="flex items-center space-x-4 cursor-pointer" id="p1">
-                        <span class="font-DinPro md:text-md lg:text-base">
+                        <span class="font-DinPro text-md lg:text-base">
                             Посетителям
                         </span>
                         <img class="md:w-2 lg:w-4" src="../src/assets/imgs/thr-black.svg" alt="">
                     </div>
-                
                         <ul class="invisible absolute bg-white p-8 space-y-3 top-full w-max" id="f1">
                             <li class="border-b-2 border-b-chor py-1">
-                                <a href="visitors.html#poster" class="font-DinPro md:text-md lg:text-base">Афиша</a>
+                                <a href="visitors.html#poster" class="font-DinPro text-md lg:text-base">Афиша</a>
                             </li>
                             <li class="border-b-2 border-b-chor py-1">
-                                <a href="visitors.html#events" class="font-DinPro md:text-md lg:text-base">События</a>
+                                <a href="visitors.html#events" class="font-DinPro text-md lg:text-base">События</a>
                             </li>
                             <li class="border-b-2 border-b-chor py-1">
-                                <a href="visitors.html#news" class="font-DinPro md:text-md lg:text-base">Новости</a>
+                                <a href="visitors.html#news" class="font-DinPro text-md lg:text-base">Новости</a>
                             </li>
                             <li class="border-b-2 border-b-chor py-1">
-                                <a href="visitors.html#question" class="font-DinPro md:text-md lg:text-base">Вопрос-ответ</a>
+                                <a href="visitors.html#question" class="font-DinPro text-md lg:text-base">Вопрос-ответ</a>
                             </li>
                             <li class="border-b-2 border-b-chor py-1">
-                                <a href="visitors.html#availability" class="font-DinPro md:text-md lg:text-base">Доступность</a>
+                                <a href="visitors.html#availability" class="font-DinPro text-md lg:text-base">Доступность</a>
                             </li>
                             <li class="border-b-2 border-b-chor py-1">
-                                <a href="visitors.html#services" class="font-DinPro md:text-md lg:text-base">Услуги</a>
+                                <a href="visitors.html#services" class="font-DinPro text-md lg:text-base">Услуги</a>
                             </li>
                             <li class="border-b-2 border-b-chor py-1">
-                                <a href="visitors.html#c_quiz" class="font-DinPro md:text-md lg:text-base">Космический квиз</a>
+                                <a href="visitors.html#c_quiz" class="font-DinPro text-md lg:text-base">Космический квиз</a>
                             </li>
                             <li class="border-b-2 border-b-chor py-1">
-                                <a href="visitors.html#v_quiz" class="font-DinPro md:text-md lg:text-base">Военно-патриотический квиз</a>
+                                <a href="visitors.html#v_quiz" class="font-DinPro text-md lg:text-base">Военно-патриотический квиз</a>
                             </li>
                             <li class="border-b-2 border-b-chor py-1">
-                                <a href="visitors.html#message" class="font-DinPro md:text-md lg:text-base">Письмо солдату СВО</a>
+                                <a href="visitors.html#message" class="font-DinPro text-md lg:text-base">Письмо солдату СВО</a>
                             </li>
                             <li class="py-2">
-                                <a href="visitors.html#excursion" class="font-DinPro md:text-md lg:text-base">Экскурсия по экспозиции Музея истории СВО</a>
+                                <a href="visitors.html#excursion" class="font-DinPro text-md lg:text-base">Экскурсия по экспозиции Музея истории СВО</a>
                             </li>
                         </ul>
             
                 </div>
                 <div class="relative">        
                     <div class="flex items-center space-x-4 cursor-pointer" id="p2">
-                        <span class="md:text-md lg:text-base">
+                        <span class="text-md lg:text-base">
                             Учителям
                         </span>
                         <img class="md:w-2 lg:w-4" src="../src/assets/imgs/thr-black.svg" alt="">
                     </div>
                     <ul class="invisible absolute bg-white p-8 space-y-3 top-full w-max" id="f2">
                         <li class="border-b-2 border-b-chor py-1">
-                            <a href="teachers.html#mean" class="font-DinPro md:text-md lg:text-base">Важность изучения СВО в школах</a>
+                            <a href="teachers.html#mean" class="font-DinPro text-md lg:text-base">Важность изучения СВО в школах</a>
                         </li>
                         <li class="border-b-2 border-b-chor py-1">
-                            <a href="teachers.html#recs" class="font-DinPro md:text-md lg:text-base">Методические рекомендации</a>
+                            <a href="teachers.html#recs" class="font-DinPro text-md lg:text-base">Методические рекомендации</a>
                         </li>
                         <li class="border-b-2 border-b-chor py-1">
-                            <a href="teachers.html#books" class="font-DinPro md:text-md lg:text-base">Книга памяти</a>
+                            <a href="teachers.html#books" class="font-DinPro text-md lg:text-base">Книга памяти</a>
                         </li>
                         <li class="border-b-2 border-b-chor py-1">
-                            <a href="teachers.html#heroes" class="font-DinPro md:text-md lg:text-base">Земляки-герои РФ</a>
+                            <a href="teachers.html#heroes" class="font-DinPro text-md lg:text-base">Земляки-герои РФ</a>
                         </li>
                         <li class="border-b-2 border-b-chor py-1">
-                            <a href="teachers.html#films" class="font-DinPro md:text-md lg:text-base">Документальные фильмы</a>
+                            <a href="teachers.html#films" class="font-DinPro text-md lg:text-base">Документальные фильмы</a>
                         </li>
                         <li class="border-b-2 border-b-chor py-1">
-                            <a href="teachers.html#message" class="font-DinPro md:text-md lg:text-base">Письмо солдату СВО</a>
+                            <a href="teachers.html#message" class="font-DinPro text-md lg:text-base">Письмо солдату СВО</a>
                         </li>
                         <li class="border-b-2 border-b-chor py-1">
-                            <a href="teachers.html#info" class="font-DinPro md:text-md lg:text-base">Информация о музее истории СВО</a>
+                            <a href="teachers.html#info" class="font-DinPro text-md lg:text-base">Информация о музее истории СВО</a>
                         </li>
                         <li class="py-2">
-                            <a href="teachers.html#galery" class="font-DinPro md:text-md lg:text-base">Галерея</a>
+                            <a href="teachers.html#galery" class="font-DinPro text-md lg:text-base">Галерея</a>
                         </li>
                     </ul>
         
                 </div>
                 <div class="relative"> 
                     <div class="flex items-center space-x-4 cursor-pointer" id="p3">
-                        <span class="md:text-md lg:text-base">
+                        <span class="text-md lg:text-base">
                             О нас
                         </span>
                         <img class="md:w-2 lg:w-4" src="../src/assets/imgs/thr-black.svg" alt="">
                     </div>
                     <ul class="invisible absolute bg-white p-8 space-y-3 top-full w-max" id="f3">
                         <li class="border-b-2 border-b-chor py-1">
-                            <a href="about.html#info" class="font-DinPro md:text-md lg:text-base">Юридическия информация</a>
+                            <a href="about.html#info" class="font-DinPro text-md lg:text-base">Юридическия информация</a>
                         </li>
                         <li class="border-b-2 border-b-chor py-1">
-                            <a href="about.html#about" class="font-DinPro md:text-md lg:text-base">О нас в СМИ</a>
+                            <a href="about.html#about" class="font-DinPro text-md lg:text-base">О нас в СМИ</a>
                         </li>
                         <li class="border-b-2 border-b-chor py-1">
-                            <a href="about.html#answers" class="font-DinPro md:text-md lg:text-base">Отзывы</a>
+                            <a href="about.html#answers" class="font-DinPro text-md lg:text-base">Отзывы</a>
                         </li>
                         <li class="border-b-2 border-b-chor py-1">
-                            <a href="about.html#partners" class="font-DinPro md:text-md lg:text-base">Партнеры музея истории СВО</a>
+                            <a href="about.html#partners" class="font-DinPro text-md lg:text-base">Партнеры музея истории СВО</a>
                         </li>
                         <li class="border-b-2 border-b-chor py-1">
-                            <a href="about.html#proects" class="font-DinPro md:text-md lg:text-base">Проекты</a>
+                            <a href="about.html#projects" class="font-DinPro text-md lg:text-base">Проекты</a>
                         </li>
                         <li class="border-b-2 border-b-chor py-1">
-                            <a href="about.html#press" class="font-DinPro md:text-md lg:text-base">Пресс-служба</a>
+                            <a href="about.html#press" class="font-DinPro text-md lg:text-base">Пресс-служба</a>
                         </li>
                         <li class="border-b-2 border-b-chor py-1">
-                            <a href="about.html#vacancies" class="font-DinPro md:text-md lg:text-base">Вакансии</a>
+                            <a href="about.html#vacancies" class="font-DinPro text-md lg:text-base">Вакансии</a>
                         </li>
                         <li class="border-b-2 border-b-chor py-1">
-                            <a href="about.html#filials" class="font-DinPro md:text-md lg:text-base">Филиалы</a>
+                            <a href="about.html#filials" class="font-DinPro text-md lg:text-base">Филиалы</a>
                         </li>
                         <li class="border-b-2 border-b-chor py-1">
-                            <a href="about.html#contacts" class="font-DinPro md:text-md lg:text-base">Контакты</a>
+                            <a href="about.html#contacts" class="font-DinPro text-md lg:text-base">Контакты</a>
                         </li>
                         <li class="border-b-2 border-b-chor py-1">
-                            <a href="about.html#send" class="font-DinPro md:text-md lg:text-base">Написать руководителю музея</a>
+                            <a href="about.html#send" class="font-DinPro text-md lg:text-base">Написать руководителю музея</a>
                         </li>
                         <li class="py-2">
-                            <a href="about.html#360" class="font-DinPro md:text-md lg:text-base">Музей истории СВО в 360</a>
+                            <a href="about.html#360" class="font-DinPro text-md lg:text-base">Музей истории СВО в 360</a>
                         </li>
                     </ul>
                  </div>
                  <div>
-                    <a href="exhibitions.html" class="md:text-md lg:text-base">Выставки</a>
+                    <a href="exhibitions.html" class="text-md lg:text-base">Выставки</a>
                 </div>
                 <div>
-                    <a href="excursions.html" class="md:text-md lg:text-base">Экскурсии</a>
+                    <a href="excursions.html" class="text-md lg:text-base">Экскурсии</a>
                 </div>
             </div>
         </div>
@@ -151,15 +152,12 @@
         </div>
         <div class="px-8 lg:px-32 mt-32 md:mt-24 flex gap-x-4 xl:justify-between flex-col md:flex-row">
             <div class="w-full md:w-1/2 flex flex-col gap-x-4">
-                <a href="#" class="flex items-center md:space-x-4 justify-between">
-                    <h3 class="font-Conthrax text-4xl lg:text-4xl xl:text-6xl">О нас</h3>
-                    <img class="w-5" src="../src/assets/imgs/thr-diag.svg" alt="">
-                </a>
+                <h3 class="font-Conthrax text-4xl xl:text-6xl">О нас</h3>
                 <p class="text-sm lg:text-base xl:text-2xl mt-4 font-DinPro font-normal">Музей истории специальной военной операции открылся в Саратове 28 июля 2023 года. Задача — сохранить память о саратовцах-участниках СВО. Музей является филиалом саратовского Исторического парка «Россия — Моя история».</p>
             </div>
             <div class="flex gap-x-4 mt-8 md:mt-0 h-[200px] md:h-auto">
                 <div class="bg-image bg-bg-mean2-mg2 md:w-min px-4 py-2 h-full md:relative">
-                    <a href="#" class="flex flex-col justify-between h-full relative">
+                    <a href="#filials" class="flex flex-col justify-between h-full relative">
                         <div class="w-4">
                             <img src="../src/assets/imgs/thr-diag.svg" alt="">
                         </div>
@@ -170,7 +168,7 @@
                     </a>
                 </div>
                 <div class="bg-image bg-bg-mean2-mg2 md:w-min px-4 py-2 h-full md:relative">
-                    <a href="#" class="flex flex-col justify-between h-full relative">
+                    <a href="#projects" class="flex flex-col justify-between h-full relative">
                         <div>
                             <h3 class="font-Conthrax text-xl md:text-3xl lg:text-4xl xl:text-5xl">Проекты</h3>
                             <p class="font-DinPro text-xs md:text-[8px] lg:text-sm xl:text-base md:mt-2" >Музей истории специальной военной операции открылся в Саратове 28 июля 2023 года.</p>
@@ -183,9 +181,10 @@
                 </div>
             </div>
         </div>
+        <a name="info"></a>
         <div class="px-8 lg:px-32 mt-24">
             <div>
-                <h3 class="font-Conthrax text-3xl lg:text-4xl xl:text-5xl">Юридическая информация</h3>
+                <h3 class="font-Conthrax text-4xl xl:text-5xl">Юридическая информация</h3>
                 <p class="text-sm lg:text-base xl:text-2xl mt-4 font-DinPro font-normal">Музей истории специальной военной операции открылся в Саратове 28 июля 2023 года. Задача — сохранить память о саратовцах-участниках СВО. Музей является филиалом саратовского Исторического парка «Россия — Моя история».</p>
             </div>
         </div>
@@ -236,6 +235,7 @@
                 </div>
             </div>
         </div>
+        <a name="about"></a>
         <div class="relative px-8 lg:px-32 mt-24 md:mt-32 lg:mt-44 xl:mt-72">
             <div class="hidden md:block">
                 <img class="absolute md:w-[200px] md:top-[-50px] md:left-0 lg:w-[300px] lg:top-[-100px] xl:w-[500px] xl:top-[-150px]" src="../src/assets/imgs/Group 216.svg" alt="">
@@ -243,11 +243,8 @@
             </div>
             <div class="relative top-8 ">
                 <img class="md:hidden absolute right-0 top-[-30px] w-[150px] md:hidden" src="../src/assets/imgs/Group 179.svg" alt="">
-                <div class="hidden md:block">
-                    <img class="absolute md:w-[200px] md:top-[-50px] md:left-0 lg:w-[300px] lg:top-[-100px] xl:w-[500px] xl:top-[-150px]" src="../src/assets/imgs/Group 216.svg" alt="">
-                </div>
                 <div class="relative w-[80%] md:w-full">
-                    <h3 class="font-Conthrax text-3xl lg:text-4xl xl:text-5xl">О нас в СМИ</h3>
+                    <h3 class="font-Conthrax text-4xl xl:text-5xl">О нас в СМИ</h3>
                     <p class="text-sm lg:text-base xl:text-2xl mt-4 font-DinPro font-normal">Музей истории специальной военной операции открылся в Саратове 28 июля 2023 года. Задача — сохранить память о саратовцах-участниках СВО. Музей является филиалом саратовского Исторического парка «Россия — Моя история».</p>
                 </div>
                 <div class="mt-8 grid grid-cols-1 md:grid-cols-2 grid-rows-2 gap-4 lg:gap-4">
@@ -299,13 +296,14 @@
                 </div>
                 <!-- Кнока смотреть все -->
                 <div class="flex justify-center w-full mt-8 xl:mt-16">
-                    <a href="visitors.html#" class="md:py-2 bg-chor w-60 text-center md:text-xl xl:text-2xl font-DinPro">смотреть все</a>
+                    <a href="news.html" class="md:py-2 bg-chor w-60 text-center md:text-xl xl:text-2xl font-DinPro">смотреть все</a>
                 </div>
             </div>
         </div>
+        <a name="answers"></a>
         <div class="relative px-8 lg:px-32 mt-24">
             <div class="flex gap-x-4 items-center">
-                <h3 class="font-Conthrax text-4xl lg:text-4xl xl:text-6xl">Отзывы</h3>
+                <h3 class="font-Conthrax text-4xl xl:text-6xl">Отзывы</h3>
                 <div class="w-1/2 bg-image bg-gradient-theme3-yellow md:h-8"></div>
             </div>
             <div class="flex mt-8 lg:mt-12 md:space-x-8 xl:space-x-12 flex-col md:flex-row items-center space-y-16 md:space-y-0">
@@ -363,6 +361,7 @@
                 </div>
             </div>
         </div>
+        <a name="partners"></a>
         <div class="mt-24 relative">
             <div class="px-8 lg:px-32 flex flex-col gap-x-4">
                 <h3 class="font-Conthrax text-4xl xl:text-6xl">Партнеры</h3>
@@ -394,6 +393,8 @@
             </div>
         
         </div>  
+
+        <a name="projects"></a>
         <div class="relative px-8 lg:px-32 mt-24 lg:mt-48">
             <div>
                 <div class="flex gap-x-4 items-center">
@@ -439,10 +440,11 @@
                 </a>
             </div>
         </div>
+        <a name="press"></a>
         <div class="relative mt-24 lg:mt-48">
             <img src="../src/assets/imgs/Group 191.svg" class="absolute w-0 lg:w-[350px] lg:bottom-[-120px] xl:w-[450px] xl:bottom-[-150px]" alt="">
             <img src="../src/assets/imgs/Group 282.svg" class="absolute w-0 lg:w-[350px] lg:right-0 lg:top-[-120px] xl:w-[450px] xl:top-[-150px]" alt="">
-            <img src="../src/assets/imgs/Group 362 (1).svg" class="relative ml-auto" alt="">
+            <img src="../src/assets/imgs/Group 362 (1).svg" class="md:hidden relative ml-auto" alt="">
 
             <div class="relative px-8 lg:px-32">
                 <h3 class="font-Conthrax text-4xl xl:text-6xl">Пресс-служба</h3>
@@ -458,8 +460,10 @@
                     </div>
                 </div>
             </div>
-            <img src="../src/assets/imgs/Group 359 (1).svg" class="relative" alt="">
+            <img src="../src/assets/imgs/Group 359 (1).svg" class="md:hidden relative" alt="">
         </div>
+
+        <a name="vacancies"></a>
         <div class="relative px-8 lg:px-32 mt-24 lg:mt-48">
             <div class="flex gap-x-4 items-center">
                 <h3 class="font-Conthrax text-4xl xl:text-6xl">Вакансии</h3>
@@ -479,6 +483,8 @@
                 </div>
             </div>
         </div>
+
+        <a name="filials"></a>
         <div class="relative px-8 lg:px-32 mt-24 lg:mt-48">
             <h3 class="font-Conthrax text-4xl xl:text-6xl">Филиалы</h3>
             <p class="text-sm lg:text-base xl:text-2xl mt-4 font-DinPro font-normal">Музей истории специальной военной операции открылся в Саратове 28 июля 2023 года. Задача — сохранить память о саратовцах-участниках СВО. Музей является филиалом саратовского Исторического парка «Россия — Моя история».</p>
@@ -539,7 +545,9 @@
                 </div>
             </div>
         </div>
-        <div class="flex space-x-12 md:space-x-0 mt-24 pb-12 md:justify-center">
+
+        <a name="contacts"></a>
+        <div class="flex space-x-12 md:space-x-0 mt-24 lg:mt-32 pb-12 md:justify-center">
             <div>
                 <div class="flex gap-x-4 lg:px-32 items-center px-8">
                     <h3 class="font-Conthrax text-4xl lg:text-4xl xl:text-6xl">Контакты</h3>
@@ -589,6 +597,8 @@
                 <div class="h-full w-16 bg-image bg-gradient-theme3-yellow-90"></div>
             </div>
         </div>
+
+        <a name="send"></a>
         <div class="px-8 lg:px-32 flex flex-col items-center mt-12">
             <h3 class="font-Conthrax text-4xl lg:text-4xl xl:text-6xl">Написать руководителю музея</h3>
             <p class="text-sm lg:text-base xl:text-2xl mt-4 font-DinPro ">Интересует какая-то информация? Задайте нам вопрос!</p>
@@ -615,6 +625,8 @@
                 <img class="absolute w-[50px] top-[300px] right-[-45px]" src="../src/assets/imgs/Group 188.svg" alt="">
             </div>
         </div>
+
+        <a name="360"></a>
         <div class="md:w-full md:mt-24 flex justify-center flex flex-col md:px-8 lg:px-32 relative pb-12">
             <img src="../src/assets/imgs/Group 282.svg" class="absolute md:w-0 lg:w-[350px] lg:right-0 lg:top-[-50px] xl:w-[450px] xl:top-[-100px]" alt="">
             <h3 class="font-Conthrax md:text-4xl lg:text-4xl xl:text-6xl">Музей истории СВО в 360°</h3>

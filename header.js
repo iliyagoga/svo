@@ -1,3 +1,14 @@
+let icon= document.querySelector('#icon')
+icon.addEventListener('click',(e)=>{
+    document.querySelector('#menu').classList.toggle('hidden')
+})
+
+document.querySelector('#menu').addEventListener('click',(e)=>{
+    if(e.target.nodeName=='A'){
+        document.querySelector('#menu').classList.toggle('hidden')
+    }
+})
+
 let p1=document.querySelector('#p1');
 let f1=document.querySelector('#f1');
 p1.addEventListener('click',(e)=>{

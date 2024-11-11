@@ -8,136 +8,137 @@
 </head>
 <body class="relative bg-[#F0EEE1]">
     <header class="fixed w-screen z-50" >
-        <div class="font-DinPro flex justify-between bg-white items-center fixed w-full py-4 px-8 lg:px-32" >
-            <div>
-                <img class="w-44 md:w-20 lg:w-36" src="/../src/assets/imgs/svo-logo-svg.svg" alt="">
+        <div class="fixed font-DinPro flex justify-between bg-white md:items-center fixed w-full py-4 md:px-8 lg:px-32" >
+            <div class="px-8 md:px-0 flex justify-between w-full items-center md:items-start md:justify-auto md:w-auto">
+                <a href="index.html"><img class="w-44 md:w-20 lg:w-36" src="../src/assets/imgs/svo-logo-svg.svg" alt=""></a>
+
+                <img class="md:hidden" src="../src/assets/imgs/icons8-menu.svg" alt="" id="icon">
             </div>
-            <div class="hidden md:flex justify-between hedden md:w-2/3 lg:w-[70%] xl:w-2/3">
+            <div class="hidden absolute  md:block top-28 md:relative md:top-0 h-screen md:h-auto bg-white w-[80%] md:top-28 md:flex flex-col md:flex-row space-y-4 md:space-y-0 py-4 px-8     md:justify-between md:w-2/3 lg:w-[70%] xl:w-2/3" id="menu">
                 <div class="relative">
                     <div class="flex items-center space-x-4 cursor-pointer" id="p1">
-                        <span class="font-DinPro md:text-md lg:text-base">
+                        <span class="font-DinPro text-md lg:text-base">
                             Посетителям
                         </span>
                         <img class="md:w-2 lg:w-4" src="../src/assets/imgs/thr-black.svg" alt="">
                     </div>
-                
                         <ul class="invisible absolute bg-white p-8 space-y-3 top-full w-max" id="f1">
                             <li class="border-b-2 border-b-chor py-1">
-                                <a href="visitors.html#poster" class="font-DinPro md:text-md lg:text-base">Афиша</a>
+                                <a href="visitors.html#poster" class="font-DinPro text-md lg:text-base">Афиша</a>
                             </li>
                             <li class="border-b-2 border-b-chor py-1">
-                                <a href="visitors.html#events" class="font-DinPro md:text-md lg:text-base">События</a>
+                                <a href="visitors.html#events" class="font-DinPro text-md lg:text-base">События</a>
                             </li>
                             <li class="border-b-2 border-b-chor py-1">
-                                <a href="visitors.html#news" class="font-DinPro md:text-md lg:text-base">Новости</a>
+                                <a href="visitors.html#news" class="font-DinPro text-md lg:text-base">Новости</a>
                             </li>
                             <li class="border-b-2 border-b-chor py-1">
-                                <a href="visitors.html#question" class="font-DinPro md:text-md lg:text-base">Вопрос-ответ</a>
+                                <a href="visitors.html#question" class="font-DinPro text-md lg:text-base">Вопрос-ответ</a>
                             </li>
                             <li class="border-b-2 border-b-chor py-1">
-                                <a href="visitors.html#availability" class="font-DinPro md:text-md lg:text-base">Доступность</a>
+                                <a href="visitors.html#availability" class="font-DinPro text-md lg:text-base">Доступность</a>
                             </li>
                             <li class="border-b-2 border-b-chor py-1">
-                                <a href="visitors.html#services" class="font-DinPro md:text-md lg:text-base">Услуги</a>
+                                <a href="visitors.html#services" class="font-DinPro text-md lg:text-base">Услуги</a>
                             </li>
                             <li class="border-b-2 border-b-chor py-1">
-                                <a href="visitors.html#c_quiz" class="font-DinPro md:text-md lg:text-base">Космический квиз</a>
+                                <a href="visitors.html#c_quiz" class="font-DinPro text-md lg:text-base">Космический квиз</a>
                             </li>
                             <li class="border-b-2 border-b-chor py-1">
-                                <a href="visitors.html#v_quiz" class="font-DinPro md:text-md lg:text-base">Военно-патриотический квиз</a>
+                                <a href="visitors.html#v_quiz" class="font-DinPro text-md lg:text-base">Военно-патриотический квиз</a>
                             </li>
                             <li class="border-b-2 border-b-chor py-1">
-                                <a href="visitors.html#message" class="font-DinPro md:text-md lg:text-base">Письмо солдату СВО</a>
+                                <a href="visitors.html#message" class="font-DinPro text-md lg:text-base">Письмо солдату СВО</a>
                             </li>
                             <li class="py-2">
-                                <a href="visitors.html#excursion" class="font-DinPro md:text-md lg:text-base">Экскурсия по экспозиции Музея истории СВО</a>
+                                <a href="visitors.html#excursion" class="font-DinPro text-md lg:text-base">Экскурсия по экспозиции Музея истории СВО</a>
                             </li>
                         </ul>
             
                 </div>
                 <div class="relative">        
                     <div class="flex items-center space-x-4 cursor-pointer" id="p2">
-                        <span class="md:text-md lg:text-base">
+                        <span class="text-md lg:text-base">
                             Учителям
                         </span>
                         <img class="md:w-2 lg:w-4" src="../src/assets/imgs/thr-black.svg" alt="">
                     </div>
                     <ul class="invisible absolute bg-white p-8 space-y-3 top-full w-max" id="f2">
                         <li class="border-b-2 border-b-chor py-1">
-                            <a href="teachers.html#mean" class="font-DinPro md:text-md lg:text-base">Важность изучения СВО в школах</a>
+                            <a href="teachers.html#mean" class="font-DinPro text-md lg:text-base">Важность изучения СВО в школах</a>
                         </li>
                         <li class="border-b-2 border-b-chor py-1">
-                            <a href="teachers.html#recs" class="font-DinPro md:text-md lg:text-base">Методические рекомендации</a>
+                            <a href="teachers.html#recs" class="font-DinPro text-md lg:text-base">Методические рекомендации</a>
                         </li>
                         <li class="border-b-2 border-b-chor py-1">
-                            <a href="teachers.html#books" class="font-DinPro md:text-md lg:text-base">Книга памяти</a>
+                            <a href="teachers.html#books" class="font-DinPro text-md lg:text-base">Книга памяти</a>
                         </li>
                         <li class="border-b-2 border-b-chor py-1">
-                            <a href="teachers.html#heroes" class="font-DinPro md:text-md lg:text-base">Земляки-герои РФ</a>
+                            <a href="teachers.html#heroes" class="font-DinPro text-md lg:text-base">Земляки-герои РФ</a>
                         </li>
                         <li class="border-b-2 border-b-chor py-1">
-                            <a href="teachers.html#films" class="font-DinPro md:text-md lg:text-base">Документальные фильмы</a>
+                            <a href="teachers.html#films" class="font-DinPro text-md lg:text-base">Документальные фильмы</a>
                         </li>
                         <li class="border-b-2 border-b-chor py-1">
-                            <a href="teachers.html#message" class="font-DinPro md:text-md lg:text-base">Письмо солдату СВО</a>
+                            <a href="teachers.html#message" class="font-DinPro text-md lg:text-base">Письмо солдату СВО</a>
                         </li>
                         <li class="border-b-2 border-b-chor py-1">
-                            <a href="teachers.html#info" class="font-DinPro md:text-md lg:text-base">Информация о музее истории СВО</a>
+                            <a href="teachers.html#info" class="font-DinPro text-md lg:text-base">Информация о музее истории СВО</a>
                         </li>
                         <li class="py-2">
-                            <a href="teachers.html#galery" class="font-DinPro md:text-md lg:text-base">Галерея</a>
+                            <a href="teachers.html#galery" class="font-DinPro text-md lg:text-base">Галерея</a>
                         </li>
                     </ul>
         
                 </div>
                 <div class="relative"> 
                     <div class="flex items-center space-x-4 cursor-pointer" id="p3">
-                        <span class="md:text-md lg:text-base">
+                        <span class="text-md lg:text-base">
                             О нас
                         </span>
                         <img class="md:w-2 lg:w-4" src="../src/assets/imgs/thr-black.svg" alt="">
                     </div>
                     <ul class="invisible absolute bg-white p-8 space-y-3 top-full w-max" id="f3">
                         <li class="border-b-2 border-b-chor py-1">
-                            <a href="about.html#info" class="font-DinPro md:text-md lg:text-base">Юридическия информация</a>
+                            <a href="about.html#info" class="font-DinPro text-md lg:text-base">Юридическия информация</a>
                         </li>
                         <li class="border-b-2 border-b-chor py-1">
-                            <a href="about.html#about" class="font-DinPro md:text-md lg:text-base">О нас в СМИ</a>
+                            <a href="about.html#about" class="font-DinPro text-md lg:text-base">О нас в СМИ</a>
                         </li>
                         <li class="border-b-2 border-b-chor py-1">
-                            <a href="about.html#answers" class="font-DinPro md:text-md lg:text-base">Отзывы</a>
+                            <a href="about.html#answers" class="font-DinPro text-md lg:text-base">Отзывы</a>
                         </li>
                         <li class="border-b-2 border-b-chor py-1">
-                            <a href="about.html#partners" class="font-DinPro md:text-md lg:text-base">Партнеры музея истории СВО</a>
+                            <a href="about.html#partners" class="font-DinPro text-md lg:text-base">Партнеры музея истории СВО</a>
                         </li>
                         <li class="border-b-2 border-b-chor py-1">
-                            <a href="about.html#proects" class="font-DinPro md:text-md lg:text-base">Проекты</a>
+                            <a href="about.html#projects" class="font-DinPro text-md lg:text-base">Проекты</a>
                         </li>
                         <li class="border-b-2 border-b-chor py-1">
-                            <a href="about.html#press" class="font-DinPro md:text-md lg:text-base">Пресс-служба</a>
+                            <a href="about.html#press" class="font-DinPro text-md lg:text-base">Пресс-служба</a>
                         </li>
                         <li class="border-b-2 border-b-chor py-1">
-                            <a href="about.html#vacancies" class="font-DinPro md:text-md lg:text-base">Вакансии</a>
+                            <a href="about.html#vacancies" class="font-DinPro text-md lg:text-base">Вакансии</a>
                         </li>
                         <li class="border-b-2 border-b-chor py-1">
-                            <a href="about.html#filials" class="font-DinPro md:text-md lg:text-base">Филиалы</a>
+                            <a href="about.html#filials" class="font-DinPro text-md lg:text-base">Филиалы</a>
                         </li>
                         <li class="border-b-2 border-b-chor py-1">
-                            <a href="about.html#contacts" class="font-DinPro md:text-md lg:text-base">Контакты</a>
+                            <a href="about.html#contacts" class="font-DinPro text-md lg:text-base">Контакты</a>
                         </li>
                         <li class="border-b-2 border-b-chor py-1">
-                            <a href="about.html#send" class="font-DinPro md:text-md lg:text-base">Написать руководителю музея</a>
+                            <a href="about.html#send" class="font-DinPro text-md lg:text-base">Написать руководителю музея</a>
                         </li>
                         <li class="py-2">
-                            <a href="about.html#360" class="font-DinPro md:text-md lg:text-base">Музей истории СВО в 360</a>
+                            <a href="about.html#360" class="font-DinPro text-md lg:text-base">Музей истории СВО в 360</a>
                         </li>
                     </ul>
                  </div>
                  <div>
-                    <a href="exhibitions.html" class="md:text-md lg:text-base">Выставки</a>
+                    <a href="exhibitions.html" class="text-md lg:text-base">Выставки</a>
                 </div>
                 <div>
-                    <a href="excursions.html" class="md:text-md lg:text-base">Экскурсии</a>
+                    <a href="excursions.html" class="text-md lg:text-base">Экскурсии</a>
                 </div>
             </div>
         </div>
@@ -201,4 +202,5 @@
     </div>
     
 </body>
+<script src="../header.js"></script>
 </html>
