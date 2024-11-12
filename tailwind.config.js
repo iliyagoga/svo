@@ -1,5 +1,8 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
+  plugins: [
+    require('postcss-minify')(),
+   ],
   content: ["./pages/*.{html,js}"],
   theme: {
     extend: {

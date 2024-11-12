@@ -1,21 +1,33 @@
 let icon= document.querySelector('#icon')
+let menu=document.querySelector('#menu')
 icon.addEventListener('click',(e)=>{
-    document.querySelector('#menu').classList.toggle('hidden')
+    menu.classList.toggle('hidden')
 })
 document.addEventListener('click',(e)=>{
-    if(e.target!=p1 && e.target!=p2  && e.target!=p3 ){
+    if(!menu.classList.contains('hidden') && e.target!=icon){
+        console.log(2)
+        if(!menu.contains(e.target)){
+            menu.classList.add('hidden')
+        }
+    }
+
+    if(!p1.contains(e.target)){
         if(!f1.classList.contains('invisible'))
         f1.classList.add('invisible')
+    }
+    if(!p2.contains(e.target)){
         if(!f2.classList.contains('invisible'))
         f2.classList.add('invisible')
+    }
+    if(!p3.contains(e.target)){
         if(!f3.classList.contains('invisible'))
         f3.classList.add('invisible')
     }
 
 })
-document.querySelector('#menu').addEventListener('click',(e)=>{
+menu.addEventListener('click',(e)=>{
     if(e.target.nodeName=='A'){
-        document.querySelector('#menu').classList.toggle('hidden')
+        menu.classList.toggle('hidden')
     }
 })
 
