@@ -2,6 +2,7 @@
 module.exports = {
   plugins: [
     require('postcss-minify')(),
+    require('tailwind-border-gradients')
    ],
   content: ["./pages/*.{html,js}"],
   theme: {

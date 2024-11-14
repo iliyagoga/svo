@@ -107,7 +107,7 @@
 }
 
 /*
-! tailwindcss v3.4.13 | MIT License | https://tailwindcss.com
+! tailwindcss v3.4.15 | MIT License | https://tailwindcss.com
 */
 
 /*
@@ -550,7 +550,7 @@ video {
 
 /* Make elements with the HTML hidden attribute stay hidden by default */
 
-[hidden] {
+[hidden]:where(:not([hidden="until-found"])) {
   display: none;
 }
 
@@ -1414,23 +1414,39 @@ video {
   border-width: 3px;
 }
 
+.border-8 {
+  border-width: 8px;
+}
+
 .border-b-2 {
   border-bottom-width: 2px;
 }
 
+.border-b-8 {
+  border-bottom-width: 8px;
+}
+
+.border-solid {
+  border-style: solid;
+}
+
 .border-\[\#A08F6C\] {
   --tw-border-opacity: 1;
-  border-color: rgb(160 143 108 / var(--tw-border-opacity));
+  border-color: rgb(160 143 108 / var(--tw-border-opacity, 1));
 }
 
 .border-chor {
   --tw-border-opacity: 1;
-  border-color: rgb(188 182 121 / var(--tw-border-opacity));
+  border-color: rgb(188 182 121 / var(--tw-border-opacity, 1));
+}
+
+.border-transparent {
+  border-color: transparent;
 }
 
 .border-b-chor {
   --tw-border-opacity: 1;
-  border-bottom-color: rgb(188 182 121 / var(--tw-border-opacity));
+  border-bottom-color: rgb(188 182 121 / var(--tw-border-opacity, 1));
 }
 
 .bg-\[\#807552B2\] {
@@ -1439,22 +1455,22 @@ video {
 
 .bg-\[\#F0EEE1\] {
   --tw-bg-opacity: 1;
-  background-color: rgb(240 238 225 / var(--tw-bg-opacity));
+  background-color: rgb(240 238 225 / var(--tw-bg-opacity, 1));
 }
 
 .bg-bg_def {
   --tw-bg-opacity: 1;
-  background-color: rgb(240 238 225 / var(--tw-bg-opacity));
+  background-color: rgb(240 238 225 / var(--tw-bg-opacity, 1));
 }
 
 .bg-chor {
   --tw-bg-opacity: 1;
-  background-color: rgb(188 182 121 / var(--tw-bg-opacity));
+  background-color: rgb(188 182 121 / var(--tw-bg-opacity, 1));
 }
 
 .bg-white {
   --tw-bg-opacity: 1;
-  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity, 1));
 }
 
 .bg-bg-afisha-1 {
@@ -1513,6 +1529,11 @@ video {
   background-repeat: no-repeat;
 }
 
+.object-contain {
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
 .object-cover {
   -o-object-fit: cover;
      object-fit: cover;
@@ -1520,6 +1541,10 @@ video {
 
 .p-\[10px\] {
   padding: 10px;
+}
+
+.p-4 {
+  padding: 1rem;
 }
 
 .px-2 {
@@ -1606,6 +1631,10 @@ video {
 
 .pr-12 {
   padding-right: 3rem;
+}
+
+.pb-2 {
+  padding-bottom: 0.5rem;
 }
 
 .text-left {
@@ -1704,28 +1733,73 @@ video {
 
 .text-black {
   --tw-text-opacity: 1;
-  color: rgb(0 0 0 / var(--tw-text-opacity));
+  color: rgb(0 0 0 / var(--tw-text-opacity, 1));
 }
 
 .text-chor-black {
   --tw-text-opacity: 1;
-  color: rgb(126 116 81 / var(--tw-text-opacity));
+  color: rgb(126 116 81 / var(--tw-text-opacity, 1));
 }
 
 .text-light-black {
   --tw-text-opacity: 1;
-  color: rgb(28 27 23 / var(--tw-text-opacity));
+  color: rgb(28 27 23 / var(--tw-text-opacity, 1));
 }
 
 .text-white {
   --tw-text-opacity: 1;
-  color: rgb(255 255 255 / var(--tw-text-opacity));
+  color: rgb(255 255 255 / var(--tw-text-opacity, 1));
 }
 
 .shadow-shadow {
   --tw-shadow: 8px 8px 17.5px 0px #7E745185;
   --tw-shadow-colored: 8px 8px 17.5px 0px var(--tw-shadow-color);
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+
+.\[border-image\:linear-gradient\(to_right\2c \#DDD8AF\2c \#FFFFFF\)\] {
+  -o-border-image: linear-gradient(to right,#DDD8AF,#FFFFFF);
+     border-image: linear-gradient(to right,#DDD8AF,#FFFFFF);
+}
+
+.\[border-image\:linear-gradient\(to_right\2c \#DDD8AF\2c \#FFFFFF\)_0\] {
+  -o-border-image: linear-gradient(to right,#DDD8AF,#FFFFFF) 0;
+     border-image: linear-gradient(to right,#DDD8AF,#FFFFFF) 0;
+}
+
+.\[border-image\:linear-gradient\(to_right\2c \#DDD8AF\2c \#FFFFFF\)_10\] {
+  -o-border-image: linear-gradient(to right,#DDD8AF,#FFFFFF) 10;
+     border-image: linear-gradient(to right,#DDD8AF,#FFFFFF) 10;
+}
+
+.\[border-image\:linear-gradient\(to_right\2c \#DDD8AF\2c \#FFFFFF\)_20\] {
+  -o-border-image: linear-gradient(to right,#DDD8AF,#FFFFFF) 20;
+     border-image: linear-gradient(to right,#DDD8AF,#FFFFFF) 20;
+}
+
+.\[border-image\:linear-gradient\(to_right\2c \#DDD8AF\2c \#FFFFFF\)_30\] {
+  -o-border-image: linear-gradient(to right,#DDD8AF,#FFFFFF) 30;
+     border-image: linear-gradient(to right,#DDD8AF,#FFFFFF) 30;
+}
+
+.\[border-image\:linear-gradient\(to_right\2c \#DDD8AF\2c \#FFFFFF\)_50\] {
+  -o-border-image: linear-gradient(to right,#DDD8AF,#FFFFFF) 50;
+     border-image: linear-gradient(to right,#DDD8AF,#FFFFFF) 50;
+}
+
+.\[border-image\:linear-gradient\(to_right\2c \#DDD8AF\2c \#FFFFFF\)_5\] {
+  -o-border-image: linear-gradient(to right,#DDD8AF,#FFFFFF) 5;
+     border-image: linear-gradient(to right,#DDD8AF,#FFFFFF) 5;
+}
+
+.\[border-image\:linear-gradient\(to_top_right\2c \#DDD8AF\2c \#FFFFFF\)_30\] {
+  -o-border-image: linear-gradient(to top right,#DDD8AF,#FFFFFF) 30;
+     border-image: linear-gradient(to top right,#DDD8AF,#FFFFFF) 30;
+}
+
+.\[border-image\:linear-gradient\(to_top_right\2c \#f6b73c\2c \#4d9f0c\)_30\] {
+  -o-border-image: linear-gradient(to top right,#f6b73c,#4d9f0c) 30;
+     border-image: linear-gradient(to top right,#f6b73c,#4d9f0c) 30;
 }
 
 @font-face {
@@ -2606,6 +2680,14 @@ video {
     height: 100vh;
   }
 
+  .lg\:h-\[350px\] {
+    height: 350px;
+  }
+
+  .lg\:h-\[400px\] {
+    height: 400px;
+  }
+
   .lg\:w-1\/2 {
     width: 50%;
   }
@@ -2928,6 +3010,18 @@ video {
     height: 2rem;
   }
 
+  .xl\:h-\[500px\] {
+    height: 500px;
+  }
+
+  .xl\:h-\[600px\] {
+    height: 600px;
+  }
+
+  .xl\:h-\[450px\] {
+    height: 450px;
+  }
+
   .xl\:w-1\/2 {
     width: 50%;
   }
@@ -3017,6 +3111,12 @@ video {
     --tw-space-x-reverse: 0;
     margin-right: calc(3rem * var(--tw-space-x-reverse));
     margin-left: calc(3rem * calc(1 - var(--tw-space-x-reverse)));
+  }
+
+  .xl\:space-x-16 > :not([hidden]) ~ :not([hidden]) {
+    --tw-space-x-reverse: 0;
+    margin-right: calc(4rem * var(--tw-space-x-reverse));
+    margin-left: calc(4rem * calc(1 - var(--tw-space-x-reverse)));
   }
 
   .xl\:space-x-8 > :not([hidden]) ~ :not([hidden]) {

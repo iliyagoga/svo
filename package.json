@@ -1,11 +1,12 @@
 {
   "devDependencies": {
-    "tailwindcss": "^3.4.13"
+    "tailwindcss": "^3.4.15"
   },
   "dependencies": {
     "postcss": "^8.4.49",
     "postcss-cli": "^11.0.0",
     "postcss-minify": "^1.1.0",
+    "tailwind-border-gradients": "^1.1.2",
     "tw-elements": "^2.0.0"
   }
 }
