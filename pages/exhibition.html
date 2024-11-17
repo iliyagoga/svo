@@ -5,6 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="../src/theme3/output.css">
+    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css"
+    />
 </head>
 <body class="relative bg-[#F0EEE1]">
     <header class="fixed w-screen z-50" >
@@ -14,147 +19,153 @@
 
                 <img class="md:hidden" src="../src/assets/imgs/icons8-menu.svg" alt="" id="icon">
             </div>
-            <div class="hidden absolute md:block top-28 md:top-0 md:relative px-8 md:px-0 w-[80%] md:w-auto h-screen md:h-auto bg-white  md:flex flex-col md:flex-row space-y-5 md:space-x-12 xl:space-x-16 md:space-y-0 py-4" id="menu">
+            <div class="hidden absolute md:block top-28 md:top-0 md:relative px-8 md:px-0 w-[80%] md:w-auto h-screen md:h-auto bg-white  md:flex flex-col md:flex-row space-y-5 md:space-x-12 lg:space-x-8 xl:space-x-16 md:space-y-0 py-4" id="menu">
                 <div class="relative">
                     <div class=" relative flex items-center space-x-2 cursor-pointer" id="p1">
-                        <span class="font-DinPro text-base xl:text-xl">
+                        <span class="font-DinPro text-base xl:text-xl uppercase">
                             Посетителям
                         </span>
                         <img class="md:w-2 lg:w-4" src="../src/assets/imgs/thr-black.svg" alt="">
                     </div>
                         <ul class="invisible absolute bg-white py-8 md:p-8 space-y-3 top-full w-full md:w-max z-10" id="f1">
                             <li class="border-b-2 border-b-chor py-1">
-                                <a href="visitors.html#poster" class="font-DinPro text-base xl:text-xl w-full block">Афиша</a>
+                                <a href="visitors.html#poster" class="font-DinPro text-base xl:text-xl uppercase w-full block">Афиша</a>
                             </li>
                             <li class="border-b-2 border-b-chor py-1">
-                                <a href="visitors.html#events" class="font-DinPro text-base xl:text-xl w-full block ">События</a>
+                                <a href="visitors.html#events" class="font-DinPro text-base xl:text-xl uppercase w-full block ">События</a>
                             </li>
                             <li class="border-b-2 border-b-chor py-1">
-                                <a href="visitors.html#news" class="font-DinPro text-base xl:text-xl w-full block ">Новости</a>
+                                <a href="visitors.html#news" class="font-DinPro text-base xl:text-xl uppercase w-full block ">Новости</a>
                             </li>
                             <li class="border-b-2 border-b-chor py-1">
-                                <a href="visitors.html#question" class="font-DinPro text-base xl:text-xl w-full block ">Вопрос-ответ</a>
+                                <a href="visitors.html#question" class="font-DinPro text-base xl:text-xl uppercase w-full block ">Вопрос-ответ</a>
                             </li>
                             <li class="border-b-2 border-b-chor py-1">
-                                <a href="visitors.html#availability" class="font-DinPro text-base xl:text-xl w-full block ">Доступность</a>
+                                <a href="visitors.html#availability" class="font-DinPro text-base xl:text-xl uppercase w-full block ">Доступность</a>
                             </li>
                             <li class="border-b-2 border-b-chor py-1">
-                                <a href="visitors.html#services" class="font-DinPro text-base xl:text-xl w-full block ">Услуги</a>
+                                <a href="visitors.html#services" class="font-DinPro text-base xl:text-xl uppercase w-full block ">Услуги</a>
                             </li>
                             <li class="border-b-2 border-b-chor py-1">
-                                <a href="visitors.html#c_quiz" class="font-DinPro text-base xl:text-xl w-full block ">Космический квиз</a>
+                                <a href="visitors.html#c_quiz" class="font-DinPro text-base xl:text-xl uppercase w-full block ">Космический квиз</a>
                             </li>
                             <li class="border-b-2 border-b-chor py-1">
-                                <a href="visitors.html#v_quiz" class="font-DinPro text-base xl:text-xl w-full block ">Военно-патриотический квиз</a>
+                                <a href="visitors.html#v_quiz" class="font-DinPro text-base xl:text-xl uppercase w-full block ">Военно-патриотический квиз</a>
                             </li>
                             <li class="border-b-2 border-b-chor py-1">
-                                <a href="visitors.html#message" class="font-DinPro text-base xl:text-xl w-full block ">Письмо солдату СВО</a>
+                                <a href="visitors.html#message" class="font-DinPro text-base xl:text-xl uppercase w-full block ">Письмо солдату СВО</a>
+                            </li>
+                            <li class="border-b-2 border-b-chor py-1">
+                                <a href="visitors.html#excursion" class="font-DinPro text-base xl:text-xl uppercase w-full block ">Экскурсия по экспозиции Музея истории СВО</a>
                             </li>
                             <li class="py-2">
-                                <a href="visitors.html#excursion" class="font-DinPro text-base xl:text-xl w-full block ">Экскурсия по экспозиции Музея истории СВО</a>
+                                <a href="visitors.html#contacts" class="font-DinPro text-base xl:text-xl uppercase w-full block ">Контакты</a>
                             </li>
                         </ul>
             
                 </div>
                 <div class="relative ">        
                     <div class="relative flex items-center space-x-2 cursor-pointer" id="p2">
-                        <span class="text-base xl:text-xl">
+                        <span class="font-DinPro text-base xl:text-xl uppercase">
                             Учителям
                         </span>
                         <img class="md:w-2 lg:w-4" src="../src/assets/imgs/thr-black.svg" alt="">
                     </div>
                     <ul class="invisible absolute bg-white py-8 md:p-8 space-y-3 top-full w-full md:w-max z-10" id="f2">
                         <li class="border-b-2 border-b-chor py-1">
-                            <a href="teachers.html#mean" class="font-DinPro text-base xl:text-xl w-full block ">Важность изучения СВО в школах</a>
+                            <a href="teachers.html#mean" class="font-DinPro text-base xl:text-xl uppercase w-full block ">Важность изучения СВО в школах</a>
                         </li>
                         <li class="border-b-2 border-b-chor py-1">
-                            <a href="teachers.html#recs" class="font-DinPro text-base xl:text-xl w-full block ">Методические рекомендации</a>
+                            <a href="teachers.html#recs" class="font-DinPro text-base xl:text-xl uppercase w-full block ">Методические рекомендации</a>
                         </li>
                         <li class="border-b-2 border-b-chor py-1">
-                            <a href="teachers.html#books" class="font-DinPro text-base xl:text-xl w-full block ">Книга памяти</a>
+                            <a href="teachers.html#books" class="font-DinPro text-base xl:text-xl uppercase w-full block ">Книга памяти</a>
                         </li>
                         <li class="border-b-2 border-b-chor py-1">
-                            <a href="teachers.html#heroes" class="font-DinPro text-base xl:text-xl w-full block ">Земляки-герои РФ</a>
+                            <a href="teachers.html#heroes" class="font-DinPro text-base xl:text-xl uppercase w-full block ">Земляки-герои РФ</a>
                         </li>
                         <li class="border-b-2 border-b-chor py-1">
-                            <a href="teachers.html#films" class="font-DinPro text-base xl:text-xl w-full block ">Документальные фильмы</a>
+                            <a href="teachers.html#films" class="font-DinPro text-base xl:text-xl uppercase w-full block ">Документальные фильмы</a>
                         </li>
                         <li class="border-b-2 border-b-chor py-1">
-                            <a href="teachers.html#message" class="font-DinPro text-base xl:text-xl w-full block ">Письмо солдату СВО</a>
+                            <a href="teachers.html#message" class="font-DinPro text-base xl:text-xl uppercase w-full block ">Письмо солдату СВО</a>
                         </li>
                         <li class="border-b-2 border-b-chor py-1">
-                            <a href="teachers.html#info" class="font-DinPro text-base xl:text-xl w-full block ">Информация о музее истории СВО</a>
+                            <a href="teachers.html#info" class="font-DinPro text-base xl:text-xl uppercase w-full block ">Информация о музее истории СВО</a>
+                        </li>
+                        <li class="border-b-2 border-b-chor py-1">
+                            <a href="teachers.html#galery" class="font-DinPro text-base xl:text-xl uppercase w-full block ">Галерея</a>
                         </li>
                         <li class="py-2">
-                            <a href="teachers.html#galery" class="font-DinPro text-base xl:text-xl w-full block ">Галерея</a>
+                            <a href="teachers.html#contacts" class="font-DinPro text-base xl:text-xl uppercase w-full block ">Контакты</a>
                         </li>
                     </ul>
         
                 </div>
                 <div class="relative"> 
                     <div class=" relative flex items-center space-x-2 cursor-pointer" id="p3">
-                        <span class="text-base xl:text-xl">
+                        <span class="font-DinPro text-base xl:text-xl uppercase">
                             О нас
                         </span>
                         <img class="md:w-2 lg:w-4" src="../src/assets/imgs/thr-black.svg" alt="">
                     </div>
                     <ul class="invisible absolute bg-white py-8 md:p-8 space-y-3 top-full w-full md:w-max" id="f3">
                         <li class="border-b-2 border-b-chor py-1">
-                            <a href="about.html#info" class="font-DinPro text-base xl:text-xl w-full block ">Юридическия информация</a>
+                            <a href="about.html#info" class="font-DinPro text-base xl:text-xl uppercase w-full block ">Юридическия информация</a>
                         </li>
                         <li class="border-b-2 border-b-chor py-1">
-                            <a href="about.html#about" class="font-DinPro text-base xl:text-xl w-full block ">О нас в СМИ</a>
+                            <a href="about.html#about" class="font-DinPro text-base xl:text-xl uppercase w-full block ">О нас в СМИ</a>
                         </li>
                         <li class="border-b-2 border-b-chor py-1">
-                            <a href="about.html#answers" class="font-DinPro text-base xl:text-xl w-full block ">Отзывы</a>
+                            <a href="about.html#answers" class="font-DinPro text-base xl:text-xl uppercase w-full block ">Отзывы</a>
                         </li>
                         <li class="border-b-2 border-b-chor py-1">
-                            <a href="about.html#partners" class="font-DinPro text-base xl:text-xl w-full block ">Партнеры музея истории СВО</a>
+                            <a href="about.html#partners" class="font-DinPro text-base xl:text-xl uppercase w-full block ">Партнеры музея истории СВО</a>
                         </li>
                         <li class="border-b-2 border-b-chor py-1">
-                            <a href="about.html#projects" class="font-DinPro text-base xl:text-xl w-full block ">Проекты</a>
+                            <a href="about.html#projects" class="font-DinPro text-base xl:text-xl uppercase w-full block ">Проекты</a>
                         </li>
                         <li class="border-b-2 border-b-chor py-1">
-                            <a href="about.html#press" class="font-DinPro text-base xl:text-xl w-full block ">Пресс-служба</a>
+                            <a href="about.html#press" class="font-DinPro text-base xl:text-xl uppercase w-full block ">Пресс-служба</a>
                         </li>
                         <li class="border-b-2 border-b-chor py-1">
-                            <a href="about.html#vacancies" class="font-DinPro text-base xl:text-xl w-full block ">Вакансии</a>
+                            <a href="about.html#vacancies" class="font-DinPro text-base xl:text-xl uppercase w-full block ">Вакансии</a>
                         </li>
                         <li class="border-b-2 border-b-chor py-1">
-                            <a href="about.html#filials" class="font-DinPro text-base xl:text-xl w-full block ">Филиалы</a>
+                            <a href="about.html#filials" class="font-DinPro text-base xl:text-xl uppercase w-full block ">Филиалы</a>
                         </li>
                         <li class="border-b-2 border-b-chor py-1">
-                            <a href="about.html#contacts" class="font-DinPro text-base xl:text-xl w-full block ">Контакты</a>
+                            <a href="about.html#send" class="font-DinPro text-base xl:text-xl uppercase w-full block ">Написать руководителю музея</a>
                         </li>
                         <li class="border-b-2 border-b-chor py-1">
-                            <a href="about.html#send" class="font-DinPro text-base xl:text-xl w-full block ">Написать руководителю музея</a>
+                            <a href="about.html#360" class="font-DinPro text-base xl:text-xl uppercase w-full block ">Музей истории СВО в 360</a>
                         </li>
                         <li class="py-2">
-                            <a href="about.html#360" class="font-DinPro text-base xl:text-xl w-full block ">Музей истории СВО в 360</a>
+                            <a href="about.html#contacts" class="font-DinPro text-base xl:text-xl uppercase w-full block ">Контакты</a>
                         </li>
                     </ul>
                  </div>
                  <div>
-                    <a href="exhibitions.html" class="text-base xl:text-xl">Выставки</a>
+                    <a href="exhibitions.html" class="font-DinPro text-base xl:text-xl uppercase">Выставки</a>
                 </div>
                 <div>
-                    <a href="excursions.html" class="text-base xl:text-xl">Экскурсии</a>
+                    <a href="excursions.html" class="font-DinPro text-base xl:text-xl uppercase">Экскурсии</a>
                 </div>
             </div>
         </div>
     </header>
-    <div class="relative top-32 md:top-28 lg:top-48  pb-12">
+    <div class="relative top-32 md:top-28 lg:top-32">
         <div class="relative">
             <img src="../src/assets/imgs/image 28.png" alt="">
         </div>
-        <div class="w-full mt-16 md:mt-40 xl:mt-60 px-8 lg:px-32">
+        <div class="w-full mt-16 md:mt-24 px-8 lg:px-32">
             <div class="md:w-full  flex md:space-x-8 lg:space-x-16">
                 <div>
                     <div class="md:space-y-4">
                         <h3 class="font-Conthrax text-4xl xl:text-6xl">Выставка</h3>
                         <div class="md:h-8 w-full bg-image bg-gradient-theme3-yellow mt-8"></div>
                     </div>
-                    <div class="md:flex md:items-center">
+                    <div class="md:flex md:items-center mt-4">
                         <p class="md:block font-DinPro md:text-sm lg:text-base xl:text-2xl">Музей истории специальной военной операции открылся в Саратове 28 июля 2023 года. Задача — сохранить память о саратовцах-участниках СВО. Музей является филиалом саратовского Исторического парка «Россия — Моя история».</p>
                     </div>
                 </div>
@@ -162,61 +173,106 @@
                     <div class="h-full w-16 bg-image bg-gradient-theme3-yellow-90"></div>
                 </div>
             </div>
-            <div class="mt-8 grid grid-rows-5 grid-cols-4 md:grid-rows-4 gap-4 md:h-[600px] h-[500px] md:mt-12 lg:h-[800px]">
+            <div class="mt-8 grid grid-rows-5 md:grid-rows-4 grid-cols-4 gap-4 md:h-[600px] h-[500px] md:mt-12 lg:h-[1000px]">
                 <div class="col-span-2 relative">
                     <img class="absolute w-[50px] top-[-20px] left-[-28px] lg:w-[80px] lg:top-[-35px] lg:left-[-45px]" src="../src/assets/imgs/Group 190 (1).svg" alt="">
-                    <img class="h-full object-cover w-full" src="../src/assets/imgs/image 29.png" alt="">
+                    <a href="../src/assets/imgs/image 29.png" data-fancybox="gallery" data-caption="Caption #1">
+                        <img class="h-full object-cover w-full" src="../src/assets/imgs/image 29.png" alt="">
+                    </a>
                 </div>
                 <div class="col-span-2 md:row-span-2 relative row-span-3">
                     <img src="../src/assets/imgs/Group 192 (1).svg" class="absolute w-[50px] top-[10px] left-[-45px] lg:w-[60px] lg:top-[10px] lg:left-[-53px]" alt="">
                     <img src="../src/assets/imgs/Group 188 (1).svg" class="absolute w-[60px] bottom-[-32px] left-[-45px] lg:w-[70px] lg:bottom-[-40px] lg:left-[-55px]"alt="">
                     <img src="../src/assets/imgs/Group 189 (1).svg" class="absolute w-[60px] bottom-[-22px] right-[-21px] lg:w-[70px] lg:bottom-[-27px] lg:right-[-24px]"alt="">
-                    <img class="h-full object-cover w-full" src="../src/assets/imgs/image 29.png" alt="">
+                    <a href="../src/assets/imgs/image 29.png" data-fancybox="gallery" data-caption="Caption #1">
+                        <img class="h-full object-cover w-full" src="../src/assets/imgs/image 29.png" alt="">
+                    </a>
                 </div>
                 <div class="col-span-2 md:col-span-1">
-                    <img class="h-full object-cover w-full" src="../src/assets/imgs/image 29.png" alt="">
+                    <a href="../src/assets/imgs/image 29.png" data-fancybox="gallery" data-caption="Caption #1">
+                        <img class="h-full object-cover w-full" src="../src/assets/imgs/image 29.png" alt="">
+                    </a>
                 </div>
                 <div class="relative col-span-2 md:col-span-1">
                     <img src="../src/assets/imgs/Group 191 (1).svg" class="absolute w-[60px] top-[-32px] left-[-30px] lg:w-[70px] lg:top-[-40px] lg:left-[-35px]" alt="">
-                    <img class="h-full object-cover w-full" src="../src/assets/imgs/image 29.png" alt="">
+                    <a href="../src/assets/imgs/image 29.png" data-fancybox="gallery" data-caption="Caption #1">
+                        <img class="h-full object-cover w-full" src="../src/assets/imgs/image 29.png" alt="">
+                    </a>
                 </div>
-                <div class="col-span-4 md:col-span-2 rol-span-2 ">
-                    <footer>
+                <div class="col-span-2 md:col-span-2 row-span-2 ">
+                    <a href="../src/assets/imgs/image 29.png" data-fancybox="gallery" data-caption="Caption #1">
+                        <img class="h-full object-cover w-full" src="../src/assets/imgs/image 29.png" alt="">
+                    </a>
+                </div>
+                <div class="col-span-2 rol-span-1 relative"> 
+                    <img src="../src/assets/imgs/Group 188 (1).svg" class="absolute w-[50px] w-[50px] bottom-[-27px] left-[-10px] md:w-[60px] md:bottom-[-32px] md:left-[-10px] lg:w-[70px] lg:bottom-[-40px] lg:left-[-10px]"alt="">
+                    <a href="../src/assets/imgs/image 29.png" data-fancybox="gallery" data-caption="Caption #1">
+                        <img class="h-full object-cover w-full" src="../src/assets/imgs/image 29.png" alt="">
+                    </a>
+                </div>
+                <div class="col-span-2 rol-span-1 relative"> 
+                    <img src="../src/assets/imgs/Group 188 (1).svg" class="absolute w-[50px] w-[50px] bottom-[-27px] left-[-10px] md:w-[60px] md:bottom-[-32px] md:left-[-10px] lg:w-[70px] lg:bottom-[-40px] lg:left-[-10px]"alt="">
+                    <a href="../src/assets/imgs/image 29.png" data-fancybox="gallery" data-caption="Caption #1">
+                        <img class="h-full object-cover w-full" src="../src/assets/imgs/image 29.png" alt="">
+                    </a>
+                </div>
+
+            </div>
+        </div>
+        <a name="contacts"></a>
+        <div class="flex space-x-12 md:space-x-0 mt-24 pb-12 md:justify-center w-full">
+            <div class="w-full">
+                <div class="flex gap-x-4 lg:px-32 items-center px-8">
+                    <h3 class="font-Conthrax text-4xl lg:text-4xl xl:text-6xl">Контакты</h3>
+                    <div class="w-1/2 bg-image bg-gradient-theme3-yellow md:h-8"></div>
+                </div>
+        
+                <div class="hidden md:block md:w-full mt-12 md:mt-24 flex justify-center">
+                    <iframe class="w-full" src="https://yandex.ru/map-widget/v1/?um=constructor%3A6222204780f7ed62c95dbf7ddd1b8585cd6cf986236b987691e4579c143a5895&amp;source=constructor&amp;scroll=false" width="1280" height="240" frameborder="0"></iframe>
+                </div>
+                <div class="md:hidden pl-8 md:w-full mt-12 md:mt-24 flex justify-center">
+                    <iframe class="w-full" src="https://yandex.ru/map-widget/v1/?um=constructor%3A6222204780f7ed62c95dbf7ddd1b8585cd6cf986236b987691e4579c143a5895&amp;source=constructor&amp;scroll=false" width="1280" height="240" frameborder="0"></iframe>
+                </div>
+                <footer class="md:px-32 md:py-16 mt-12 md:mt-0 px-8">
+                    <div class="flex justify-center gap-x-8 flex-col md:flex-row">
                         <div class="flex flex-col gap-y-7">
-                            <div>
-                                <h3 class="text-sm lg:text-base xl:text-2xl font-DinPro font-bold">Адрес и часы работы</h3>
+                            <div class="flex gap-x-2 items-start">
+                                <img class="w-6 h-6" src="../src/assets/imgs/Vector (4).svg" alt="">
+                                <span class="text-lg font-DinPro font-normal">+7 (8452) 24-20-00</span>
+                            </div>
+                            <div class="flex gap-x-2 items-start">
+                                <img class="w-6 h-6" src="../src/assets/imgs/Group 107.svg" alt="">
+                                <span class="text-lg font-DinPro font-normal">email@email.ru</span>
                             </div>
                             <div class="flex gap-x-2 items-start">
                                 <img class="w-6 h-6" src="../src/assets/imgs/Vector (5).svg" alt="">
-                                <span class="text-sm lg:text-base xl:text-2xl font-DinPro">г. Саратов, ул. Московская, 94</span>
+                                <span class="text-lg font-DinPro font-normal">г. Саратов, ул. Московская, 94</span>
                             </div>
-                            <div class="flex gap-x-2 items-start">
-                                <img class="w-6 h-6" src="../src/assets/imgs/Vector (4).svg" alt="">
-                                <span class="text-sm lg:text-base xl:text-2xl font-DinPro">+7 (8452) 24-20-00</span>
-                            </div>
+                         </div>
+                        <div class="mt-7 md:mt-0">
                             <div class="flex gap-x-2 items-start">
                                 <img class="w-6 h-6" src="../src/assets/imgs/Vector (6).svg" alt="">
                                 <div class="flex flex-col ">
-                                    <span class="text-sm lg:text-base xl:text-2xl font-DinPro">понедельник – выходной</span>
-                                    <span class="text-sm lg:text-base xl:text-2xl mt-4 font-DinPro">вторник – пятница: 10:00 – 18:00</span>
-                                    <span class="text-sm lg:text-base xl:text-2xl mt-4 font-DinPro">суббота: 10:00 – 19:00</span>
-                                    <span class="text-sm lg:text-base xl:text-2xl mt-4 font-DinPro">воскресенье: 11:00 – 20:00</span>
-                                    <span class="text-sm lg:text-base xl:text-2xl mt-4 font-DinPro">Последний вторник месяца – санитарный день</span>
+                                    <span class="text-lg font-DinPro font-normal">понедельник – выходной</span>
+                                    <span class="text-lg font-DinPro font-normal">вторник – пятница: 10:00 – 18:00</span>
+                                    <span class="text-lg font-DinPro font-normal">суббота: 10:00 – 19:00</span>
+                                    <span class="text-lg font-DinPro font-normal">воскресенье: 11:00 – 20:00</span>
+                                    <span class="text-lg font-DinPro font-normal">Последний вторник месяца – санитарный день</span>
                                 </div>
+                              
                             </div>
-                        </div>  
-                            
-                    </footer>
-                </div>
-                <div class="col-span-2 rol-span-2 row-start-1 md:row-start-auto row-span-2 relative"> 
-                    <img src="../src/assets/imgs/Group 188 (1).svg" class="absolute w-[50px] w-[50px] bottom-[-27px] left-[-10px] md:w-[60px] md:bottom-[-32px] md:left-[-10px] lg:w-[70px] lg:bottom-[-40px] lg:left-[-10px]"alt="">
-                    <img class="h-full object-cover w-full" src="../src/assets/imgs/image 29.png" alt="">
-                </div>
-
+                        </div>
+                    </div>
+            
+                </footer>
+            </div>
+            <div class="md:hidden">
+                <div class="h-full w-12 bg-image bg-gradient-theme3-yellow-90"></div>
             </div>
         </div>
     </div>
     
 </body>
 <script src="../header.js"></script>
+<script src="../gallery.js"></script>
 </html>

@@ -1,5 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
+  important: true,
   plugins: [
     require('postcss-minify')(),
     require('tailwind-border-gradients')
