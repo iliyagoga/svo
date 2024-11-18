@@ -2,6 +2,9 @@ $(document).ready(function(){
     $('#partners').owlCarousel({
       loop:true,
       margin:30,
+      nav:true,
+      dots:false,
+      navText : ['<i class="fa fa-angle-left" style="font-size:30px" aria-hidden="true"><</i>','<i class="fa fa-angle-right" style="font-size:30px" aria-hidden="true">></i>'],
       responsive:{
           0:{
               items:2
@@ -16,6 +19,9 @@ $(document).ready(function(){
     });
     $('#proj').owlCarousel({
       loop:true,
+      nav:true,
+      dots:false,
+      navText : ['<i class="fa fa-angle-left" style="font-size:30px" aria-hidden="true"><</i>','<i class="fa fa-angle-right" style="font-size:30px" aria-hidden="true">></i>'],
       responsive:{
           0:{
               items:2,
@@ -33,6 +39,9 @@ $(document).ready(function(){
     });
     $('#fils').owlCarousel({
       loop:true,
+      nav:true,
+      dots:false,
+      navText : ['<i class="fa fa-angle-left" style="font-size:30px" aria-hidden="true"><</i>','<i class="fa fa-angle-right" style="font-size:30px" aria-hidden="true">></i>'],
       margin:30,
       responsive:{
           0:{
