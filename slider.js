@@ -1,5 +1,5 @@
 $(document).ready(function(){
-    $('#partners').owlCarousel({
+    $('#partns').owlCarousel({
       loop:true,
       margin:30,
       nav:true,
