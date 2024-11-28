@@ -6,6 +6,7 @@
     <title>Document</title>
     <link rel="stylesheet" href="../src/theme3/output.css">
     <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js"></script>
+    <script src="/jquery.min.js_3.5.1/cdnjs/jquery.min.js"></script>
     <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css"
@@ -159,10 +160,15 @@
             <img src="../src/assets/imgs/image 28.png" alt="">
         </div>
         <div class="w-full mt-16 md:mt-24 px-8 lg:px-32">
-            <div class="md:w-full  flex md:space-x-8 lg:space-x-16">
+            <div>
+                <a href="../src/assets/imgs/image 29.png" data-fancybox="gallery" data-caption="Caption #1">
+                    <img src="../src/assets/imgs/image 29.png" alt="">
+                </a>
+            </div>
+            <div class="md:w-full  flex md:space-x-8 lg:space-x-16 mt-8">
                 <div>
                     <div class="md:space-y-4">
-                        <h3 class="font-Conthrax text-4xl xl:text-6xl">Экскурсия</h3>
+                        <h3 class="font-Conthrax text-3xl md:text-4xl xl:text-6xl">Экскурсия</h3>
                         <div class="md:h-8 w-full bg-image bg-gradient-theme3-yellow mt-8"></div>
                     </div>
                     <div class="md:flex md:items-center mt-4">
@@ -170,7 +176,7 @@
                     </div>
                 </div>
                 <div class="md:hidden">
-                    <div class="h-full w-16 bg-image bg-gradient-theme3-yellow-90"></div>
+                    <div class="h-full w-12 bg-image bg-gradient-theme3-yellow-90"></div>
                 </div>
             </div>
             <div class="mt-8 grid grid-rows-5 md:grid-rows-4 grid-cols-4 gap-4 md:h-[600px] h-[500px] md:mt-12 lg:h-[1000px]">
@@ -220,9 +226,9 @@
             </div>
         </div>
         <a name="contacts"></a>
-        <div class="flex space-x-12 md:space-x-0 mt-24 pb-12 md:justify-center w-full">
+        <div class="flex space-x-8 md:space-x-0 relative top-[150px] pb-12 md:justify-center w-full">
             <div class="w-full">
-                <div class="flex gap-x-4 lg:px-32 items-center px-8">
+                <div class="flex gap-x-4 lg:px-32 items-center px-4 md:px-8">
                     <h3 class="font-Conthrax text-4xl lg:text-4xl xl:text-6xl">Контакты</h3>
                     <div class="w-1/2 bg-image bg-gradient-theme3-yellow md:h-8"></div>
                 </div>
@@ -230,10 +236,10 @@
                 <div class="hidden md:block md:w-full mt-12 md:mt-24 flex justify-center">
                     <iframe class="w-full" src="https://yandex.ru/map-widget/v1/?um=constructor%3A6222204780f7ed62c95dbf7ddd1b8585cd6cf986236b987691e4579c143a5895&amp;source=constructor&amp;scroll=false" width="1280" height="240" frameborder="0"></iframe>
                 </div>
-                <div class="md:hidden pl-8 md:w-full mt-12 md:mt-24 flex justify-center">
+                <div class="md:hidden pl-4 md:w-full mt-12 md:mt-24 flex justify-center">
                     <iframe class="w-full" src="https://yandex.ru/map-widget/v1/?um=constructor%3A6222204780f7ed62c95dbf7ddd1b8585cd6cf986236b987691e4579c143a5895&amp;source=constructor&amp;scroll=false" width="1280" height="240" frameborder="0"></iframe>
                 </div>
-                <footer class="md:px-32 md:py-16 mt-12 md:mt-0 px-8">
+                <footer class="md:px-32 md:py-16 mt-12 md:mt-0 px-4">
                     <div class="flex justify-center gap-x-8 flex-col md:flex-row">
                         <div class="flex flex-col gap-y-7">
                             <div class="flex gap-x-2 items-start">
@@ -267,7 +273,7 @@
                 </footer>
             </div>
             <div class="md:hidden">
-                <div class="h-full w-12 bg-image bg-gradient-theme3-yellow-90"></div>
+                <div class="h-full w-8 md:w-12 bg-image bg-gradient-theme3-yellow-90"></div>
             </div>
         </div>
     </div>

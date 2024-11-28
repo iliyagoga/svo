@@ -5,10 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="../src/theme3/output.css">
+    <script src="/jquery.min.js_3.5.1/cdnjs/jquery.min.js"></script>
 </head>
 <body class="overflow-x-hidden w-screen relative bg-bg_def w-[80%] md:w-full">
     <header class="fixed w-screen z-50" >
-        <div class="fixed font-DinPro flex justify-between bg-white md:items-center fixed w-full py-4 md:px-8 lg:px-32" >
+        <div class="fixed font-DinPro flex justify-between bg-white md:items-center fixed w-full py-4 md:px-4 lg:px-32" >
             <div class="px-8 md:px-0 flex justify-between w-full items-center md:items-start md:justify-auto md:w-auto">
                 <a href="index.html"><img class="w-44 md:w-20 lg:w-36" src="../src/assets/imgs/svo-logo-svg.svg" alt=""></a>
 
@@ -17,9 +18,9 @@
             <div class="hidden absolute md:block top-28 md:top-0 md:relative px-8 md:px-0 w-[80%] md:w-auto h-screen md:h-auto bg-white  md:flex flex-col md:flex-row space-y-5 md:space-x-12 lg:space-x-8 xl:space-x-16 md:space-y-0 py-4" id="menu">
                 <div class="relative">
                     <div class=" relative flex items-center space-x-2 cursor-pointer" id="p1">
-                        <span class="font-DinPro text-base xl:text-xl uppercase">
+                        <a href="./visitors.html" class="font-DinPro text-base xl:text-xl uppercase">
                             Посетителям
-                        </span>
+                        </a>
                         <img class="md:w-2 lg:w-4" src="../src/assets/imgs/thr-black.svg" alt="">
                     </div>
                         <ul class="invisible absolute bg-white py-8 md:p-8 space-y-3 top-full w-full md:w-max z-10" id="f1">
@@ -61,9 +62,9 @@
                 </div>
                 <div class="relative ">        
                     <div class="relative flex items-center space-x-2 cursor-pointer" id="p2">
-                        <span class="font-DinPro text-base xl:text-xl uppercase">
+                        <a href="./teachers.html" class="font-DinPro text-base xl:text-xl uppercase">
                             Учителям
-                        </span>
+                        </a>
                         <img class="md:w-2 lg:w-4" src="../src/assets/imgs/thr-black.svg" alt="">
                     </div>
                     <ul class="invisible absolute bg-white py-8 md:p-8 space-y-3 top-full w-full md:w-max z-10" id="f2">
@@ -99,9 +100,9 @@
                 </div>
                 <div class="relative"> 
                     <div class=" relative flex items-center space-x-2 cursor-pointer" id="p3">
-                        <span class="font-DinPro text-base xl:text-xl uppercase">
+                        <a href="./about.html" class="font-DinPro text-base xl:text-xl uppercase">
                             О нас
-                        </span>
+                        </a>
                         <img class="md:w-2 lg:w-4" src="../src/assets/imgs/thr-black.svg" alt="">
                     </div>
                     <ul class="invisible absolute bg-white py-8 md:p-8 space-y-3 top-full w-full md:w-max" id="f3">
@@ -151,7 +152,7 @@
     </header>
     <div class="w-full h-full relative top-32 md:top-20">
         <div class="bg-image bg-theme3-top-bg h-screen md:h-[50vh] lg:h-screen w-full flex flex-col justify-center bg-no-repeat">
-            <div class="md:px-8 lg:px-32">
+            <div class="md:px-4 lg:px-32">
                 <div class="bg-[#807552B2] py-8 px-4 md:w-1/2 ">
                     <h2 class="text-white font-Conthrax text-4xl lg:text-5xl xl:text-7xl">Музей СВО</h2>
                     <p class="text-white font-DinPro text-sm md:text-base lg:text-2xl mt-4">Музей истории специальной военной операции открылся в Саратове 28 июля 2023 года. Задача — сохранить память о саратовцах-участниках СВО. Музей является филиалом саратовского Исторического парка «Россия — Моя история».</p>
@@ -165,29 +166,29 @@
                     <img class="md:relative md:w-[80%]" src="../src/assets/imgs/Group 191.svg" alt="">
                 </div>
                 <img class="absolute top-[-60px] w-[200px] right-0 md:hidden" src="../src/assets/imgs/Group 179.svg" alt="">
-                <div class="w-[80%] md:w-full relative md:z-4 pl-8 lg:pl-32">
-                    <h2 class="font-Conthrax text-4xl xl:text-6xl">Музей СВО</h2>
+                <div class="w-[80%] md:w-full relative md:z-4 pl-2 md:pl-8 lg:pl-32">
+                    <h2 class="font-Conthrax text-3xl md:text-4xl xl:text-6xl">Музей СВО</h2>
                     <p class="font-DinPro text-sm lg:text-base xl:text-2xl mt-4">Музей истории специальной военной операции открылся в Саратове 28 июля 2023 года. Задача — сохранить память о саратовцах-участниках СВО. Музей является филиалом саратовского Исторического парка «Россия — Моя история».</p>
                 </div>
             </div>
-            <div class="mt-12 md:mt-0 flex space-x-2 xl:space-x-8 px-8 md:pl-0 lg:pr-32 xl:justify-end relative">
-                <div class="h-[300px] md:h-full bg-image bg-bg-mean2-mg2 bg-no-repeat bg-cover md:w-min px-4 py-6  relative">
+            <div class="mt-12 md:mt-0 flex space-x-2 xl:space-x-8 px-2 md:px-8 md:pl-0 lg:pr-32 xl:justify-end relative">
+                <div class="h-[300px] md:h-full bg-image bg-bg-mean2-mg2 bg-no-repeat bg-cover md:w-min px-2 md:px-2 md:px-4 py-3 md:py-6  relative">
                     <a href="./exhibitions.html" class="flex flex-col justify-between h-full relative">
                         <div class="w-4 xl:w-6">
                             <img src="../src/assets/imgs/thr-diag.svg" alt="">
                         </div>
                         <div>
                             <p class="font-DinPro text-sm md:text-xs lg:text-sm xl:text-base" >Музей истории специальной военной операции открылся в Саратове 28 июля 2023 года.</p>
-                            <h3 class="font-Conthrax text-3xl md:text-2xl lg:text-3xl xl:text-5xl">Выставки</h3>
+                            <h3 class="font-Conthrax text-2xl lg:text-3xl xl:text-5xl">Выставки</h3>
                         </div>
                     </a>
                     <img src="../src/assets/imgs/Group 190.svg" alt="" class="absolute w-[70px] top-[-30px] left-[-40px] md:top-[-25px] md:left-[-40px] md:w-[70px] md:top-[-50px] xl:left-[-80px] xl:w-[140px]">
                     <img src="../src/assets/imgs/Group 189.svg" alt="" class="absolute w-[70px] bottom-[-27px] right-[-25px] md:bottom-[-25px] md:right-[-25px] md:w-[70px] xl:bottom-[-50px] xl:right-[-50px] xl:w-[140px]">
                 </div>
-                <div class="h-max md:h-full bg-image bg-bg-mean2-mg3 bg-no-repeat bg-cover md:w-min px-4 py-6  relative">
+                <div class="h-max md:h-full bg-image bg-bg-mean2-mg3 bg-no-repeat bg-cover md:w-min px-2 md:px-2 md:px-4 py-3 md:py-6  relative">
                     <a href="./about.html" class="flex h-full relative flex-col md:flex-row justify-between ">
                         <div class="md:w-[150px] xl:w-[200px]">
-                            <h3 class="font-Conthrax text-3xl md:text-2xl lg:text-3xl xl:text-5xl">О нас</h3>
+                            <h3 class="font-Conthrax text-2xl lg:text-3xl xl:text-5xl">О нас</h3>
                             <p class="font-DinPro text-sm md:text-xs lg:text-sm xl:text-base" >Музей истории специальной военной операции открылся в Саратове 28 июля 2023 года.</p>
                         </div>
                         <div class="w-4 xl:w-6 flex mt-4 md:mt-0 items-end">
@@ -200,10 +201,10 @@
         </div>
 
         <div class="w-full mt-32 md:mt-40 xl:mt-60">
-            <div class="md:w-full px-8 lg:px-32 flex md:space-x-8 lg:space-x-16">
+            <div class="md:w-full px-2 md:px-4 lg:px-32 flex md:space-x-8 lg:space-x-16">
                 <div>
                     <div class="md:space-y-4">
-                        <h3 class="font-Conthrax text-4xl xl:text-6xl">Выставки</h3>
+                        <h3 class="font-Conthrax text-3xl md:text-4xl xl:text-6xl">Выставки</h3>
                         <div class="md:h-8 w-full bg-image bg-gradient-theme3-yellow mt-8"></div>
                     </div>
                     <div class="md:flex md:items-center">
@@ -211,18 +212,18 @@
                     </div>
                 </div>
                 <div class="md:hidden">
-                    <div class="h-full w-16 bg-image bg-gradient-theme3-yellow-90"></div>
+                    <div class="h-full w-8 md:w-12 bg-image bg-gradient-theme3-yellow-90"></div>
                 </div>
              
             </div>
-            <div class="md:w-full grid grid-cols-1 gap-8 md:grid-cols-3 mt-12 px-8 lg:px-32">
+            <div class="md:w-full grid grid-cols-1 gap-8 md:grid-cols-3 mt-12 px-4 lg:px-32">
                 <div class="shadow-shadow">
                     <a href="./exhibition.html">
                         <div class="w-full h-[250px] md:h-[200px]">
                             <img src="../src/assets/imgs/image 28.png" alt="" class="h-full object-full w-full">
                         </div>
                         <div class="h-1/3 flex-col mt-2 px-4 pb-4 xl:px-5">
-                            <h3 class="text-2xl lg:text-3xl xl:text-4xl font-Conthrax break-words">Мультимедийная выставка «Люди новых регионов»</h3>
+                            <h3 class="text-xl lg:text-3xl xl:text-4xl font-Conthrax break-words">Мультимедийная выставка «Люди новых регионов»</h3>
                             <span class="font-DinPro md:text-sm lg:text-base xl:text-xl mt-4 block">с 9.00 до 9.00</span>
                             <p class="font-DinPro md:text-sm lg:text-base xl:text-xl">1 января — 1 января</p>
                         </div>
@@ -234,7 +235,7 @@
                             <img src="../src/assets/imgs/image 28.png" alt="" class="h-full object-full w-full">
                         </div>
                         <div class="h-1/3 flex-col mt-2 px-4 pb-4 xl:px-5">
-                            <h3 class="text-2xl lg:text-3xl xl:text-4xl font-Conthrax break-words">«Сватово глазами детей. Мечтаем».</h3>
+                            <h3 class="text-xl lg:text-3xl xl:text-4xl font-Conthrax break-words">«Сватово глазами детей. Мечтаем».</h3>
                             <span class="font-DinPro md:text-sm lg:text-base xl:text-xl mt-4 block">с 9.00 до 9.00</span>
                             <p class="font-DinPro md:text-sm lg:text-base xl:text-xl">1 января — 1 января</p>
                         </div>
@@ -246,7 +247,7 @@
                             <img src="../src/assets/imgs/image 28.png" alt="" class="h-full object-full w-full">
                         </div>
                         <div class="h-1/3 flex-col mt-2 px-4 pb-4 xl:px-5">
-                            <h3 class="text-2xl lg:text-3xl xl:text-4xl font-Conthrax break-words">Выставка 1</h3>
+                            <h3 class="text-xl lg:text-3xl xl:text-4xl font-Conthrax break-words">Выставка 1</h3>
                             <span class="font-DinPro md:text-sm lg:text-base xl:text-xl mt-4 block">с 9.00 до 9.00</span>
                             <p class="font-DinPro md:text-sm lg:text-base xl:text-xl">1 января — 1 января</p>
                         </div>
@@ -258,10 +259,10 @@
             </div>
         </div>
         <div class="w-full mt-32 md:mt-40 xl:mt-60">
-            <div class="md:w-full px-8 lg:px-32 flex md:space-x-8 lg:space-x-16">
+            <div class="md:w-full px-4 lg:px-32 flex md:space-x-8 lg:space-x-16">
                 <div>
                     <div class="md:space-y-4">
-                        <h3 class="font-Conthrax text-4xl xl:text-6xl">Экскурсии</h3>
+                        <h3 class="font-Conthrax text-3xl md:text-4xl xl:text-6xl">Экскурсии</h3>
                         <div class="md:h-8 w-full bg-image bg-gradient-theme3-yellow mt-8"></div>
                     </div>
                     <div class="md:flex md:items-center">
@@ -269,18 +270,18 @@
                     </div>
                 </div>
                 <div class="md:hidden">
-                    <div class="h-full w-16 bg-image bg-gradient-theme3-yellow-90"></div>
+                    <div class="h-full w-8 md:w-12 bg-image bg-gradient-theme3-yellow-90"></div>
                 </div>
              
             </div>
-            <div class="md:w-full grid grid-cols-1 gap-8 md:grid-cols-3 mt-12 px-8 lg:px-32">
+            <div class="md:w-full grid grid-cols-1 gap-8 md:grid-cols-3 mt-12 px-4 lg:px-32">
                 <div class="shadow-shadow">
                     <a href="./excursion.html">
                         <div class="w-full h-[250px] md:h-[200px]">
                             <img src="../src/assets/imgs/image 28.png" alt="" class="h-full object-full w-full">
                         </div>
                         <div class="h-1/3 flex-col mt-2 px-4 pb-4 xl:px-5">
-                            <h3 class="text-2xl lg:text-3xl xl:text-4xl font-Conthrax break-words">Мультимедийная выставка «Люди новых регионов»</h3>
+                            <h3 class="text-xl lg:text-3xl xl:text-4xl font-Conthrax break-words">Мультимедийная выставка «Люди новых регионов»</h3>
                             <span class="font-DinPro md:text-sm lg:text-base xl:text-xl mt-4 block">с 9.00 до 9.00</span>
                             <p class="font-DinPro md:text-sm lg:text-base xl:text-xl">1 января — 1 января</p>
                         </div>
@@ -292,7 +293,7 @@
                             <img src="../src/assets/imgs/image 28.png" alt="" class="h-full object-full w-full">
                         </div>
                         <div class="h-1/3 flex-col mt-2 px-4 pb-4 xl:px-5">
-                            <h3 class="text-2xl lg:text-3xl xl:text-4xl font-Conthrax break-words">«Сватово глазами детей. Мечтаем».</h3>
+                            <h3 class="text-xl lg:text-3xl xl:text-4xl font-Conthrax break-words">«Сватово глазами детей. Мечтаем».</h3>
                             <span class="font-DinPro md:text-sm lg:text-base xl:text-xl mt-4 block">с 9.00 до 9.00</span>
                             <p class="font-DinPro md:text-sm lg:text-base xl:text-xl">1 января — 1 января</p>
                         </div>
@@ -304,7 +305,7 @@
                             <img src="../src/assets/imgs/image 28.png" alt="" class="h-full object-full w-full">
                         </div>
                         <div class="h-1/3 flex-col mt-2 px-4 pb-4 xl:px-5">
-                            <h3 class="text-2xl lg:text-3xl xl:text-4xl font-Conthrax break-words">Экскурсия 1</h3>
+                            <h3 class="text-xl lg:text-3xl xl:text-4xl font-Conthrax break-words">Экскурсия 1</h3>
                             <span class="font-DinPro md:text-sm lg:text-base xl:text-xl mt-4 block">с 9.00 до 9.00</span>
                             <p class="font-DinPro md:text-sm lg:text-base xl:text-xl">1 января — 1 января</p>
                         </div>
@@ -322,39 +323,39 @@
                     <img class="md:relative md:w-[80%]" src="../src/assets/imgs/Group 191.svg" alt="">
                 </div>
                 <div class="md:relative md:z-4 px-8 md:pr-0 md:pl-8 lg:pl-32">
-                    <h2 class="font-Conthrax text-4xl lg:text-4xl xl:text-6xl">Посетителям</h2>
+                    <h2 class="font-Conthrax text-3xl md:text-4xl xl:text-6xl">Посетителям</h2>
                     <p class="font-DinPro md:text-sm lg:text-base xl:text-2xl mt-4">Музей истории специальной военной операции открылся в Саратове 28 июля 2023 года. Задача — сохранить память о саратовцах-участниках СВО. Музей является филиалом саратовского Исторического парка «Россия — Моя история».</p>
                 </div>
             </div>
             <div class="md:w-1/2 flex flex-col md:space-y-2 xl:space-y-8 relative px-8 mt-12 md:mt-0 lg:pl-0 lg:pr-16 xl:pr-32">
-                <div class="bg-image bg-bg-mean2-mg2 bg-no-repeat bg-cover md:h-1/3 relative px-4 py-6 relative md:w-full">
+                <div class="bg-image bg-bg-mean2-mg2 bg-no-repeat bg-cover md:h-1/3 relative px-2 md:px-4 py-3 md:py-6 relative md:w-full">
                     <img class="absolute w-[150px] right-0 top-[-57px] md:w-[100px] md:top-[-40px] md:right-0 xl:w-[200px] xl:top-[-80px]" src="../src/assets/imgs/Group 199 (1).svg" alt="">
                     <a href="./visitors.html#events" class="flex justify-between items-center md:w-full md:px-0 md:py-0">
-                        <h3 class="font-Conthrax text-2xl lg:text-3xl xl:text-4xl">События</h3>
+                        <h3 class="font-Conthrax text-2xl lg:text-3xl xl:text-5xl">События</h3>
                         <div class="w-4 md:w-6">
                             <img src="../src/assets/imgs/thr-diag.svg" alt="">
                         </div>
                     </a>
                 </div>
-                <div class="flex md:h-2/3 space-x-4 md:space-x-2 mt-8 md:mt-0">
-                    <div class="bg-image bg-bg-mean2-mg2 bg-no-repeat bg-cover px-4 py-6 md:h-full md:relative">
+                <div class="flex md:h-2/3 space-x-4 mt-8 md:mt-0">
+                    <div class="bg-image bg-bg-mean2-mg2 bg-no-repeat bg-cover px-2 md:px-4 py-3 md:py-6 md:h-full md:relative">
                         <a href="./visitors.html#news" class="flex flex-col justify-between h-full relative">
                             <div class="w-4 md:w-6">
                                 <img src="../src/assets/imgs/thr-diag.svg" alt="">
                             </div>
                             <div class="mt-2 md:mt-0">
                                 <p class="font-DinPro text-xs lg:text-sm xl:text-base" >Музей истории специальной военной операции открылся в Саратове 28 июля 2023 года.</p>
-                                <h3 class="font-Conthrax text-2xl lg:text-3xl xl:text-4xl">Новости</h3>
+                                <h3 class="font-Conthrax text-2xl lg:text-3xl xl:text-5xl">Новости</h3>
                             </div>
                         </a>
                     </div>
-                    <div class="bg-image bg-bg-mean2-mg2 bg-no-repeat bg-cover px-2 py-6 md:h-full md:relative">
+                    <div class="bg-image bg-bg-mean2-mg2 bg-no-repeat bg-cover px-2 py-3 md:py-6 md:h-full md:relative">
                         <a href="./visitors.html#poster" class="flex flex-col justify-between h-full relative">
                             <div class="w-4 md:w-6">
                                 <img src="../src/assets/imgs/thr-diag.svg" alt="">
                             </div>
                             <div >
-                                <h3 class="font-Conthrax text-2xl lg:text-3xl xl:text-4xl">Афиша</h3>
+                                <h3 class="font-Conthrax text-2xl lg:text-3xl xl:text-5xl">Афиша</h3>
                             </div>
                         </a>
                     </div>
@@ -366,7 +367,7 @@
             <img src="../src/assets/imgs/image 28.png" alt="">
         </div>
         <div class="flex flex-col items-center mt-12">
-            <h3 class="font-Conthrax text-4xl lg:text-4xl xl:text-6xl">Вопрос-ответ</h3>
+            <h3 class="font-Conthrax text-3xl md:text-4xl xl:text-6xl">Вопрос-ответ</h3>
             <p class="text-sm lg:text-base xl:text-2xl mt-4 font-DinPro ">Интересует какая-то информация? Задайте нам вопрос!</p>
             <div class="mt-4 font-DinPro w-[80%] md:w-1/2 xl:w-1/3 relative">
                 <form action="#" class="w-full space-y-4 flex flex-col">
@@ -401,7 +402,7 @@
                 </div>
                 <div class="md:relative md:z-4 px-8 md:pr-0 lg:pl-32 md:w-[400px] lg:w-[500px] xl:w-[700px]">
                     <div class="flex items-center justify-between space-x-2">
-                        <a href="./teachers.html" class="font-Conthrax text-4xl xl:text-6xl">Учителям</a>
+                        <a href="./teachers.html" class="font-Conthrax text-3xl md:text-4xl xl:text-6xl">Учителям</a>
                         <div class="w-4 md:w-6">
                             <img src="../src/assets/imgs/thr-diag.svg" alt="">
                         </div>
@@ -411,18 +412,18 @@
                 </div>
             </div>
             <div class="md:w-1/2 flex flex-col justify-evenly space-y-8 md:space-y-2 xl:space-y-8 relative px-8 pr-12  md:pl-0 md:pr-16 xl:pr-32 mt-8 md:mt-0">
-                <div class="bg-image bg-bg-mean2-mg2 relative px-4 py-6 relative md:w-full">
+                <div class="bg-image bg-bg-mean2-mg2 relative px-2 md:px-4 py-3 md:py-6 relative md:w-full">
                     <img class="absolute w-[100px] top-[-40px] right-0 xl:w-[200px] xl:top-[-80px]" src="../src/assets/imgs/Group 199 (1).svg" alt="">
                     <a href="./teachers.html#books" class="flex justify-between items-center md:w-full">
-                        <h3 class="font-Conthrax text-3xl md:text-2xl lg:text-3xl xl:text-5xl">Книга памяти</h3>
+                        <h3 class="font-Conthrax text-2xl lg:text-3xl xl:text-5xl">Книга памяти</h3>
                         <div class="w-4 md:w-6">
                             <img src="../src/assets/imgs/thr-diag.svg" alt="">
                         </div>
                     </a>
                 </div>
-                <div class="bg-image bg-bg-mean2-mg2 relative px-4 py-6 relative md:w-full">
+                <div class="bg-image bg-bg-mean2-mg2 relative px-2 md:px-4 py-3 md:py-6 relative md:w-full">
                     <a href="./teachers.html#heroes" class="flex justify-between items-center md:w-full">
-                        <h3 class="font-Conthrax text-3xl md:text-2xl lg:text-3xl xl:text-5xl">Земляки-герои
+                        <h3 class="font-Conthrax text-2xl lg:text-3xl xl:text-5xl">Земляки-герои
                             <br>
                             РФ</h3>
                         <div class="w-4 md:w-6">
@@ -436,30 +437,30 @@
         </div>
 
         <div class="mt-24 lg:mt-56">
-            <div class="flex items-center px-8 lg:px-32 ">
-                <h3 class="font-Conthrax text-4xl xl:text-6xl">Методические рекомендации</h3>
+            <div class="flex items-center px-4 lg:px-32 ">
+                <h3 class="font-Conthrax text-3xl md:text-4xl xl:text-6xl">Методические рекомендации</h3>
                 <div class="w-full bg-image bg-gradient-theme3-yellow md:h-8 xl:h-12"></div>
             </div>
             <div class="relative">
                 <img src="../src/assets/imgs/Group 202.svg" class="absolute md:w-full md:top-[-20px] xl:w-[900px] xl:top-[-50px] xl:left-1/4" alt="">
                 <img src="../src/assets/imgs/Group 202.svg" class="md:hidden absolute md:w-full top-[200px]" alt="">
-                <div class="px-8 lg:px-32 flex flex-col md:flex-row gap-x-4 gap-y-8 mt-12 md:mt-24 w-full relative">
+                <div class="px-4 lg:px-32 flex flex-col md:flex-row gap-x-4 gap-y-8 mt-12 md:mt-24 w-full relative">
                     <div class="flex gap-y-8 flex-col relative ">
-                        <div class="border-4 border-chor px-4 py-2 md:py-4 flex items-center bg-bg_def w-[80%] md:w-full">
+                        <div class="border-4 border-chor px-2 md:py-4 py-3 md:py-6 md:py-4 flex items-center bg-bg_def w-[80%] md:w-full">
                             <h3 class="text-chor-black text-5xl md:text-7xl font-DinPro font-bold">1</h3>
                             <p class="text-chor-black text-xs md:text-sm lg:text-base xl:text-2xl font-DinPro ml-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
                         </div>
-                        <div class="border-4 border-chor px-4 py-2 md:py-4 flex items-center bg-bg_def w-[80%] md:w-full ml-auto md:ml-0">
+                        <div class="border-4 border-chor px-2 md:py-4 py-3 md:py-6 md:py-4 flex items-center bg-bg_def w-[80%] md:w-full ml-auto md:ml-0">
                             <h3 class="text-chor-black text-5xl md:text-7xl font-DinPro font-bold">2</h3>
                             <p class="text-chor-black text-xs md:text-sm lg:text-base xl:text-2xl font-DinPro ml-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
                         </div>
                     </div>
                     <div class="flex gap-y-8 flex-col relative ">
-                        <div class="border-4 border-chor px-4 py-2 md:py-4 flex items-center bg-bg_def w-[80%] md:w-full">
+                        <div class="border-4 border-chor px-2 md:py-4 py-3 md:py-6 md:py-4 flex items-center bg-bg_def w-[80%] md:w-full">
                             <h3 class="text-chor-black text-5xl md:text-7xl font-DinPro font-bold">3</h3>
                             <p class="text-chor-black text-xs md:text-sm lg:text-base xl:text-2xl font-DinPro ml-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
                         </div>
-                        <div class="border-4 border-chor px-4 py-2 md:py-4 flex items-center bg-bg_def w-[80%] md:w-full ml-auto md:ml-0">
+                        <div class="border-4 border-chor px-2 md:py-4 py-3 md:py-6 md:py-4 flex items-center bg-bg_def w-[80%] md:w-full ml-auto md:ml-0">
                             <h3 class="text-chor-black text-5xl md:text-7xl font-DinPro font-bold">4</h3>
                             <p class="text-chor-black text-xs md:text-sm lg:text-base xl:text-2xl font-DinPro ml-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
                         </div>
@@ -469,9 +470,9 @@
             </div>
         </div>
 
-        <div class="px-8 lg:px-32 mt-24 lg:mt-36 xl:mt-24">
+        <div class="px-4 lg:px-32 mt-24 lg:mt-36 xl:mt-24">
             <div class="flex flex-col">
-                <h3 class="font-Conthrax text-2xl md:text-4xl lg:text-4xl xl:text-6xl text-end">Документальные фильмы</h3>
+                <h3 class="font-Conthrax text-2xl md:text-3xl md:text-4xl xl:text-6xl text-end">Документальные фильмы</h3>
                 <div class="w-full bg-image bg-gradient-theme3-yellow h-8 mt-2"></div>
             </div>
             <div class="grid grid-cols-3 grid-rows-2 gap-4 relative mt-8 md:mt-16 justify-between">
@@ -488,9 +489,9 @@
                 </div>
                 <div class="flex flex-col relative px-2 md:px-12 h-32 md:h-52 py-8 justify-end">
                     <img class="absolute top-0 left-0 right-0  object-cover w-full h-full" src="../src/assets/imgs/image 35.png" alt="">
-                    <h3 class="relative font-Conthrax text-base md:text-xl lg:text-2xl xl:text-3xl text-white ">Фильм 2</h3>
+                    <h3 class="relative font-Conthrax text-base md:text-xl lg:text-2xl xl:text-3xl text-white truncate">Фильм 2</h3>
                     <a href="№" class="mt-2">
-                        <div class="relative flex bg-chor w-max px-4 md:px-4 py-1 md:py-2 gap-x-2 md:gap-x-4 items-center">
+                        <div class="relative flex bg-chor w-max px-2 md:px-4 py-1 md:py-2 gap-x-2 md:gap-x-4 items-center">
                             <img src="../src/assets/imgs/Polygon 2.svg" class="w-3 h-3 md:w-max md:h-max" alt="">
                             <span class="text-xs md:text-sm lg:text-base xl:text-xl font-DinPro">cмотреть</span>
                         </div>
@@ -498,9 +499,9 @@
                 </div>
                 <div class="flex flex-col relative px-2 md:px-12 h-32 md:h-52 py-8 justify-end">
                     <img class="absolute top-0 left-0 right-0  object-cover w-full h-full" src="../src/assets/imgs/image 35.png" alt="">
-                    <h3 class="relative font-Conthrax text-base md:text-xl lg:text-2xl xl:text-3xl text-white">Фильм 3</h3>
+                    <h3 class="relative font-Conthrax text-base md:text-xl lg:text-2xl xl:text-3xl text-white truncate">Фильм 3 abkmfd fdsfd fd sfds</h3>
                     <a href="№" class="mt-2">
-                        <div class="relative flex bg-chor w-max px-4 md:px-4 py-1 md:py-2 gap-x-2 md:gap-x-4 items-center" >
+                        <div class="relative flex bg-chor w-max px-2 md:px-4 py-1 md:py-2 gap-x-2 md:gap-x-4 items-center">
                             <img src="../src/assets/imgs/Polygon 2.svg" class="w-3 h-3 md:w-max md:h-max" alt="">
                             <span class="text-xs md:text-sm lg:text-base xl:text-xl font-DinPro">cмотреть</span>
                         </div>
@@ -508,7 +509,7 @@
                 </div>
                 <div class="flex flex-col relative px-2 md:px-12 h-32 md:h-52 py-8 justify-end">
                     <img class="absolute top-0 left-0 right-0 object-cover w-full h-full" src="../src/assets/imgs/image 29.png" alt="">
-                    <h3 class="relative font-Conthrax text-base md:text-xl lg:text-2xl xl:text-3xl text-white">Фильм 4</h3>
+                    <h3 class="relative font-Conthrax text-base md:text-xl lg:text-2xl xl:text-3xl text-white truncate">Фильм 4</h3>
                     <a href="№" class="mt-2">
                         <div class="relative flex bg-chor w-max px-2 md:px-4 py-1 md:py-2 gap-x-2 md:gap-x-4 items-center">
                             <img src="../src/assets/imgs/Polygon 2.svg" class="w-3 h-3 md:w-max md:h-max" alt="">
@@ -518,12 +519,12 @@
                 </div>
             </div>
         </div>
-        <div class="px-8 lg:px-32 mt-24 relative">
+        <div class="px-4 lg:px-32 mt-24 relative">
             <div class="md:w-full flex md:space-x-8 lg:space-x-16 justify-between">
                 <div class="w-[70%] md:w-full">
                     <div class="flex gap-x-4 items-center">
                         <a href="./gallery.html" class="flex w-full items-center md:w-1/2 space-x-2 justify-between">
-                            <h3 class="font-Conthrax text-4xl lg:text-4xl xl:text-6xl">Галерея</h3>
+                            <h3 class="font-Conthrax text-3xl md:text-4xl xl:text-6xl">Галерея</h3>
                             <img class="w-5" src="../src/assets/imgs/thr-diag.svg" alt="">
                         </a>
                         <div class="w-1/2 bg-image bg-gradient-theme3-yellow md:h-8 xl:h-12"></div>
@@ -531,7 +532,7 @@
                     <p class="relative text-sm lg:text-base xl:text-2xl font-DinPro text-light-black mt-8">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
                 </div>
                 <div class="md:hidden">
-                    <div class="h-full w-16 bg-image bg-gradient-theme3-yellow-90"></div>
+                    <div class="h-full w-8 md:w-12 bg-image bg-gradient-theme3-yellow-90"></div>
                 </div>
             </div>
          
@@ -560,33 +561,36 @@
             </div>
             <img class="hidden absolute lg:block lg:w-[500px] lg:bottom-[-130px] lg:right-0" src="../src/assets/imgs/Group 203.svg" alt="">
         </div>
-        <div class="mt-12 md:mt-32">
-            <img src="../src/assets/imgs/image.png" alt="">
+        <div class="hidden md:block relative mt-12 ">
+            <img  src="../src/assets/imgs/image.png" alt="">
         </div>
-        <div class="px-8 lg:px-32 mt-24 md:space-x-8 flex gap-x-4 flex-col md:flex-row">
+        <div class="md:hidden  w-full mt-24">
+            <img class="w-full" src="../src/assets/imgs/image 35 (1).png" alt="">
+        </div>
+        <div class="px-4 lg:px-32 mt-24 md:space-x-8 flex gap-x-4 flex-col md:flex-row">
             <div class="w-full w-full flex flex-col gap-x-4">
                 <a href="./about.html" class="flex items-center w-1/2 md:space-x-4 justify-between w-full">
-                    <h3 class="font-Conthrax text-4xl lg:text-4xl xl:text-6xl">О нас</h3>
+                    <h3 class="font-Conthrax text-3xl md:text-4xl xl:text-6xl">О нас</h3>
                     <img class="w-4 md:w-6" src="../src/assets/imgs/thr-diag.svg" alt="">
                 </a>
                 <p class="md:text-sm lg:text-base xl:text-2xl mt-4 font-DinPro font-normal">Музей истории специальной военной операции открылся в Саратове 28 июля 2023 года. Задача — сохранить память о саратовцах-участниках СВО. Музей является филиалом саратовского Исторического парка «Россия — Моя история».</p>
             </div>
             <div class="w-full mt-8 md:mt-0 flex gap-x-4 h-[200px] md:h-auto">
-                <div class="bg-image bg-bg-mean2-mg2 bg-no-repeat bg-cover md:w-min px-4 py-2 h-full md:relative">
+                <div class="bg-image bg-bg-mean2-mg2 bg-no-repeat bg-cover md:w-min px-2 md:py-4 py-3 md:py-6 h-full md:relative">
                     <a href="./about.html#filials" class="flex flex-col justify-between h-full relative">
                         <div class="w-4 md:w-6">
                             <img src="../src/assets/imgs/thr-diag.svg" alt="">
                         </div>
                         <div>
                             <p class="font-DinPro text-xs lg:text-sm xl:text-base" >Музей истории специальной военной операции открылся в Саратове 28 июля 2023 года.</p>
-                            <h3 class="font-Conthrax text-2xl md:text-3xl lg:text-4xl xl:text-5xl">Филиалы</h3>
+                            <h3 class="font-Conthrax text-2xl lg:text-3xl xl:text-5xl">Филиалы</h3>
                         </div>
                     </a>
                 </div>
-                <div class="bg-image bg-bg-mean2-mg2 bg-no-repeat bg-cover md:w-min px-4 py-2 h-full md:relative">
+                <div class="bg-image bg-bg-mean2-mg3 bg-no-repeat bg-cover md:w-min px-2 md:py-4 py-3 md:py-6 h-full md:relative">
                     <a href="./about.html#projects" class="flex flex-col justify-between h-full relative">
                         <div>
-                            <h3 class="font-Conthrax text-2xl md:text-3xl lg:text-4xl xl:text-5xl">Проекты</h3>
+                            <h3 class="font-Conthrax text-2xl lg:text-3xl xl:text-5xl">Проекты</h3>
                             <p class="font-DinPro text-xs mt-1 lg:text-sm xl:text-base" >Музей истории специальной военной операции открылся в Саратове 28 июля 2023 года.</p>
                     
                         </div>
@@ -597,9 +601,10 @@
                 </div>
             </div>
         </div>
-        <div class="flex space-x-12 md:space-x-0 mt-24 pb-12 md:justify-center w-full">
+        <a name="contacts"></a>
+        <div class="flex space-x-8 md:space-x-0 relative top-[150px] pb-12 md:justify-center w-full">
             <div class="w-full">
-                <div class="flex gap-x-4 lg:px-32 items-center px-8">
+                <div class="flex gap-x-4 lg:px-32 items-center px-4 md:px-8">
                     <h3 class="font-Conthrax text-4xl lg:text-4xl xl:text-6xl">Контакты</h3>
                     <div class="w-1/2 bg-image bg-gradient-theme3-yellow md:h-8"></div>
                 </div>
@@ -607,10 +612,10 @@
                 <div class="hidden md:block md:w-full mt-12 md:mt-24 flex justify-center">
                     <iframe class="w-full" src="https://yandex.ru/map-widget/v1/?um=constructor%3A6222204780f7ed62c95dbf7ddd1b8585cd6cf986236b987691e4579c143a5895&amp;source=constructor&amp;scroll=false" width="1280" height="240" frameborder="0"></iframe>
                 </div>
-                <div class="md:hidden pl-8 md:w-full mt-12 md:mt-24 flex justify-center">
+                <div class="md:hidden pl-4 md:w-full mt-12 md:mt-24 flex justify-center">
                     <iframe class="w-full" src="https://yandex.ru/map-widget/v1/?um=constructor%3A6222204780f7ed62c95dbf7ddd1b8585cd6cf986236b987691e4579c143a5895&amp;source=constructor&amp;scroll=false" width="1280" height="240" frameborder="0"></iframe>
                 </div>
-                <footer class="md:px-32 md:py-16 mt-12 md:mt-0 px-8">
+                <footer class="md:px-32 md:py-16 mt-12 md:mt-0 px-4">
                     <div class="flex justify-center gap-x-8 flex-col md:flex-row">
                         <div class="flex flex-col gap-y-7">
                             <div class="flex gap-x-2 items-start">
@@ -644,7 +649,7 @@
                 </footer>
             </div>
             <div class="md:hidden">
-                <div class="h-full w-12 bg-image bg-gradient-theme3-yellow-90"></div>
+                <div class="h-full w-8 md:w-12 bg-image bg-gradient-theme3-yellow-90"></div>
             </div>
         </div>
         
