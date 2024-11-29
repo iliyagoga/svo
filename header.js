@@ -1,5 +1,5 @@
 
-$(document).ready(function() {
+jQuery(document).ready(function() {
     let icon= document.querySelector('#icon')
     let menu=document.querySelector('#menu')
     icon.addEventListener('click',(e)=>{
@@ -35,36 +35,36 @@ $(document).ready(function() {
 
 
     if(window.matchMedia('(max-width: 768')){
-        $("#p1").mouseenter(function() {
-            $("#f2").addClass("invisible");
-            $("#f3").addClass("invisible");
+        jQuery("#p1").mouseenter(function() {
+            jQuery("#f2").addClass("invisible");
+            jQuery("#f3").addClass("invisible");
     
-            $("#f1").removeClass("invisible");
+            jQuery("#f1").removeClass("invisible");
         });
       
-        $("#f1").mouseleave(function(event) {
-            $("#f1").addClass("invisible");
+        jQuery("#f1").mouseleave(function(event) {
+            jQuery("#f1").addClass("invisible");
         });
     
-        $("#p2").mouseenter(function() {
-            $("#f1").addClass("invisible");
-            $("#f3").addClass("invisible");
-            $("#f2").removeClass("invisible");
+        jQuery("#p2").mouseenter(function() {
+            jQuery("#f1").addClass("invisible");
+            jQuery("#f3").addClass("invisible");
+            jQuery("#f2").removeClass("invisible");
           });
         
-        $("#f2").mouseleave(function(event) {
-            $("#f2").addClass("invisible");
+        jQuery("#f2").mouseleave(function(event) {
+            jQuery("#f2").addClass("invisible");
         });
     
-        $("#p3").mouseenter(function() {
-            $("#f2").addClass("invisible");
-            $("#f1").addClass("invisible");
+        jQuery("#p3").mouseenter(function() {
+            jQuery("#f2").addClass("invisible");
+            jQuery("#f1").addClass("invisible");
     
-            $("#f3").removeClass("invisible");
+            jQuery("#f3").removeClass("invisible");
         });
     
-        $("#f3").mouseleave(function(event) {
-            $("#f3").addClass("invisible");
+        jQuery("#f3").mouseleave(function(event) {
+            jQuery("#f3").addClass("invisible");
         });
     }
    
