@@ -906,6 +906,10 @@ video {
   grid-row: span 3 / span 3 !important;
 }
 
+.row-start-1 {
+  grid-row-start: 1 !important;
+}
+
 .ml-1 {
   margin-left: 0.25rem !important;
 }
@@ -1235,6 +1239,10 @@ video {
 
 .w-screen {
   width: 100vw !important;
+}
+
+.w-\[full\] {
+  width: full !important;
 }
 
 .max-w-max {
@@ -1789,6 +1797,21 @@ video {
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow) !important;
 }
 
+.blur-xl {
+  --tw-blur: blur(24px) !important;
+  filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow) !important;
+}
+
+.blur-lg {
+  --tw-blur: blur(16px) !important;
+  filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow) !important;
+}
+
+.blur {
+  --tw-blur: blur(8px) !important;
+  filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow) !important;
+}
+
 @font-face {
   font-family: 'Conthrax';
 
@@ -2021,6 +2044,10 @@ video {
     grid-row: span 2 / span 2 !important;
   }
 
+  .md\:row-start-auto {
+    grid-row-start: auto !important;
+  }
+
   .md\:ml-0 {
     margin-left: 0px !important;
   }
@@ -2244,12 +2271,8 @@ video {
     width: min-content !important;
   }
 
-  .md\:w-8 {
-    width: 2rem !important;
-  }
-
-  .md\:w-10 {
-    width: 2.5rem !important;
+  .md\:w-\[60\%\] {
+    width: 60% !important;
   }
 
   .md\:min-w-\[400px\] {
@@ -2707,6 +2730,18 @@ video {
     width: max-content !important;
   }
 
+  .lg\:w-\[60\%\] {
+    width: 60% !important;
+  }
+
+  .lg\:w-\[80\%\] {
+    width: 80% !important;
+  }
+
+  .lg\:w-\[70\%\] {
+    width: 70% !important;
+  }
+
   .lg\:gap-16 {
     gap: 4rem !important;
   }
@@ -2974,6 +3009,10 @@ video {
     width: 33.333333% !important;
   }
 
+  .xl\:w-10 {
+    width: 2.5rem !important;
+  }
+
   .xl\:w-6 {
     width: 1.5rem !important;
   }
@@ -3034,8 +3073,16 @@ video {
     width: 100% !important;
   }
 
-  .xl\:w-10 {
-    width: 2.5rem !important;
+  .xl\:w-\[60\%\] {
+    width: 60% !important;
+  }
+
+  .xl\:w-\[80\%\] {
+    width: 80% !important;
+  }
+
+  .xl\:w-\[70\%\] {
+    width: 70% !important;
   }
 
   .xl\:justify-end {
