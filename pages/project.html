@@ -6,10 +6,16 @@
     <title>Document</title>
     <link rel="stylesheet" href="../src/theme3/output.css">
     <script src="/jquery.min.js_3.5.1/cdnjs/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js"></script>
+<link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css"
+/>
+
 </head>
 <body class="relative bg-[#F0EEE1]">
     <header class="fixed w-screen z-50" >
-        <div class="fixed font-DinPro flex justify-between bg-white md:items-center fixed w-full py-4 md:px-8 lg:px-32" >
+        <div class="fixed font-DinPro flex justify-between bg-white md:items-center fixed w-full py-4 md:px-4 lg:px-32" >
             <div class="px-8 md:px-0 flex justify-between w-full items-center md:items-start md:justify-auto md:w-auto">
                 <a href="index.html"><img class="w-44 md:w-20 lg:w-36" src="../src/assets/imgs/svo-logo-svg.svg" alt=""></a>
 
@@ -18,9 +24,9 @@
             <div class="hidden absolute md:block top-28 md:top-0 md:relative px-8 md:px-0 w-[80%] md:w-auto h-screen md:h-auto bg-white  md:flex flex-col md:flex-row space-y-5 md:space-x-12 lg:space-x-8 xl:space-x-16 md:space-y-0 py-4" id="menu">
                 <div class="relative">
                     <div class=" relative flex items-center space-x-2 cursor-pointer" id="p1">
-                        <span class="font-DinPro text-base xl:text-xl uppercase">
+                        <a href="./visitors.html" class="font-DinPro text-base xl:text-xl uppercase">
                             Посетителям
-                        </span>
+                        </a>
                         <img class="md:w-2 lg:w-4" src="../src/assets/imgs/thr-black.svg" alt="">
                     </div>
                         <ul class="invisible absolute bg-white py-8 md:p-8 space-y-3 top-full w-full md:w-max z-10" id="f1">
@@ -62,9 +68,9 @@
                 </div>
                 <div class="relative ">        
                     <div class="relative flex items-center space-x-2 cursor-pointer" id="p2">
-                        <span class="font-DinPro text-base xl:text-xl uppercase">
+                        <a href="./teachers.html" class="font-DinPro text-base xl:text-xl uppercase">
                             Учителям
-                        </span>
+                        </a>
                         <img class="md:w-2 lg:w-4" src="../src/assets/imgs/thr-black.svg" alt="">
                     </div>
                     <ul class="invisible absolute bg-white py-8 md:p-8 space-y-3 top-full w-full md:w-max z-10" id="f2">
@@ -100,9 +106,9 @@
                 </div>
                 <div class="relative"> 
                     <div class=" relative flex items-center space-x-2 cursor-pointer" id="p3">
-                        <span class="font-DinPro text-base xl:text-xl uppercase">
+                        <a href="./about.html" class="font-DinPro text-base xl:text-xl uppercase">
                             О нас
-                        </span>
+                        </a>
                         <img class="md:w-2 lg:w-4" src="../src/assets/imgs/thr-black.svg" alt="">
                     </div>
                     <ul class="invisible absolute bg-white py-8 md:p-8 space-y-3 top-full w-full md:w-max" id="f3">
@@ -154,7 +160,7 @@
         <div class="hidden md:block">
             <img src="../src/assets/imgs/image.png" alt="">
         </div>
-        <div class="relative top-8 lg:top-16 px-4 md:px-8 lg:px-32 pb-12">
+        <div class="relative top-8 lg:top-16 px-4 md:px-8 lg:px-32 pb-24">
             <img class="md:hidden absolute right-0 top-[-30px] w-[150px] md:hidden" src="../src/assets/imgs/Group 179.svg" alt="">
             <div class="relative w-[80%] md:w-full">
                 <h3 class="font-Conthrax text-3xl md:text-4xl xl:text-6xl">Проект</h3>
@@ -164,13 +170,19 @@
                     <p class="md:text-sm lg:text-base xl:text-2xl mt-4 font-DinPro font-normal">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
                 </div>
                 <div class="h-full">
+                    <a href="../src/assets/imgs/image 29.png" data-fancybox="gallery" data-caption="Caption #1">
                     <img class="h-full object-cover" src="../src/assets/imgs/image 29.png" alt="">
+                    </a>
                 </div>
                 <div class="h-full">
+                    <a href=".../src/assets/imgs/image 29.png" data-fancybox="gallery" data-caption="Caption #1">
                     <img class="h-full object-cover" src="../src/assets/imgs/image 29.png" alt="">
+                    </a>
                 </div>
                 <div class="h-full">
+                    <a href="../src/assets/imgs/image 29.png" data-fancybox="gallery" data-caption="Caption #1">
                     <img class="h-full object-cover" src="../src/assets/imgs/image 29.png" alt="">
+                    </a>    
                 </div>
             </div>
         </div>
@@ -229,4 +241,5 @@
     </div>
 </body>
 <script src="../header.js"></script>
+<script src="../gallery.js"></script>
 </html>
