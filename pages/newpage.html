@@ -22,13 +22,14 @@
             </div>
             <div class="hidden absolute md:block top-28 md:top-0 md:relative px-8 md:px-0 w-[80%] md:w-auto h-screen md:h-auto bg-white  md:flex flex-col md:flex-row space-y-5 md:space-x-12 lg:space-x-8 xl:space-x-16 md:space-y-0 py-4" id="menu">
                 <div class="relative">
-                    <div class=" relative flex items-center space-x-2 cursor-pointer" id="p1">
+                    <div class=" relative flex items-center space-x-2 cursor-pointer w-max" id="p1">
                         <a href="./visitors.html" class="font-DinPro text-base xl:text-xl uppercase">
                             Посетителям
                         </a>
                         <img class="md:w-2 lg:w-4" src="../src/assets/imgs/thr-black.svg" alt="">
                     </div>
-                        <ul class="invisible absolute bg-white py-8 md:p-8 space-y-3 top-full w-full md:w-max z-10" id="f1">
+                    <div class="absolute invisible h-[60vh] md:h-max overflow-y-scroll bg-white py-8 md:p-8 w-full md:w-max z-10" id="f1">
+                        <ul class="space-y-3">
                             <li class="border-b-2 border-b-chor py-1">
                                 <a href="visitors.html#poster" class="font-DinPro text-base xl:text-xl uppercase w-full block">Афиша</a>
                             </li>
@@ -63,88 +64,93 @@
                                 <a href="visitors.html#contacts" class="font-DinPro text-base xl:text-xl uppercase w-full block ">Контакты</a>
                             </li>
                         </ul>
+                    </div>
+                        
             
                 </div>
                 <div class="relative ">        
-                    <div class="relative flex items-center space-x-2 cursor-pointer" id="p2">
+                    <div class="relative flex items-center space-x-2 cursor-pointer w-max" id="p2">
                         <a href="./teachers.html" class="font-DinPro text-base xl:text-xl uppercase">
                             Учителям
                         </a>
                         <img class="md:w-2 lg:w-4" src="../src/assets/imgs/thr-black.svg" alt="">
                     </div>
-                    <ul class="invisible absolute bg-white py-8 md:p-8 space-y-3 top-full w-full md:w-max z-10" id="f2">
-                        <li class="border-b-2 border-b-chor py-1">
-                            <a href="teachers.html#mean" class="font-DinPro text-base xl:text-xl uppercase w-full block ">Важность изучения СВО в школах</a>
-                        </li>
-                        <li class="border-b-2 border-b-chor py-1">
-                            <a href="teachers.html#recs" class="font-DinPro text-base xl:text-xl uppercase w-full block ">Методические рекомендации</a>
-                        </li>
-                        <li class="border-b-2 border-b-chor py-1">
-                            <a href="teachers.html#books" class="font-DinPro text-base xl:text-xl uppercase w-full block ">Книга памяти</a>
-                        </li>
-                        <li class="border-b-2 border-b-chor py-1">
-                            <a href="teachers.html#heroes" class="font-DinPro text-base xl:text-xl uppercase w-full block ">Земляки-герои РФ</a>
-                        </li>
-                        <li class="border-b-2 border-b-chor py-1">
-                            <a href="teachers.html#films" class="font-DinPro text-base xl:text-xl uppercase w-full block ">Документальные фильмы</a>
-                        </li>
-                        <li class="border-b-2 border-b-chor py-1">
-                            <a href="teachers.html#message" class="font-DinPro text-base xl:text-xl uppercase w-full block ">Письмо солдату СВО</a>
-                        </li>
-                        <li class="border-b-2 border-b-chor py-1">
-                            <a href="teachers.html#info" class="font-DinPro text-base xl:text-xl uppercase w-full block ">Информация о музее истории СВО</a>
-                        </li>
-                        <li class="border-b-2 border-b-chor py-1">
-                            <a href="teachers.html#galery" class="font-DinPro text-base xl:text-xl uppercase w-full block ">Галерея</a>
-                        </li>
-                        <li class="py-2">
-                            <a href="teachers.html#contacts" class="font-DinPro text-base xl:text-xl uppercase w-full block ">Контакты</a>
-                        </li>
-                    </ul>
-        
+                    <div class="absolute invisible h-[60vh] md:h-max overflow-y-scroll bg-white py-8 md:p-8 w-full md:w-max z-10" id="f2">
+                        <ul class="space-y-3">
+                            <li class="border-b-2 border-b-chor py-1">
+                                <a href="teachers.html#mean" class="font-DinPro text-base xl:text-xl uppercase w-full block ">Важность изучения СВО в школах</a>
+                            </li>
+                            <li class="border-b-2 border-b-chor py-1">
+                                <a href="teachers.html#recs" class="font-DinPro text-base xl:text-xl uppercase w-full block ">Методические рекомендации</a>
+                            </li>
+                            <li class="border-b-2 border-b-chor py-1">
+                                <a href="teachers.html#books" class="font-DinPro text-base xl:text-xl uppercase w-full block ">Книга памяти</a>
+                            </li>
+                            <li class="border-b-2 border-b-chor py-1">
+                                <a href="teachers.html#heroes" class="font-DinPro text-base xl:text-xl uppercase w-full block ">Земляки-герои РФ</a>
+                            </li>
+                            <li class="border-b-2 border-b-chor py-1">
+                                <a href="teachers.html#films" class="font-DinPro text-base xl:text-xl uppercase w-full block ">Документальные фильмы</a>
+                            </li>
+                            <li class="border-b-2 border-b-chor py-1">
+                                <a href="teachers.html#message" class="font-DinPro text-base xl:text-xl uppercase w-full block ">Письмо солдату СВО</a>
+                            </li>
+                            <li class="border-b-2 border-b-chor py-1">
+                                <a href="teachers.html#info" class="font-DinPro text-base xl:text-xl uppercase w-full block ">Информация о музее истории СВО</a>
+                            </li>
+                            <li class="border-b-2 border-b-chor py-1">
+                                <a href="teachers.html#galery" class="font-DinPro text-base xl:text-xl uppercase w-full block ">Галерея</a>
+                            </li>
+                            <li class="py-2">
+                                <a href="teachers.html#contacts" class="font-DinPro text-base xl:text-xl uppercase w-full block ">Контакты</a>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
                 <div class="relative"> 
-                    <div class=" relative flex items-center space-x-2 cursor-pointer" id="p3">
+                    <div class=" relative flex items-center space-x-2 cursor-pointer w-max" id="p3">
                         <a href="./about.html" class="font-DinPro text-base xl:text-xl uppercase">
                             О нас
                         </a>
                         <img class="md:w-2 lg:w-4" src="../src/assets/imgs/thr-black.svg" alt="">
                     </div>
-                    <ul class="invisible absolute bg-white py-8 md:p-8 space-y-3 top-full w-full md:w-max" id="f3">
-                        <li class="border-b-2 border-b-chor py-1">
-                            <a href="about.html#info" class="font-DinPro text-base xl:text-xl uppercase w-full block ">Юридическия информация</a>
-                        </li>
-                        <li class="border-b-2 border-b-chor py-1">
-                            <a href="about.html#about" class="font-DinPro text-base xl:text-xl uppercase w-full block ">О нас в СМИ</a>
-                        </li>
-                        <li class="border-b-2 border-b-chor py-1">
-                            <a href="about.html#answers" class="font-DinPro text-base xl:text-xl uppercase w-full block ">Отзывы</a>
-                        </li>
-                        <li class="border-b-2 border-b-chor py-1">
-                            <a href="about.html#partners" class="font-DinPro text-base xl:text-xl uppercase w-full block ">Партнеры музея истории СВО</a>
-                        </li>
-                        <li class="border-b-2 border-b-chor py-1">
-                            <a href="about.html#projects" class="font-DinPro text-base xl:text-xl uppercase w-full block ">Проекты</a>
-                        </li>
-                        <li class="border-b-2 border-b-chor py-1">
-                            <a href="about.html#press" class="font-DinPro text-base xl:text-xl uppercase w-full block ">Пресс-служба</a>
-                        </li>
-                        <li class="border-b-2 border-b-chor py-1">
-                            <a href="about.html#vacancies" class="font-DinPro text-base xl:text-xl uppercase w-full block ">Вакансии</a>
-                        </li>
-                        <li class="border-b-2 border-b-chor py-1">
-                            <a href="about.html#filials" class="font-DinPro text-base xl:text-xl uppercase w-full block ">Филиалы</a>
-                        </li>
-                        <li class="border-b-2 border-b-chor py-1">
-                            <a href="about.html#send" class="font-DinPro text-base xl:text-xl uppercase w-full block ">Написать руководителю музея</a>
-                        </li>
-                        <li class="border-b-2 border-b-chor py-1">
-                            <a href="about.html#360" class="font-DinPro text-base xl:text-xl uppercase w-full block ">Музей истории СВО в 360</a>
-                        </li>
-                        <li class="py-2">
-                            <a href="about.html#contacts" class="font-DinPro text-base xl:text-xl uppercase w-full block ">Контакты</a>
-                        </li>
-                    </ul>
+                    <div class="absolute invisible h-[60vh]  md:h-max md:top-8 overflow-y-scroll bg-white py-8 md:p-8 w-full md:w-max" id="f3">
+                        <ul class="space-y-3">
+                            <li class="border-b-2 border-b-chor py-1">
+                                <a href="about.html#info" class="font-DinPro text-base xl:text-xl uppercase w-full block ">Юридическия информация</a>
+                            </li>
+                            <li class="border-b-2 border-b-chor py-1">
+                                <a href="about.html#about" class="font-DinPro text-base xl:text-xl uppercase w-full block ">О нас в СМИ</a>
+                            </li>
+                            <li class="border-b-2 border-b-chor py-1">
+                                <a href="about.html#answers" class="font-DinPro text-base xl:text-xl uppercase w-full block ">Отзывы</a>
+                            </li>
+                            <li class="border-b-2 border-b-chor py-1">
+                                <a href="about.html#partners" class="font-DinPro text-base xl:text-xl uppercase w-full block ">Партнеры музея истории СВО</a>
+                            </li>
+                            <li class="border-b-2 border-b-chor py-1">
+                                <a href="about.html#projects" class="font-DinPro text-base xl:text-xl uppercase w-full block ">Проекты</a>
+                            </li>
+                            <li class="border-b-2 border-b-chor py-1">
+                                <a href="about.html#press" class="font-DinPro text-base xl:text-xl uppercase w-full block ">Пресс-служба</a>
+                            </li>
+                            <li class="border-b-2 border-b-chor py-1">
+                                <a href="about.html#vacancies" class="font-DinPro text-base xl:text-xl uppercase w-full block ">Вакансии</a>
+                            </li>
+                            <li class="border-b-2 border-b-chor py-1">
+                                <a href="about.html#filials" class="font-DinPro text-base xl:text-xl uppercase w-full block ">Филиалы</a>
+                            </li>
+                            <li class="border-b-2 border-b-chor py-1">
+                                <a href="about.html#send" class="font-DinPro text-base xl:text-xl uppercase w-full block ">Написать руководителю музея</a>
+                            </li>
+                            <li class="border-b-2 border-b-chor py-1">
+                                <a href="about.html#360" class="font-DinPro text-base xl:text-xl uppercase w-full block ">Музей истории СВО в 360</a>
+                            </li>
+                            <li class="py-2">
+                                <a href="about.html#contacts" class="font-DinPro text-base xl:text-xl uppercase w-full block ">Контакты</a>
+                            </li>
+                        </ul>
+                    </div>
                  </div>
                  <div>
                     <a href="exhibitions.html" class="font-DinPro text-base xl:text-xl uppercase">Выставки</a>
@@ -155,11 +161,11 @@
             </div>
         </div>
     </header>
-    <div class="relative top-32">
+    <div class="relative top-32 md:top-20">
         <div class="hidden md:block">
             <img src="../src/assets/imgs/image 28.png" alt="">
         </div>
-        <div class="relative top-8 lg:top-16 px-4 md:px-8 lg:px-32 pb-12">
+        <div class="relative top-8 lg:top-16 px-4 md:px-8 lg:px-32 pb-24">
             <img class="md:hidden absolute right-0 top-[-30px] w-[150px] md:hidden" src="../src/assets/imgs/Group 179.svg" alt="">
             <div class="hidden md:block">
                 <img class="absolute md:w-[200px] md:top-[-50px] md:left-0 lg:w-[300px] lg:top-[-100px] xl:w-[500px] xl:top-[-150px]" src="../src/assets/imgs/Group 216.svg" alt="">
