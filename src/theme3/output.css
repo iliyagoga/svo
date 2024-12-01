@@ -2478,6 +2478,15 @@ video {
          column-gap: 4rem !important;
   }
 
+  .md\:gap-y-8 {
+    row-gap: 2rem !important;
+  }
+
+  .md\:gap-x-10 {
+    -moz-column-gap: 2.5rem !important;
+         column-gap: 2.5rem !important;
+  }
+
   .md\:space-x-0 > :not([hidden]) ~ :not([hidden]) {
     --tw-space-x-reverse: 0 !important;
     margin-right: calc(0px * var(--tw-space-x-reverse)) !important;
@@ -2649,6 +2658,10 @@ video {
 
   .md\:text-left {
     text-align: left !important;
+  }
+
+  .md\:text-right {
+    text-align: right !important;
   }
 
   .md\:text-2xl {
@@ -2855,6 +2868,30 @@ video {
 
   .lg\:left-\[10px\] {
     left: 10px !important;
+  }
+
+  .lg\:left-\[-65px\] {
+    left: -65px !important;
+  }
+
+  .lg\:left-\[-80px\] {
+    left: -80px !important;
+  }
+
+  .lg\:left-\[-62px\] {
+    left: -62px !important;
+  }
+
+  .lg\:left-\[-60px\] {
+    left: -60px !important;
+  }
+
+  .lg\:left-\[-59px\] {
+    left: -59px !important;
+  }
+
+  .lg\:left-\[-58px\] {
+    left: -58px !important;
   }
 
   .lg\:mt-12 {
