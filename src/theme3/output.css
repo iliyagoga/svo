@@ -2415,8 +2415,16 @@ video {
     width: min-content !important;
   }
 
+  .md\:w-\[70\%\] {
+    width: 70% !important;
+  }
+
   .md\:min-w-\[400px\] {
     min-width: 400px !important;
+  }
+
+  .md\:min-w-\[350px\] {
+    min-width: 350px !important;
   }
 
   .md\:grid-cols-2 {
