@@ -2487,6 +2487,10 @@ video {
          column-gap: 2.5rem !important;
   }
 
+  .md\:gap-y-10 {
+    row-gap: 2.5rem !important;
+  }
+
   .md\:space-x-0 > :not([hidden]) ~ :not([hidden]) {
     --tw-space-x-reverse: 0 !important;
     margin-right: calc(0px * var(--tw-space-x-reverse)) !important;
